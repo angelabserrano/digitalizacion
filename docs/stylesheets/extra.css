@@ -5,18 +5,18 @@
 
 .md-typeset .admonition.reto,
 .md-typeset details.reto {
-    border-color: rgb(255, 145, 0);
+    border-color: rgb(103, 58, 183);
 }
 
 .md-typeset .reto > .admonition-title,
 .md-typeset .reto > summary {
-    background-color: rgba(255, 145, 0, 0.1);
-    color: rgb(200, 100, 0);
+    background-color: rgba(103, 58, 183, 0.1);
+    color: rgb(81, 45, 145);
 }
 
 .md-typeset .reto > .admonition-title::before,
 .md-typeset .reto > summary::before {
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(103, 58, 183);
     -webkit-mask-image: var(--md-admonition-icon--reto);
             mask-image: var(--md-admonition-icon--reto);
 }

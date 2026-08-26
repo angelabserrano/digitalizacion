@@ -8,14 +8,14 @@ theme:
   language: es
   palette:
     - scheme: default
-      primary: teal
-      accent: cyan
+      primary: orange
+      accent: deep orange
       toggle:
         icon: material/weather-night
         name: Modo oscuro
     - scheme: slate
-      primary: teal
-      accent: cyan
+      primary: orange
+      accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Modo claro
