@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# Digitalización aplicada a los sectores productivos
+![Digitalización aplicada a los sectores productivos](assets/img/logo_portada.png)
 
 **Ciclo formativo de grado superior Administración de Sistemas Informáticos en Red (ASIR)** · apuntes del módulo transversal Digitalización aplicada a los sectores productivos.
 
