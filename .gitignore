@@ -1,0 +1,6 @@
+site/
+.cache/
+__pycache__/
+
+# Guías docentes: solo para uso del profesorado, no se publican
+*_Guia_Docente.md

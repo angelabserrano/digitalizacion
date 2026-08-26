@@ -1,0 +1,62 @@
+site_name: "Digitalización aplicada a los sectores productivos"
+site_url: https://angelabserrano.github.io/digitalizacion/
+site_description: Apuntes del módulo Digitalización aplicada a los sectores productivos — CFGS Administración de Sistemas Informáticos en Red
+site_author: Angela B. Serrano
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  features:
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search:
+      lang: es
+
+nav:
+  - Inicio: index.md
+  - UD1. Digitalización de los sectores productivos: ud1.md
+  - UD2. Tecnologías digitales habilitadoras: ud2.md
+  - UD3. La nube: ud3.md
+  - UD4. Aplicación de la inteligencia artificial: ud4.md
+  - UD5. Evaluación de datos: ud5.md
+  - UD6. Proyecto de transformación digital: ud6.md
