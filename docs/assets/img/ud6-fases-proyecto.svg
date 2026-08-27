@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" role="img" aria-labelledby="t d">
+  <title id="t">Fases de un proyecto de transformación digital</title>
+  <desc id="d">Seis fases consecutivas, desde el diagnóstico de madurez digital hasta la evaluación de resultados, que retroalimenta un nuevo ciclo.</desc>
+  <style>
+    .bg{fill:#fbf7f2;}
+    text{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;fill:#26221e;}
+    .h{font-weight:700;font-size:16px;}
+    .card{fill:#ffffff;stroke:#e8710a;stroke-width:2;}
+    .num{fill:#e8710a;}
+    .nt{font-weight:700;font-size:12px;fill:#ffffff;}
+    .bt{font-weight:700;font-size:11.5px;fill:#26221e;}
+    .fb{font-size:12px;font-style:italic;fill:#4a443d;}
+    .arrow{stroke:#e8710a;stroke-width:2.5;fill:none;marker-end:url(#a);}
+    .loop{stroke:#e8710a;stroke-width:2;fill:none;stroke-dasharray:6 5;marker-end:url(#a);}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#e8710a"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="900" height="280" rx="14"/>
+  <text class="h" x="450" y="32" text-anchor="middle">Fases de un proyecto de transformaci&#243;n digital</text>
+
+  <g>
+    <rect class="card" x="12" y="52" width="132" height="104" rx="12"/>
+    <circle class="num" cx="34" cy="74" r="12"/><text class="nt" x="34" y="78" text-anchor="middle">1</text>
+    <text class="bt" x="78" y="112" text-anchor="middle">Diagn&#243;stico de</text>
+    <text class="bt" x="78" y="128" text-anchor="middle">madurez digital</text>
+  </g>
+  <g>
+    <rect class="card" x="156" y="52" width="132" height="104" rx="12"/>
+    <circle class="num" cx="178" cy="74" r="12"/><text class="nt" x="178" y="78" text-anchor="middle">2</text>
+    <text class="bt" x="222" y="112" text-anchor="middle">Objetivos SMART</text>
+    <text class="bt" x="222" y="128" text-anchor="middle">y alcance</text>
+  </g>
+  <g>
+    <rect class="card" x="300" y="52" width="132" height="104" rx="12"/>
+    <circle class="num" cx="322" cy="74" r="12"/><text class="nt" x="322" y="78" text-anchor="middle">3</text>
+    <text class="bt" x="366" y="112" text-anchor="middle">Plan de</text>
+    <text class="bt" x="366" y="128" text-anchor="middle">digitalizaci&#243;n</text>
+  </g>
+  <g>
+    <rect class="card" x="444" y="52" width="132" height="104" rx="12"/>
+    <circle class="num" cx="466" cy="74" r="12"/><text class="nt" x="466" y="78" text-anchor="middle">4</text>
+    <text class="bt" x="510" y="112" text-anchor="middle">Tecnolog&#237;as y</text>
+    <text class="bt" x="510" y="128" text-anchor="middle">proveedores</text>
+  </g>
+  <g>
+    <rect class="card" x="588" y="52" width="132" height="104" rx="12"/>
+    <circle class="num" cx="610" cy="74" r="12"/><text class="nt" x="610" y="78" text-anchor="middle">5</text>
+    <text class="bt" x="654" y="112" text-anchor="middle">Implantaci&#243;n +</text>
+    <text class="bt" x="654" y="128" text-anchor="middle">gesti&#243;n del cambio</text>
+  </g>
+  <g>
+    <rect class="card" x="732" y="52" width="132" height="104" rx="12"/>
+    <circle class="num" cx="754" cy="74" r="12"/><text class="nt" x="754" y="78" text-anchor="middle">6</text>
+    <text class="bt" x="798" y="112" text-anchor="middle">Evaluaci&#243;n de</text>
+    <text class="bt" x="798" y="128" text-anchor="middle">resultados (KPI)</text>
+  </g>
+
+  <line class="arrow" x1="144" y1="104" x2="156" y2="104"/>
+  <line class="arrow" x1="288" y1="104" x2="300" y2="104"/>
+  <line class="arrow" x1="432" y1="104" x2="444" y2="104"/>
+  <line class="arrow" x1="576" y1="104" x2="588" y2="104"/>
+  <line class="arrow" x1="720" y1="104" x2="732" y2="104"/>
+
+  <path class="loop" d="M798 156 C 798 232, 78 232, 78 158"/>
+  <text class="fb" x="438" y="252" text-anchor="middle">Los KPI retroalimentan un nuevo diagn&#243;stico &#183; el proceso es c&#237;clico y continuo</text>
+</svg>

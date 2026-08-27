@@ -78,24 +78,10 @@ Esta fase debe ser continua: los proyectos de transformación digital rara vez s
 
 ## 4. Resumen visual del proceso
 
-```
-Diagnóstico de madurez digital
-        │
-        ▼
-Definición de objetivos (SMART)
-        │
-        ▼
-Diseño del plan de digitalización
-        │
-        ▼
-Selección de tecnologías y proveedores
-        │
-        ▼
-Implantación + gestión del cambio
-        │
-        ▼
-Evaluación de resultados (KPI) ──► retroalimenta un nuevo diagnóstico
-```
+<figure markdown="span">
+  ![Secuencia de las seis fases de un proyecto de transformación digital con un bucle de retroalimentación](assets/img/ud6-fases-proyecto.svg){ width="860" }
+  <figcaption>Las fases se recorren en orden, pero la evaluación de resultados (KPI) retroalimenta un nuevo diagnóstico: la transformación digital es un proceso cíclico y continuo, no un proyecto con fin.</figcaption>
+</figure>
 
 ---
 

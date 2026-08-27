@@ -30,6 +30,11 @@ Según qué capa de la infraestructura gestiona el proveedor y cuál gestiona el
 
 Una forma habitual de visualizar la diferencia es pensar en el nivel de "capas" que gestiona cada uno: en un centro de datos propio (*on-premise*), la organización gestiona absolutamente todo (desde el edificio y la electricidad hasta la aplicación); a medida que se avanza de IaaS a PaaS y a SaaS, el proveedor va asumiendo más capas y el cliente se puede centrar cada vez más en su negocio y menos en la infraestructura técnica.
 
+<figure markdown="span">
+  ![Matriz de capas gestionadas por el cliente y por el proveedor en on-premise, IaaS, PaaS y SaaS](assets/img/ud3-iaas-paas-saas.svg){ width="720" }
+  <figcaption>Al pasar de on-premise a IaaS, PaaS y SaaS, el proveedor asume cada vez más capas (naranja sólido) y el cliente gestiona menos (naranja claro).</figcaption>
+</figure>
+
 !!! reto "Reto: clasifica estos servicios"
     Clasifica cada uno de estos servicios como IaaS, PaaS o SaaS, y justifica tu respuesta: Dropbox, una máquina virtual alquilada en la que instalas tu propio sistema operativo, un servicio que te permite subir el código de tu aplicación web sin preocuparte del servidor donde se ejecuta, Netflix.
 

@@ -23,6 +23,11 @@ El **Internet de las Cosas (*Internet of Things*, IoT)** es la red de objetos f�
 3. **Plataforma / nube**: recibe, almacena y procesa los datos, a menudo en la nube (véase UD3).
 4. **Aplicación**: capa que presenta la información al usuario o dispara acciones automáticas (una alarma, el encendido de un actuador, una notificación).
 
+<figure markdown="span">
+  ![Las cuatro capas de un sistema IoT: dispositivos y sensores, conectividad, plataforma o nube y aplicación](assets/img/ud2-arquitectura-iot.svg){ width="800" }
+  <figcaption>El dato viaja desde los sensores hasta la aplicación, que puede devolver una orden a un actuador del entorno físico.</figcaption>
+</figure>
+
 ### 2.2. Aplicaciones del IoT
 
 | Ámbito | Ejemplos |

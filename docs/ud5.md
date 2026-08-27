@@ -18,6 +18,11 @@ Esta unidad se centra en cómo **evaluar** los datos: su calidad, cómo se anali
 5. **Uso y difusión**: presentación de resultados (informes, paneles) y toma de decisiones basada en ellos.
 6. **Conservación o eliminación**: los datos deben conservarse solo el tiempo necesario según su finalidad y la normativa aplicable, y eliminarse de forma segura cuando ya no proceda conservarlos.
 
+<figure markdown="span">
+  ![Diagrama circular con las seis fases del ciclo de vida del dato](assets/img/ud5-ciclo-dato.svg){ width="640" }
+  <figcaption>Las seis fases del ciclo de vida del dato se encadenan de forma continua: la conservación o eliminación cierra el ciclo y la recogida de nuevos datos lo reinicia.</figcaption>
+</figure>
+
 ## 2. Calidad del dato
 
 Antes de analizar cualquier dato hay que preguntarse si es fiable. Las principales dimensiones de la **calidad del dato** son:
