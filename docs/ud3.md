@@ -1,5 +1,8 @@
 # UD3. La nube
 
+!!! abstract "Resultado de aprendizaje"
+    **RA3.** Identifica sistemas basados en *cloud*/nube y su influencia en el desarrollo de los sistemas digitales.
+
 ## 1. Qué es la computación en la nube
 
 La **computación en la nube (*cloud computing*)** es un modelo que permite acceder bajo demanda, a través de internet, a recursos informáticos compartidos (servidores, almacenamiento, bases de datos, redes, software) sin necesidad de que el usuario los posea ni los administre físicamente.

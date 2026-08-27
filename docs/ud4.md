@@ -1,5 +1,8 @@
 # UD4. Aplicación de la inteligencia artificial
 
+!!! abstract "Resultado de aprendizaje"
+    **RA4.** Identifica aplicaciones de la IA (inteligencia artificial) en entornos del sector donde está enmarcado el título describiendo las mejoras implícitas en su implementación.
+
 ## 1. Qué es la inteligencia artificial
 
 La **inteligencia artificial (IA)** es la disciplina que desarrolla sistemas capaces de realizar tareas que, si las hiciera una persona, requerirían inteligencia: reconocer imágenes, entender lenguaje natural, tomar decisiones, aprender de la experiencia.

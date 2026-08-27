@@ -1,5 +1,8 @@
 # UD1. Digitalización de los sectores productivos
 
+!!! abstract "Resultado de aprendizaje"
+    **RA1.** Analiza el concepto de digitalización y su repercusión en los sectores productivos teniendo en cuenta la actividad de la empresa e identificando entornos IT (*Information Technology*, tecnología de la información) y OT (*Operation Technology*, tecnología de operación) característicos.
+
 ## 1. De la sociedad industrial a la sociedad digital
 
 La **digitalización** es el proceso de incorporar tecnologías digitales a las actividades de una organización, un sector o una sociedad, cambiando no solo las herramientas que se usan, sino también los procesos, los modelos de negocio y la forma de relacionarse con clientes, proveedores y trabajadores.
@@ -25,6 +28,20 @@ La digitalización actual se entiende como la culminación de un proceso histór
 
 !!! tip "Para situarlo en el tiempo"
     Si la tercera revolución "informatizó" procesos ya existentes (por ejemplo, sustituir un libro de contabilidad en papel por una hoja de cálculo), la cuarta revolución **conecta** esos procesos entre sí y con el mundo físico, generando datos en tiempo real que alimentan decisiones automatizadas.
+
+### 1.2. Entornos IT y OT
+
+En cualquier organización industrial conviene distinguir dos entornos tecnológicos que tradicionalmente han evolucionado por separado:
+
+- **IT (*Information Technology*, tecnología de la información)**: sistemas informáticos dedicados a gestionar la información del negocio — servidores, bases de datos, ERP, CRM, correo electrónico, redes corporativas. Es el entorno "de oficina": factura, planifica, analiza, comunica.
+- **OT (*Operation Technology*, tecnología de operación)**: sistemas que controlan y supervisan procesos físicos y maquinaria — PLC (controladores lógicos programables), sistemas SCADA, sensores y actuadores de planta. Es el entorno "de planta": mueve, mide, actúa sobre el mundo físico.
+
+Departamentos que suelen constituir entorno IT: administración, contabilidad, recursos humanos, sistemas/informática, marketing. Departamentos que suelen constituir entorno OT: producción, mantenimiento, control de calidad, logística de planta.
+
+Tradicionalmente IT y OT han funcionado como mundos separados, con redes, protocolos y culturas de trabajo distintas: IT prioriza la confidencialidad y la actualización frecuente; OT prioriza la disponibilidad continua y la estabilidad, evitando cambios que puedan detener una línea de producción. La Industria 4.0 (véase 2.1) se caracteriza precisamente por la **convergencia IT-OT**: sensores de planta (OT) que envían datos a sistemas de análisis y toma de decisiones de negocio (IT), y decisiones de negocio que repercuten directamente en la configuración de la planta.
+
+!!! tip "Por qué importa la conexión IT-OT"
+    Digitalizar una empresa industrial "de extremo a extremo" significa que la información fluye sin fricción entre ambos entornos: un pedido registrado en el ERP (IT) puede ajustar automáticamente los parámetros de una máquina (OT), y un sensor de vibración en esa máquina (OT) puede generar una alerta de mantenimiento visible en el panel de gestión (IT). Esta conexión también multiplica la superficie de exposición a ciberataques, un aspecto que se retoma al hablar de las tecnologías habilitadoras (UD2) y de la nube (UD3).
 
 ## 2. La digitalización por sectores productivos
 
@@ -165,14 +182,17 @@ En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: 
 ??? question "1. ¿Qué diferencia hay entre digitalización y transformación digital?"
     La digitalización consiste en aplicar tecnologías digitales a procesos ya existentes para mejorarlos (por ejemplo, sustituir el papel por un documento digital). La transformación digital va más allá: implica repensar el modelo de negocio, la organización y la cultura de la empresa en torno a lo digital.
 
-??? question "2. Cita las cinco áreas del marco DigComp."
+??? question "2. ¿Qué diferencia hay entre un entorno IT y un entorno OT en una empresa industrial?"
+    El entorno IT (*Information Technology*) gestiona la información del negocio: servidores, bases de datos, ERP, redes corporativas. El entorno OT (*Operation Technology*) controla y supervisa procesos físicos y maquinaria: PLC, sistemas SCADA, sensores y actuadores de planta. La Industria 4.0 se caracteriza por la convergencia de ambos entornos.
+
+??? question "3. Cita las cinco áreas del marco DigComp."
     Información y alfabetización informacional; comunicación y colaboración; creación de contenido digital; seguridad; resolución de problemas.
 
-??? question "3. ¿Qué es un gemelo digital y para qué se utiliza en la Industria 4.0?"
+??? question "4. ¿Qué es un gemelo digital y para qué se utiliza en la Industria 4.0?"
     Es una réplica virtual de un producto, proceso o sistema físico que permite simular su comportamiento sin necesidad de actuar sobre el elemento real, anticipando problemas y optimizando decisiones antes de aplicarlas en el mundo físico.
 
-??? question "4. Menciona dos medidas para reducir la brecha digital."
+??? question "5. Menciona dos medidas para reducir la brecha digital."
     Por ejemplo: extender la cobertura de banda ancha a zonas rurales y ofrecer formación digital a colectivos vulnerables (también seria válido: mantener canales presenciales alternativos, o diseñar servicios digitales accesibles).
 
-??? question "5. ¿Qué significa el término *Green IT*?"
+??? question "6. ¿Qué significa el término *Green IT*?"
     El conjunto de prácticas orientadas a reducir el impacto ambiental de las tecnologías digitales: eficiencia energética de los centros de datos, alargamiento de la vida útil de los dispositivos, reciclaje de residuos electrónicos y desarrollo de software eficiente.

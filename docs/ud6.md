@@ -1,5 +1,8 @@
 # UD6. Proyecto de transformación digital
 
+!!! abstract "Resultado de aprendizaje"
+    **RA6.** Desarrolla un proyecto de transformación digital de una empresa de un sector relacionado con el título, teniendo en cuenta los cambios que se deben producir en función de los objetivos de la empresa.
+
 ## 1. De la teoría a la práctica
 
 A lo largo de las unidades anteriores hemos visto **qué** es la digitalización y por qué afecta a todos los sectores productivos (UD1), **qué tecnologías** la hacen posible (UD2), **dónde** se ejecutan buena parte de esos sistemas (UD3), **qué papel** juega la inteligencia artificial (UD4) y **cómo se evalúan y protegen** los datos que todo ello genera (UD5).
