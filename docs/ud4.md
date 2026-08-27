@@ -24,6 +24,11 @@ El término "inteligencia artificial" se acuñó en 1956. Desde entonces el camp
 - **Aprendizaje automático (*machine learning*)**: en lugar de programar explícitamente todas las reglas de un sistema, se le proporcionan datos de ejemplo para que "aprenda" a partir de ellos los patrones necesarios para resolver una tarea.
 - **Aprendizaje profundo (*deep learning*)**: subconjunto del aprendizaje automático basado en redes neuronales artificiales con muchas capas, inspiradas de forma simplificada en el funcionamiento del cerebro. Es la técnica que ha impulsado los avances más recientes, especialmente en reconocimiento de imágenes, voz y generación de lenguaje.
 
+<figure markdown="span">
+  ![Círculos concéntricos: deep learning dentro de machine learning, dentro de inteligencia artificial](assets/img/ud4-ia-ml-dl.svg){ width="700" }
+  <figcaption>El aprendizaje profundo es un subconjunto del aprendizaje automático, que a su vez es una rama de la inteligencia artificial; la IA generativa se apoya en el aprendizaje profundo.</figcaption>
+</figure>
+
 ### 2.1. Tipos de aprendizaje automático
 
 | Tipo | Cómo funciona | Ejemplo |
