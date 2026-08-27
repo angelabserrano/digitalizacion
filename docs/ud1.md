@@ -21,10 +21,12 @@ La transformación digital no es, por tanto, "comprar ordenadores": es un cambio
 
 La digitalización actual se entiende como la culminación de un proceso histórico de sucesivas revoluciones industriales:
 
-1. **Primera revolución industrial** (finales s. XVIII): máquina de vapor, mecanización.
-2. **Segunda revolución industrial** (finales s. XIX): electricidad, producción en cadena.
-3. **Tercera revolución industrial** (a partir de 1970): electrónica, informática, automatización de procesos.
-4. **Cuarta revolución industrial o Industria 4.0** (desde ~2010): fusión de tecnologías digitales, físicas y biológicas — IoT, big data, inteligencia artificial, robótica avanzada, computación en la nube — que permiten sistemas de producción interconectados y capaces de tomar decisiones de forma autónoma o semiautónoma.
+<figure markdown="span">
+  ![Línea temporal de las cuatro revoluciones industriales, de la máquina de vapor a la Industria 4.0](assets/img/ud1-revoluciones-industriales.png){ width="900" }
+  <figcaption>Cada revolución industrial añade una capa nueva sobre la anterior: de la fuerza mecánica a la electricidad, de la electrónica a la conexión de todos los procesos entre sí y con el mundo físico.</figcaption>
+</figure>
+
+La **cuarta revolución industrial o Industria 4.0** (desde ~2010) no se limita a automatizar: fusiona tecnologías digitales, físicas y biológicas — IoT, big data, inteligencia artificial, robótica avanzada, computación en la nube — para lograr sistemas de producción interconectados y capaces de tomar decisiones de forma autónoma o semiautónoma.
 
 !!! tip "Para situarlo en el tiempo"
     Si la tercera revolución "informatizó" procesos ya existentes (por ejemplo, sustituir un libro de contabilidad en papel por una hoja de cálculo), la cuarta revolución **conecta** esos procesos entre sí y con el mundo físico, generando datos en tiempo real que alimentan decisiones automatizadas.
@@ -35,6 +37,15 @@ En cualquier organización industrial conviene distinguir dos entornos tecnológ
 
 - **IT (*Information Technology*, tecnología de la información)**: sistemas informáticos dedicados a gestionar la información del negocio — servidores, bases de datos, ERP, CRM, correo electrónico, redes corporativas. Es el entorno "de oficina": factura, planifica, analiza, comunica.
 - **OT (*Operational Technology*, tecnología de operación)**: sistemas que controlan y supervisan procesos físicos y maquinaria — PLC (controladores lógicos programables), sistemas SCADA, sensores y actuadores de planta. Es el entorno "de planta": mueve, mide, actúa sobre el mundo físico.
+
+|  | **IT – Information Technology** | **OT – Operational Technology** |
+|---|---|---|
+| **¿Qué gestiona?** | Información y sistemas de la empresa | Procesos físicos y máquinas |
+| **Ejemplos** | Servidores, ERP, CRM, bases de datos | PLC, SCADA, sensores, actuadores |
+| **Entorno** | Oficina / negocio | Planta / producción |
+| **Objetivo principal** | Gestionar información | Controlar procesos físicos |
+| **Prioridad** | Confidencialidad e integridad | Disponibilidad y estabilidad |
+| **Ejemplo** | ERP registra un pedido | PLC controla una máquina |
 
 Departamentos que suelen constituir entorno IT: administración, contabilidad, recursos humanos, sistemas/informática, marketing. Departamentos que suelen constituir entorno OT: producción, mantenimiento, control de calidad, logística de planta.
 
@@ -201,3 +212,10 @@ En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: 
 
 ??? question "6. ¿Qué significa el término *Green IT*?"
     El conjunto de prácticas orientadas a reducir el impacto ambiental de las tecnologías digitales: eficiencia energética de los centros de datos, alargamiento de la vida útil de los dispositivos, reciclaje de residuos electrónicos y desarrollo de software eficiente.
+
+## Mapa conceptual
+
+<figure markdown="span">
+  ![Mapa conceptual de la Unidad 1: la digitalización y sus tres ramas —concepto y origen, alcance y aplicación, e implicaciones](assets/img/ud1-mapa-conceptual.png){ width="960" }
+  <figcaption>Síntesis de la unidad: la digitalización se aborda desde su <strong>concepto y origen</strong> (grados de intensidad y revoluciones industriales), su <strong>alcance y aplicación</strong> (convergencia IT–OT, sectores productivos y nuevos modelos de negocio) y sus <strong>implicaciones</strong> sociales y ambientales (competencia digital, brecha digital, Green IT y retos y riesgos).</figcaption>
+</figure>
