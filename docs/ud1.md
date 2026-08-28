@@ -17,6 +17,18 @@ Conviene distinguir tres conceptos que a menudo se confunden:
 
 La transformación digital no es, por tanto, "comprar ordenadores": es un cambio estructural que afecta a procesos productivos, a la organización del trabajo, a la relación con el cliente y a la propia cultura de la empresa.
 
+!!! question "💡 Comprueba que lo has entendido"
+    ¿Dónde situarías cada caso?
+
+    1. Escanear una factura en papel y guardarla como PDF.
+    2. Implantar un ERP para sustituir el registro en papel.
+    3. Crear una plataforma digital que cambia el modelo de negocio.
+
+??? note "Ver respuesta"
+    1. **Digitización** — cambia el soporte, no el proceso.
+    2. **Digitalización** — se mejora con tecnología un proceso que ya existía.
+    3. **Transformación digital** — se rediseña el modelo de negocio en torno a lo digital.
+
 ### 1.1. Las revoluciones industriales
 
 La digitalización actual se entiende como la culminación de un proceso histórico de sucesivas revoluciones industriales:
@@ -30,6 +42,15 @@ La **cuarta revolución industrial o Industria 4.0** (desde ~2010) no se limita 
 
 !!! tip "Para situarlo en el tiempo"
     Si la tercera revolución "informatizó" procesos ya existentes (por ejemplo, sustituir un libro de contabilidad en papel por una hoja de cálculo), la cuarta revolución **conecta** esos procesos entre sí y con el mundo físico, generando datos en tiempo real que alimentan decisiones automatizadas.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una fábrica sustituye sus libros de registro en papel por un sistema informático, pero cada máquina sigue funcionando de forma aislada. Más adelante conecta todas las máquinas y sus sensores para que compartan datos en tiempo real.
+
+    **¿Con qué revolución industrial se corresponde cada paso?**
+
+??? note "Ver respuesta"
+    - Informatizar el registro sin conectar los procesos entre sí → **tercera revolución industrial**.
+    - Conectar máquinas y sensores para intercambiar datos en tiempo real → **cuarta revolución industrial (Industria 4.0)**.
 
 ### 1.2. Entornos IT y OT
 
@@ -157,6 +178,14 @@ La digitalización no solo mejora procesos existentes: también hace posibles mo
 - **Servitización**: empresas industriales que añaden servicios digitales a su producto físico (un fabricante de maquinaria que ofrece también mantenimiento predictivo y monitorización remota).
 - **Comercio electrónico directo al consumidor (D2C)**: el fabricante vende directamente al consumidor final, prescindiendo de intermediarios tradicionales.
 
+!!! question "💡 Comprueba que lo has entendido"
+    Un fabricante de compresores industriales deja de vender solo la máquina y pasa a ofrecer un contrato en el que cobra por el aire comprimido suministrado, con monitorización remota y mantenimiento incluido.
+
+    **¿Qué modelo de negocio digital está adoptando?**
+
+??? note "Ver respuesta"
+    **Servitización**: la empresa industrial añade servicios digitales a su producto físico. Además, encaja con un modelo *as a Service*, porque el cliente paga por el uso (aire comprimido) en lugar de comprar el equipo.
+
 ## 4. La competencia digital: el marco DigComp
 
 Para que las personas puedan participar en esta economía digital necesitan desarrollar una **competencia digital** adecuada. La Unión Europea ha definido el **Marco Europeo de Competencia Digital para la Ciudadanía (DigComp)**, que estructura la competencia digital en cinco áreas:
@@ -167,7 +196,7 @@ Para que las personas puedan participar en esta economía digital necesitan desa
 4. **Seguridad**: proteger dispositivos, datos personales, salud y medio ambiente en el entorno digital.
 5. **Resolución de problemas**: identificar necesidades tecnológicas y resolver problemas conceptuales mediante medios digitales; identificar carencias en la propia competencia digital.
 
-Cada área se evalúa en **ocho niveles de dominio**, agrupados habitualmente en cuatro bloques: básico, intermedio, avanzado y altamente especializado. Este marco es la base sobre la que se apoyan los planes de digitalización educativa y muchos de los contenidos que se trabajan a lo largo de este módulo.
+DigComp establece **ocho niveles de competencia**, desde los niveles básicos hasta los altamente especializados, que permiten describir la progresión en las cinco áreas. Este marco es la base sobre la que se apoyan los planes de digitalización educativa y muchos de los contenidos que se trabajan a lo largo de este módulo.
 
 !!! tip "Autoevaluación DigComp"
     Existen herramientas gratuitas basadas en DigComp que permiten autoevaluar el propio nivel de competencia digital (por ejemplo, la herramienta *DigCompSat* de la Comisión Europea). En la UD6 retomaremos este marco para elaborar un plan personal de mejora.
@@ -183,6 +212,14 @@ La **brecha digital** es la desigualdad en el acceso, uso o aprovechamiento de l
 Colectivos especialmente afectados: personas mayores, personas con discapacidad, población en zonas rurales o con baja cobertura, personas con bajo nivel de estudios o rentas bajas.
 
 Algunas medidas para reducirla: extensión de la banda ancha y la cobertura móvil a zonas rurales (planes de conectividad), formación digital para colectivos vulnerables, diseño de servicios digitales accesibles (accesibilidad web, diseño universal) y mantenimiento de canales presenciales alternativos para trámites esenciales.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Dos personas tienen móvil y conexión a internet. Una consigue cita médica, hace gestiones bancarias y busca empleo online; la otra solo usa mensajería y vídeos porque no sabe realizar esas gestiones.
+
+    **¿Qué nivel de brecha digital ilustra esta situación?**
+
+??? note "Ver respuesta"
+    La **brecha de segundo nivel (uso y competencias)**: ambas tienen acceso, pero difieren en la capacidad de usar la tecnología de forma efectiva. Si esa diferencia acaba traduciéndose en peores oportunidades laborales o educativas, aparece también la **brecha de tercer nivel (resultados)**.
 
 ## 6. Digitalización sostenible (*Green IT*)
 
@@ -202,6 +239,15 @@ Frente a esto, el concepto de **TIC verdes (*Green IT*)** agrupa las prácticas 
 !!! reto "Reto: calcula tu huella digital"
     Existen calculadoras online de huella de carbono digital que estiman el impacto de tus dispositivos y de tu consumo de datos (vídeo en streaming, redes sociales, correo electrónico). Usa una de ellas y anota tres hábitos digitales concretos que podrías cambiar para reducir tu impacto.
 
+!!! question "💡 Comprueba que lo has entendido"
+    Una empresa renueva todos los portátiles cada dos años aunque funcionen bien y conserva de forma indefinida copias de vídeos que nadie consulta en un centro de datos.
+
+    **Indica dos malas prácticas desde el punto de vista del *Green IT* y una alternativa para cada una.**
+
+??? note "Ver respuesta"
+    - Sustituir equipos funcionales cada poco tiempo → **alargar su vida útil** (reparación, ampliación de componentes en lugar de reemplazo completo).
+    - Almacenar datos innecesarios de forma indefinida → **borrar lo que no se usa**; el almacenamiento en la nube consume electricidad, refrigeración y agua.
+
 ## 7. Retos y riesgos de la digitalización
 
 No todo son ventajas. Entre los principales retos y riesgos asociados a la digitalización de los sectores productivos destacan:
@@ -212,6 +258,15 @@ No todo son ventajas. Entre los principales retos y riesgos asociados a la digit
 - **Desinformación**: la facilidad para generar y difundir contenido digital (incluido contenido generado por IA) facilita también la propagación de información falsa o manipulada.
 - **Concentración de poder digital**: dependencia de un número reducido de grandes proveedores tecnológicos, lo que plantea cuestiones de soberanía digital (se retoma en la UD3).
 - **Marco regulatorio**: necesidad de adaptar leyes y normas (protección de datos, propiedad intelectual, regulación de la inteligencia artificial) al ritmo del cambio tecnológico.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Un taller automatiza el diagnóstico de averías con un sistema informático conectado a internet. Un día, un fallo de conexión deja el taller parado varias horas y, además, se detecta que ese sistema es un posible objetivo de ciberataque.
+
+    **¿Qué dos riesgos de la digitalización se están manifestando?**
+
+??? note "Ver respuesta"
+    - **Dependencia tecnológica**: la actividad se detiene ante un fallo de conectividad.
+    - **Ciberseguridad**: conectar el sistema a internet amplía la superficie de exposición a amenazas.
 
 ---
 
