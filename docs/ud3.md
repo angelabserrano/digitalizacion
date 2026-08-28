@@ -18,6 +18,14 @@ El **NIST** (Instituto Nacional de Estándares y Tecnología de EE. UU.) define 
 !!! tip "La nube no es "el ordenador de otro" sin más"
     Es cierto que, en último término, la nube consiste en centros de datos con servidores físicos gestionados por un proveedor. Pero lo que la caracteriza no es solo "que esté en otro sitio", sino el modelo de **autoservicio, elasticidad y pago por uso** que la distingue de simplemente alquilar un servidor físico dedicado.
 
+!!! question "💡 Comprueba que lo has entendido"
+    Una empresa alquila un servidor físico dedicado a un proveedor: tiene que pedirlo por teléfono, tarda dos días en estar listo y paga una cuota fija mensual lo use o no.
+
+    **¿Cumple las cinco características de computación en la nube del NIST? Justifícalo.**
+
+??? note "Ver respuesta"
+    No. Fallan el **autoservicio bajo demanda** (hay que pedirlo por teléfono y esperar), la **elasticidad rápida** (no escala de forma ágil) y el **servicio medido / pago por uso** (cuota fija). Es alquilar hardware, no computación en la nube.
+
 ## 2. Modelos de servicio: IaaS, PaaS y SaaS
 
 Según qué capa de la infraestructura gestiona el proveedor y cuál gestiona el cliente, se distinguen tres modelos principales:
@@ -38,6 +46,14 @@ Una forma habitual de visualizar la diferencia es pensar en el nivel de "capas" 
 !!! reto "Reto: clasifica estos servicios"
     Clasifica cada uno de estos servicios como IaaS, PaaS o SaaS, y justifica tu respuesta: Dropbox, una máquina virtual alquilada en la que instalas tu propio sistema operativo, un servicio que te permite subir el código de tu aplicación web sin preocuparte del servidor donde se ejecuta, Netflix.
 
+!!! question "💡 Comprueba que lo has entendido"
+    Un equipo de desarrollo quiere publicar una aplicación web y no quiere ocuparse de instalar ni actualizar el sistema operativo ni el motor de base de datos, pero sí necesita desplegar su propio código.
+
+    **¿Qué modelo de servicio le conviene: IaaS, PaaS o SaaS?**
+
+??? note "Ver respuesta"
+    **PaaS**: el proveedor aporta la infraestructura, el sistema operativo y el entorno de ejecución (bases de datos, lenguajes); el cliente solo gestiona su aplicación y sus datos. Con IaaS tendría que administrar el sistema operativo; con SaaS no podría desplegar código propio.
+
 ## 3. Modelos de despliegue
 
 Además del modelo de servicio, hay que distinguir **quién tiene acceso** a la infraestructura en la nube:
@@ -47,11 +63,27 @@ Además del modelo de servicio, hay que distinguir **quién tiene acceso** a la 
 - **Nube híbrida**: combina nube pública y privada, permitiendo mover cargas de trabajo entre ambas según necesidades de coste, rendimiento o normativa (por ejemplo, mantener los datos más sensibles en la nube privada y usar la nube pública para picos de demanda).
 - **Nube comunitaria**: infraestructura compartida por varias organizaciones con necesidades o requisitos comunes (por ejemplo, varios organismos públicos de una misma administración).
 
+!!! question "💡 Comprueba que lo has entendido"
+    Un hospital quiere guardar las historias clínicas en infraestructura de uso exclusivo y bajo su control, pero usar servidores de un gran proveedor para absorber los picos de la web de cita previa.
+
+    **¿Qué modelo de despliegue describe esta situación?**
+
+??? note "Ver respuesta"
+    **Nube híbrida**: combina una **nube privada** (datos sensibles bajo control exclusivo) con una **nube pública** (picos de demanda de la web), moviendo cargas entre ambas según coste, rendimiento o normativa.
+
 ## 4. Principales proveedores y soberanía digital
 
 Los tres grandes proveedores globales de nube pública son **Amazon Web Services (AWS)**, **Microsoft Azure** y **Google Cloud Platform (GCP)**, que concentran la mayor parte del mercado mundial. Junto a ellos existen proveedores especializados o regionales, incluidos proveedores europeos (como OVHcloud o Ionos) que se promocionan destacando el cumplimiento estricto de la normativa europea de protección de datos.
 
 Esto conecta con el concepto de **soberanía digital**: la capacidad de un país, una administración o una empresa de mantener el control sobre sus datos e infraestructuras digitales, sin depender en exceso de proveedores extranjeros sujetos a legislaciones distintas (por ejemplo, normativa de un tercer país que pudiera obligar a ese proveedor a facilitar acceso a los datos alojados, incluso si el cliente está en la Unión Europea). Es un factor cada vez más relevante en las decisiones de contratación de servicios en la nube por parte de administraciones públicas y empresas que manejan datos sensibles.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una administración pública europea descarta a un proveedor porque su matriz está sujeta a leyes de un tercer país que podrían obligarle a entregar datos alojados aunque el cliente esté en la UE.
+
+    **¿Qué concepto está pesando en esa decisión?**
+
+??? note "Ver respuesta"
+    La **soberanía digital**: mantener el control sobre los datos y las infraestructuras propias sin quedar sujeto a legislaciones extranjeras. La **localización de los datos** y el cumplimiento del RGPD son factores relacionados.
 
 ## 5. Ventajas e inconvenientes de migrar a la nube
 
@@ -71,6 +103,14 @@ Esto conecta con el concepto de **soberanía digital**: la capacidad de un país
 - Coste a largo plazo: el pago por uso puede acabar siendo más caro que una infraestructura propia bien dimensionada, si el uso es intensivo y constante en el tiempo.
 - Cuestiones de soberanía digital, ya comentadas.
 
+!!! question "💡 Comprueba que lo has entendido"
+    Una empresa con una carga de trabajo intensiva y constante durante todo el año se plantea si migrarlo todo a la nube pública le saldrá más barato que su centro de datos actual, que está bien dimensionado.
+
+    **¿Es necesariamente más barata la nube en este caso? ¿Qué otro riesgo debería valorar?**
+
+??? note "Ver respuesta"
+    No necesariamente: con uso **intensivo y constante**, el pago por uso puede acabar costando más que una infraestructura propia bien dimensionada. Además debería valorar el **vendor lock-in**: cambiar de proveedor más adelante puede ser técnica y económicamente costoso.
+
 ## 6. Almacenamiento y copias de seguridad en la nube
 
 El almacenamiento en la nube es uno de los servicios más extendidos, tanto a nivel personal (Google Drive, Dropbox, OneDrive) como profesional. Conviene distinguir:
@@ -80,6 +120,14 @@ El almacenamiento en la nube es uno de los servicios más extendidos, tanto a ni
 
 !!! tip "La regla 3-2-1"
     Una buena práctica de copias de seguridad consiste en mantener al menos **3 copias** de los datos, en **2 soportes distintos**, con **1 copia fuera de las instalaciones** (por ejemplo, en la nube). Aplicada a la nube: no basta con tener los datos solo en la nube ni solo en local; conviene combinar ambos.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Un usuario tiene todas sus fotos en una carpeta sincronizada con la nube. Un *ransomware* cifra la carpeta local y, al instante, esos archivos cifrados se suben también a la nube.
+
+    **¿Por qué la sincronización no le ha servido de copia de seguridad? ¿Qué le habría protegido?**
+
+??? note "Ver respuesta"
+    La sincronización **propaga cualquier cambio**, incluido el cifrado malicioso: la copia de la nube queda igual de inservible. Le habría protegido una **copia de seguridad con versiones históricas** (poder restaurar una versión anterior al ataque) y aplicar la **regla 3-2-1**.
 
 ## 7. Seguridad, privacidad y cumplimiento normativo en la nube
 
@@ -91,9 +139,25 @@ Aspectos normativos relevantes en el contexto europeo y español:
 - **Localización de los datos**: en qué país físico se encuentran los servidores donde se almacenan los datos, relevante por motivos legales y de soberanía digital.
 - **Esquema Nacional de Seguridad (ENS)**: normativa española que establece los principios y requisitos de seguridad que deben cumplir las administraciones públicas, también aplicable cuando contratan servicios en la nube.
 
+!!! question "💡 Comprueba que lo has entendido"
+    Una empresa deja por error un almacenamiento en la nube accesible públicamente y se filtran datos de clientes. El proveedor alega que su infraestructura no ha fallado en ningún momento.
+
+    **Según el modelo de responsabilidad compartida, ¿de quién es la responsabilidad?**
+
+??? note "Ver respuesta"
+    Del **cliente**. El proveedor responde de la seguridad *de* la nube (infraestructura física, red, virtualización); la **configuración de los servicios y la gestión de accesos** son seguridad *en* la nube, responsabilidad del cliente. Una mala configuración es el fallo más habitual.
+
 ## 8. Sostenibilidad y eficiencia de los centros de datos
 
 Como se avanzó en la UD1, los centros de datos que sostienen la nube consumen cantidades muy significativas de electricidad y, en muchos casos, de agua para refrigeración. Los grandes proveedores de nube compiten actualmente por mejorar su eficiencia energética, mediante indicadores como el **PUE (*Power Usage Effectiveness*)**, que mide la relación entre la energía total consumida por un centro de datos y la que realmente utilizan sus equipos informáticos (cuanto más próximo a 1, más eficiente es el centro de datos), así como mediante el uso de energías renovables y la ubicación de centros de datos en climas fríos que reducen la necesidad de refrigeración activa.
+
+!!! question "💡 Comprueba que lo has entendido"
+    El centro de datos A tiene un PUE de 1,1 y el centro de datos B, un PUE de 1,8.
+
+    **¿Cuál es más eficiente energéticamente y qué significa ese número?**
+
+??? note "Ver respuesta"
+    El **A** (PUE 1,1). El PUE es la relación entre la energía total que consume el centro de datos y la que usan realmente sus equipos informáticos: cuanto más cerca de 1, menos energía se "pierde" en refrigeración y otros usos. Un PUE de 1,8 significa que por cada vatio útil se consumen 0,8 adicionales.
 
 ---
 
@@ -127,3 +191,15 @@ Busca información sobre un incidente de seguridad real relacionado con almacena
 
 ??? question "5. ¿En qué consiste el modelo de responsabilidad compartida en la nube?"
     El proveedor es responsable de la seguridad *de* la nube (infraestructura física, red, virtualización); el cliente es responsable de la seguridad *en* la nube (configuración de sus servicios, gestión de accesos, cifrado y copias de seguridad de sus propios datos).
+
+??? question "6. ¿Qué diferencia hay entre nube pública, privada e híbrida?"
+    La nube pública es infraestructura compartida por múltiples clientes y gestionada por un proveedor externo. La nube privada es de uso exclusivo de una organización, con más control y más coste. La nube híbrida combina ambas, moviendo cargas entre una y otra según coste, rendimiento o normativa.
+
+??? question "7. ¿Qué mide el PUE de un centro de datos y qué valor es mejor?"
+    El PUE (*Power Usage Effectiveness*) mide la relación entre la energía total que consume el centro de datos y la que usan realmente sus equipos informáticos. Cuanto más próximo a 1, más eficiente es el centro de datos.
+
+??? question "8. ¿En qué consiste la regla 3-2-1 de copias de seguridad?"
+    Mantener al menos 3 copias de los datos, en 2 soportes distintos, con 1 copia fuera de las instalaciones (por ejemplo, en la nube).
+
+??? question "9. ¿Qué es la soberanía digital?"
+    La capacidad de un país, una administración o una empresa de mantener el control sobre sus datos e infraestructuras digitales, sin depender en exceso de proveedores extranjeros sujetos a legislaciones distintas.
