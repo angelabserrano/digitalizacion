@@ -23,6 +23,14 @@ Esta unidad se centra en cómo **evaluar** los datos: su calidad, cómo se anali
   <figcaption>Las seis fases del ciclo de vida del dato se encadenan de forma continua: la conservación o eliminación cierra el ciclo y la recogida de nuevos datos lo reinicia.</figcaption>
 </figure>
 
+!!! question "💡 Comprueba que lo has entendido"
+    Una empresa conserva desde hace diez años todos los currículums que ha recibido, "por si acaso", sin haberlos vuelto a mirar.
+
+    **¿Qué fase del ciclo de vida del dato está gestionando mal y qué debería hacer?**
+
+??? note "Ver respuesta"
+    La fase de **conservación o eliminación**: los datos solo deben guardarse el tiempo necesario para su finalidad y la normativa aplicable. Debería **eliminar de forma segura** los currículums que ya no tienen una finalidad vigente.
+
 ## 2. Calidad del dato
 
 Antes de analizar cualquier dato hay que preguntarse si es fiable. Las principales dimensiones de la **calidad del dato** son:
@@ -43,6 +51,17 @@ Antes de analizar cualquier dato hay que preguntarse si es fiable. Las principal
 
 Una mala calidad del dato no es solo un problema técnico: tiene consecuencias organizativas y económicas — decisiones erróneas basadas en cifras poco fiables, pérdida de tiempo y recursos en corregir errores a posteriori, pérdida de confianza de clientes o usuarios, e incluso incumplimientos normativos si los datos personales tratados son incorrectos o están desactualizados.
 
+!!! question "💡 Comprueba que lo has entendido"
+    En una tabla de clientes aparece este registro: nombre vacío, "fecha de alta: 30/02/2025", el mismo correo que otro cliente y un teléfono con solo 4 cifras.
+
+    **Asocia cada anomalía con la dimensión de calidad del dato que incumple.**
+
+??? note "Ver respuesta"
+    - Nombre vacío → **completitud**.
+    - "30/02/2025" (fecha imposible) → **validez**.
+    - Correo repetido en otro registro → **unicidad**.
+    - Teléfono de 4 cifras → **validez** (formato/rango); si además no es un número real, **exactitud**.
+
 ## 3. Big Data y ciencia de datos
 
 Como se introdujo en la UD2, el **Big Data** agrupa las técnicas y la infraestructura necesarias para manejar conjuntos de datos que, por su volumen, velocidad o variedad, superan la capacidad de las herramientas tradicionales. La **ciencia de datos (*data science*)** es la disciplina que se apoya en esa infraestructura para extraer conocimiento útil de los datos, combinando estadística, programación y conocimiento del negocio.
@@ -62,16 +81,42 @@ Como se introdujo en la UD2, el **Big Data** agrupa las técnicas y la infraestr
 
 El procesamiento y almacenamiento de grandes volúmenes de datos rara vez se realiza sobre infraestructura local: el **cloud computing**, estudiado en profundidad en la UD3, ofrece el almacenamiento elástico y el potencial de cómputo bajo demanda que la ciencia de datos necesita, sin obligar a la organización a invertir en infraestructura propia dimensionada para los picos de carga.
 
+!!! question "💡 Comprueba que lo has entendido"
+    Un equipo quiere construir un modelo que prediga qué clientes van a darse de baja, a partir de millones de registros de uso.
+
+    **Ordena estas tareas según las etapas de la ciencia de datos: modelar, limpiar los datos, definir la pregunta de negocio, comunicar resultados, explorar patrones.**
+
+??? note "Ver respuesta"
+    1. **Definir la pregunta de negocio** (¿quién se dará de baja?).
+    2. **Recoger y limpiar los datos** (calidad del dato).
+    3. **Explorar y analizar** para detectar patrones.
+    4. **Modelar** con aprendizaje automático.
+    5. **Comunicar los resultados** (visualización, paneles).
+
 ## 4. Análisis de datos y Business Intelligence
 
 El **Business Intelligence (BI)** o inteligencia de negocio es el conjunto de estrategias, procesos y herramientas orientadas a transformar datos en información útil para la toma de decisiones.
 
-### 3.1. Niveles de análisis de datos
+### 4.1. Niveles de análisis de datos
 
 1. **Análisis descriptivo**: ¿qué ha pasado? Resume datos históricos (por ejemplo, ventas del último trimestre por región).
 2. **Análisis diagnóstico**: ¿por qué ha pasado? Busca las causas de un fenómeno observado (por ejemplo, por qué han caído las ventas en una región concreta).
 3. **Análisis predictivo**: ¿qué es probable que pase? Utiliza datos históricos y técnicas estadísticas o de aprendizaje automático (UD4) para anticipar tendencias futuras.
 4. **Análisis prescriptivo**: ¿qué se debería hacer? Va un paso más allá del predictivo, sugiriendo acciones concretas para lograr o evitar un resultado.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Clasifica cada pregunta según el nivel de análisis de datos:
+
+    1. "¿Cuántas unidades vendimos el trimestre pasado por región?"
+    2. "¿Por qué cayeron las ventas en la zona norte?"
+    3. "¿Cuántas ventas esperamos el mes que viene?"
+    4. "¿Qué descuento deberíamos aplicar para maximizar el margen?"
+
+??? note "Ver respuesta"
+    1. **Descriptivo** — qué ha pasado.
+    2. **Diagnóstico** — por qué ha pasado.
+    3. **Predictivo** — qué es probable que pase.
+    4. **Prescriptivo** — qué se debería hacer.
 
 ## 5. Visualización de datos
 
@@ -86,6 +131,14 @@ Los **paneles de control (*dashboards*)** son la forma más habitual de poner es
 
 !!! tip "Herramientas habituales"
     Desde hojas de cálculo con tablas y gráficos dinámicos (Excel, Google Sheets), hasta herramientas específicas de BI (Power BI, Tableau, Google Looker Studio) o soluciones *no-code/low-code* que permiten crear paneles sin necesidad de programar.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Para comparar las ventas de dos años (100 y 104 millones), alguien hace un gráfico de barras con el eje vertical empezando en 99.
+
+    **¿Qué principio de visualización se está incumpliendo y qué efecto produce?**
+
+??? note "Ver respuesta"
+    **No distorsionar la percepción**: truncar el eje vertical hace que una diferencia real del 4% parezca enorme. El eje de un gráfico de barras debería empezar en cero.
 
 ## 6. Protección de datos personales
 
@@ -121,6 +174,16 @@ Cuando los datos que se tratan son **datos personales** (información que identi
 
 El RGPD establece una categoría de **datos especialmente sensibles** que requieren garantías reforzadas: origen étnico o racial, opiniones políticas, convicciones religiosas o filosóficas, afiliación sindical, datos genéticos y biométricos, datos relativos a la salud, y datos sobre la vida u orientación sexual.
 
+!!! question "💡 Comprueba que lo has entendido"
+    Una tienda online pide en el formulario de registro la fecha de nacimiento, el nivel de estudios y la afiliación sindical del cliente "para mejorar el servicio".
+
+    **¿Qué principios del RGPD se están incumpliendo?**
+
+??? note "Ver respuesta"
+    - **Minimización de datos**: se piden datos que no son necesarios para vender (estudios, fecha de nacimiento).
+    - **Limitación de la finalidad**: "mejorar el servicio" no es un fin determinado y explícito.
+    - La **afiliación sindical** es un **dato especialmente protegido**: exige garantías reforzadas y no debería recogerse en este contexto.
+
 ## 7. Ética del dato
 
 Cumplir la normativa es el mínimo exigible, pero no siempre es suficiente para un tratamiento verdaderamente responsable de los datos. La **ética del dato** plantea preguntas adicionales:
@@ -130,12 +193,28 @@ Cumplir la normativa es el mínimo exigible, pero no siempre es suficiente para 
 - ¿Podrían los datos, combinados entre sí (aunque cada uno por separado parezca inocuo), permitir identificar o perjudicar a una persona? Este riesgo se conoce como **reidentificación**.
 - ¿Se están utilizando los datos de forma proporcionada a la finalidad perseguida, o se recopila "por si acaso" mucho más de lo necesario?
 
+!!! question "💡 Comprueba que lo has entendido"
+    Un ayuntamiento publica un fichero "anónimo" con la edad, el barrio y la profesión de las personas que han solicitado una ayuda. En algunos barrios pequeños, esa combinación identifica a una sola persona.
+
+    **¿Qué problema de ética del dato aparece aquí?**
+
+??? note "Ver respuesta"
+    El riesgo de **reidentificación**: datos que por separado parecen inocuos permiten, combinados, identificar a una persona concreta. Aunque la publicación pretendiera ser anónima, no lo es de forma efectiva.
+
 ## 8. Herramientas de tratamiento y evaluación de datos
 
 - **Hojas de cálculo**: siguen siendo la herramienta más extendida para tratar y analizar datos de volumen moderado (filtros, tablas dinámicas, funciones de búsqueda y validación de datos).
 - **Herramientas de BI y visualización**: Power BI, Tableau, Google Looker Studio, para construir paneles interactivos.
 - **Herramientas *no-code/low-code*** de automatización y análisis, que permiten combinar y transformar datos de distintas fuentes sin necesidad de programación avanzada.
 - **Lenguajes y entornos de análisis de datos** (por ejemplo, Python o R con bibliotecas especializadas), habituales en perfiles más técnicos para análisis avanzados o modelos predictivos.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una analista tiene que cruzar datos de tres fuentes distintas y construir un panel interactivo que el equipo de dirección consulte cada semana, sin escribir código.
+
+    **¿Qué tipo de herramienta encaja mejor?**
+
+??? note "Ver respuesta"
+    Una **herramienta de BI y visualización** (Power BI, Tableau, Looker Studio) o una solución **no-code/low-code**: permiten combinar varias fuentes y crear paneles interactivos y actualizables sin programación avanzada.
 
 ---
 
@@ -172,3 +251,15 @@ Una empresa envía publicidad por correo electrónico a antiguos clientes que nu
 
 ??? question "6. ¿Qué es la minimización de datos?"
     El principio según el cual solo deben recogerse y tratarse los datos estrictamente necesarios para la finalidad concreta declarada, evitando recopilar información adicional "por si acaso".
+
+??? question "7. Nombra las seis fases del ciclo de vida del dato."
+    Recogida, almacenamiento, procesamiento, análisis, uso y difusión, y conservación o eliminación.
+
+??? question "8. ¿Qué es la reidentificación y por qué es un riesgo ético?"
+    Es la posibilidad de identificar a una persona combinando varios datos que, por separado, parecían anónimos o inocuos. Es un riesgo porque un conjunto de datos aparentemente anonimizado puede dejar de serlo en la práctica y llegar a perjudicar a personas concretas.
+
+??? question "9. ¿Qué es un dato especialmente protegido? Cita dos ejemplos."
+    Una categoría de datos personales que el RGPD somete a garantías reforzadas por su sensibilidad. Ejemplos: datos de salud, origen étnico o racial, opiniones políticas, convicciones religiosas, afiliación sindical, datos genéticos o biométricos, y datos sobre la vida u orientación sexual.
+
+??? question "10. ¿Por qué truncar el eje vertical de un gráfico de barras puede resultar engañoso?"
+    Porque exagera visualmente las diferencias entre valores: una variación pequeña en términos relativos parece enorme. El eje de un gráfico de barras debería empezar en cero.
