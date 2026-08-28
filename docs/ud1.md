@@ -59,6 +59,16 @@ Tradicionalmente IT y OT han funcionado como mundos separados, con redes, protoc
 !!! tip "Por qué importa la conexión IT-OT"
     Digitalizar una empresa industrial "de extremo a extremo" significa que la información fluye sin fricción entre ambos entornos: un pedido registrado en el ERP (IT) puede ajustar automáticamente los parámetros de una máquina (OT), y un sensor de vibración en esa máquina (OT) puede generar una alerta de mantenimiento visible en el panel de gestión (IT). Esta conexión también multiplica la superficie de exposición a ciberataques, un aspecto que se retoma al hablar de las tecnologías habilitadoras (UD2) y de la nube (UD3).
 
+!!! question "💡 Comprueba que lo has entendido"
+    Un sensor detecta una temperatura anormal en una máquina y genera una alerta que aparece en el sistema de gestión de mantenimiento.
+
+    **¿Qué parte pertenece a OT y cuál a IT?**
+
+??? note "Ver respuesta"
+    - **OT**: el sensor de temperatura instalado en la máquina y la medición de la variable física en planta. Es tecnología que actúa sobre el mundo físico y supervisa el proceso.
+    - **IT**: el sistema de gestión de mantenimiento (GMAO) donde se registra, muestra y consulta la alerta. Es un sistema que gestiona información del negocio.
+    - El **paso de la alerta** desde el sensor de planta hasta el sistema de gestión es justamente un ejemplo de **convergencia IT-OT**: un dato originado en OT alimenta una decisión que se toma y se gestiona en IT.
+
 ## 2. La digitalización por sectores productivos
 
 Aunque el fenómeno es transversal, cada sector productivo lo incorpora de forma distinta según sus necesidades y su grado de madurez tecnológica.
@@ -72,12 +82,22 @@ La industria fue pionera en la digitalización gracias a conceptos como:
 - **Mantenimiento predictivo**: uso de sensores y análisis de datos para anticipar averías antes de que ocurran, en lugar de esperar a que fallen (mantenimiento correctivo) o revisar por calendario (mantenimiento preventivo).
 - **Fabricación flexible**: líneas de producción reconfigurables que permiten personalizar productos sin perder eficiencia (personalización en masa).
 
+!!! example "🏭 Ejemplo"
+    - **Problema**: una máquina puede fallar sin previo aviso.
+    - **Digitalización**: sensores + análisis de datos.
+    - **Resultado**: mantenimiento predictivo.
+
 ### 2.2. Sector primario: agricultura y ganadería de precisión
 
 - Sensores de humedad, temperatura y nutrientes del suelo.
 - Drones para monitorización de cultivos y fumigación selectiva.
 - Sistemas de riego automatizado basados en datos meteorológicos.
 - Trazabilidad digital de alimentos, desde el origen hasta el consumidor.
+
+!!! example "🏭 Ejemplo"
+    - **Problema**: no todas las zonas del campo necesitan la misma cantidad de agua.
+    - **Digitalización**: sensores de suelo + datos meteorológicos + riego automático.
+    - **Resultado**: agricultura de precisión.
 
 ### 2.3. Comercio y logística
 
@@ -86,11 +106,21 @@ La industria fue pionera en la digitalización gracias a conceptos como:
 - Optimización de rutas de reparto mediante algoritmos.
 - Almacenes automatizados y robots de picking.
 
+!!! example "🏭 Ejemplo"
+    - **Problema**: el cliente usa varios canales para informarse y comprar.
+    - **Digitalización**: tienda física + web + app + logística integrada.
+    - **Resultado**: omnicanalidad.
+
 ### 2.4. Sanidad
 
 - Historia clínica electrónica y telemedicina.
 - Dispositivos *wearables* de monitorización de constantes vitales.
 - Diagnóstico asistido por inteligencia artificial (por ejemplo, análisis de imágenes médicas).
+
+!!! example "🏭 Ejemplo"
+    - **Problema**: un paciente crónico necesita seguimiento continuo sin acudir cada día al centro.
+    - **Digitalización**: *wearables* + telemedicina + historia clínica electrónica.
+    - **Resultado**: monitorización remota del paciente.
 
 ### 2.5. Educación
 
@@ -98,11 +128,21 @@ La industria fue pionera en la digitalización gracias a conceptos como:
 - Contenidos digitales interactivos y gamificación.
 - Analítica del aprendizaje (*learning analytics*) para personalizar el proceso educativo.
 
+!!! example "🏭 Ejemplo"
+    - **Problema**: el alumnado avanza a ritmos distintos y un único material común deja a algunos atrás.
+    - **Digitalización**: entorno virtual + contenidos interactivos + analítica del aprendizaje.
+    - **Resultado**: aprendizaje personalizado.
+
 ### 2.6. Administración pública
 
 - **Administración electrónica**: sede electrónica, registro electrónico, notificaciones telemáticas, cita previa online.
 - Interoperabilidad entre administraciones (no pedir al ciudadano documentos que ya obran en poder de otra administración).
 - Identificación digital: DNI electrónico, Cl@ve.
+
+!!! example "🏭 Ejemplo"
+    - **Problema**: un trámite obliga a desplazarse, hacer cola y aportar documentos que ya tiene la Administración.
+    - **Digitalización**: sede electrónica + identidad digital (Cl@ve) + interoperabilidad entre administraciones.
+    - **Resultado**: administración electrónica.
 
 !!! reto "Reto: identifica la digitalización a tu alrededor"
     Piensa en tres organismos o negocios que utilices habitualmente (tu ayuntamiento, tu centro de salud, una tienda). Para cada uno, identifica un proceso que antes se hacía de forma presencial/en papel y que ahora se realiza total o parcialmente de forma digital. ¿Qué ha ganado el usuario? ¿Qué ha perdido?
