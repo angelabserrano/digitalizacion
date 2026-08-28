@@ -19,6 +19,14 @@ Es útil distinguir dos niveles:
 
 El término "inteligencia artificial" se acuñó en 1956. Desde entonces el campo ha vivido alternancia de fases de gran expectación y fases de estancamiento (los llamados "inviernos de la IA"), hasta el impulso reciente provocado por tres factores que han convergido en la última década: la disponibilidad de enormes volúmenes de datos (Big Data, UD2), la capacidad de cómputo necesaria para procesarlos (impulsada en buena parte por la computación en la nube, UD3) y avances en las técnicas de aprendizaje automático.
 
+!!! question "💡 Comprueba que lo has entendido"
+    Un titular dice: "Nueva IA capaz de traducir 100 idiomas, jugar al ajedrez y conducir un coche, todo con el mismo sistema y razonando como una persona".
+
+    **¿Describe IA débil o IA fuerte? ¿Por qué conviene dudar del titular?**
+
+??? note "Ver respuesta"
+    Tal como se plantea (un único sistema que razona en cualquier tarea) sería **IA fuerte**, que **hoy no existe**: es un objetivo teórico. Lo realista es que se trate de varios sistemas de **IA débil**, cada uno especializado en una tarea concreta.
+
 ## 2. Machine learning y deep learning
 
 - **Aprendizaje automático (*machine learning*)**: en lugar de programar explícitamente todas las reglas de un sistema, se le proporcionan datos de ejemplo para que "aprenda" a partir de ellos los patrones necesarios para resolver una tarea.
@@ -37,6 +45,18 @@ El término "inteligencia artificial" se acuñó en 1956. Desde entonces el camp
 | **No supervisado** | Se entrena con datos sin etiquetar; el sistema busca patrones o agrupaciones por sí mismo | Segmentar clientes en grupos según su comportamiento de compra |
 | **Por refuerzo** | El sistema aprende por ensayo y error, recibiendo una recompensa o penalización según el resultado de sus acciones | Un sistema que aprende a jugar a un videojuego, o un robot que aprende a caminar |
 
+!!! question "💡 Comprueba que lo has entendido"
+    Clasifica el tipo de aprendizaje automático de cada caso:
+
+    1. Un sistema separa a los clientes en grupos de comportamiento sin que nadie le diga cuántos grupos hay ni cuáles.
+    2. Un modelo aprende a detectar fugas en una tubería a partir de miles de lecturas ya marcadas como "fuga" / "normal".
+    3. Un brazo robótico aprende a apilar cajas mejorando tras cada intento según lo bien que le sale.
+
+??? note "Ver respuesta"
+    1. **No supervisado** — busca agrupaciones por sí mismo, sin etiquetas.
+    2. **Supervisado** — se entrena con datos etiquetados (entrada + resultado correcto).
+    3. **Por refuerzo** — aprende por ensayo y error con recompensa o penalización.
+
 ## 3. Aplicaciones de la IA por sectores
 
 Conectando con la digitalización sectorial vista en la UD1:
@@ -47,6 +67,14 @@ Conectando con la digitalización sectorial vista en la UD1:
 - **Educación**: sistemas de tutoría adaptativa que ajustan el ritmo y la dificultad de los contenidos a cada estudiante, corrección automática de ejercicios.
 - **Administración pública**: automatización de la tramitación de expedientes sencillos, detección de fraude en subvenciones o prestaciones, chatbots de atención ciudadana.
 - **Transporte y logística**: optimización de rutas, mantenimiento predictivo de flotas, sistemas de conducción asistida o autónoma.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una fábrica quiere que una cámara revise cada pieza en la cinta y aparte las que tengan defectos.
+
+    **¿Qué técnica de IA se está aplicando y a qué mejora concreta da lugar?**
+
+??? note "Ver respuesta"
+    **Visión artificial** (aprendizaje profundo aplicado a imágenes) para **control de calidad automatizado**: detecta defectos de forma continua, más rápido y sin la fatiga de la inspección manual, reduciendo las piezas defectuosas que llegan al cliente.
 
 ## 4. IA generativa
 
@@ -60,6 +88,14 @@ La **IA generativa** agrupa a los modelos capaces de crear contenido nuevo (text
 !!! reto "Reto: pon a prueba un asistente de IA generativa"
     Usa un asistente conversacional basado en IA para realizar una tarea concreta relacionada con tus estudios (por ejemplo, que te explique un concepto técnico, o que te ayude a estructurar un documento). Anota: ¿la respuesta fue correcta al 100%? ¿Detectaste algún error o "invención" (lo que se conoce como *alucinación*)? ¿Cómo verificarías la información antes de darla por buena?
 
+!!! question "💡 Comprueba que lo has entendido"
+    Un sistema recibe la frase "un faro rojo sobre un acantilado al atardecer" y devuelve una imagen nueva que encaja con esa descripción.
+
+    **¿Es IA generativa o IA "tradicional" de clasificación/predicción? ¿Por qué?**
+
+??? note "Ver respuesta"
+    Es **IA generativa**: crea contenido nuevo (una imagen que no existía) a partir de una descripción, en lugar de limitarse a clasificar o predecir sobre datos ya existentes. Se apoya en el aprendizaje profundo.
+
 ### 4.1. Limitaciones de la IA generativa
 
 - **Alucinaciones**: los modelos pueden generar información que suena plausible pero es incorrecta o directamente inventada, presentada con total seguridad.
@@ -68,11 +104,27 @@ La **IA generativa** agrupa a los modelos capaces de crear contenido nuevo (text
 
 Por ello, un principio fundamental en el uso profesional de la IA generativa es la **verificación humana** de sus resultados, especialmente en información crítica.
 
+!!! question "💡 Comprueba que lo has entendido"
+    Un asistente de IA generativa responde a una consulta legal citando una sentencia con número, fecha y tribunal... que no existe.
+
+    **¿Qué limitación de la IA generativa ilustra este caso y qué práctica lo habría evitado?**
+
+??? note "Ver respuesta"
+    Una **alucinación**: información plausible pero inventada, presentada con seguridad (unida a la **falta de razonamiento verificable**: el modelo no consulta fuentes, genera la respuesta más probable). Lo habría evitado la **verificación humana** de la respuesta contra fuentes fiables antes de utilizarla.
+
 ## 5. Ética y regulación de la inteligencia artificial
 
 ### 5.1. Sesgos algorítmicos
 
 Un sistema de IA aprende de los datos con los que se entrena. Si esos datos reflejan sesgos históricos o sociales (por ejemplo, discriminación pasada en procesos de contratación), el sistema puede **reproducir e incluso amplificar** esos sesgos, aunque no exista intención discriminatoria por parte de quien lo desarrolla. Es un riesgo especialmente relevante en aplicaciones como la selección de personal, la concesión de créditos o la valoración de riesgo penal.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Un banco entrena un modelo de concesión de créditos con su histórico de decisiones de los últimos 20 años, en los que apenas se concedieron préstamos en un determinado barrio.
+
+    **¿Qué problema es previsible y por qué no basta con "no incluir la variable barrio"?**
+
+??? note "Ver respuesta"
+    El modelo **reproducirá el sesgo histórico**: aprenderá a rechazar perfiles parecidos a los que ya se rechazaron. Aunque se elimine la variable "barrio", otras variables correlacionadas (código postal, ingresos, etc.) actúan como *proxy*, así que hay que auditar los datos y los resultados, no solo quitar un campo.
 
 ### 5.2. Transparencia y explicabilidad
 
@@ -87,6 +139,18 @@ La Unión Europea ha aprobado un reglamento específico para regular el desarrol
 - **Riesgo limitado**: sistemas sujetos sobre todo a obligaciones de transparencia (por ejemplo, informar a la persona usuaria de que está interactuando con un chatbot, o de que un contenido ha sido generado o manipulado por IA).
 - **Riesgo mínimo o nulo**: la mayoría de aplicaciones actuales (filtros antispam, videojuegos con IA), sin requisitos específicos adicionales.
 
+!!! question "💡 Comprueba que lo has entendido"
+    Clasifica según el nivel de riesgo del AI Act:
+
+    1. Un sistema de puntuación social de la ciudadanía implantado por un gobierno y que condiciona sus derechos.
+    2. Un sistema que criba currículums para preseleccionar candidatos a un puesto.
+    3. Un chatbot de una tienda online que debe avisar de que no se está hablando con una persona.
+
+??? note "Ver respuesta"
+    1. **Riesgo inaceptable** — puntuación social; está prohibido.
+    2. **Riesgo alto** — selección de personal; requisitos estrictos de transparencia, supervisión humana y gestión de riesgos.
+    3. **Riesgo limitado** — sujeto sobre todo a obligaciones de transparencia.
+
 ## 6. IA responsable en el entorno profesional
 
 Algunas buenas prácticas para el uso profesional de herramientas de IA:
@@ -96,6 +160,15 @@ Algunas buenas prácticas para el uso profesional de herramientas de IA:
 - **Ser transparente** sobre el uso de IA cuando afecte a terceros (por ejemplo, indicar si un contenido ha sido generado o asistido por IA, cuando sea relevante).
 - **Mantener supervisión humana** en decisiones importantes, evitando delegar por completo la responsabilidad en el sistema automático.
 - **Respetar la propiedad intelectual**, tanto de los materiales usados para entrenar o alimentar un sistema de IA como del contenido que este genera, cuya titularidad y derechos de uso pueden estar sujetos a condiciones específicas.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Un empleado pega en un chatbot de IA de terceros el listado de clientes con sus datos de contacto para que le redacte un correo comercial, y envía el texto resultante sin revisarlo.
+
+    **¿Qué dos buenas prácticas de uso responsable de la IA está incumpliendo?**
+
+??? note "Ver respuesta"
+    - **No introducir datos personales o confidenciales** en herramientas de terceros sin conocer su política de tratamiento de datos (conecta con la protección de datos de la UD5).
+    - **Verificar siempre** el resultado y mantener supervisión humana antes de usarlo, en lugar de delegar por completo en el sistema.
 
 ---
 
@@ -129,3 +202,15 @@ Clasifica cada uno de estos sistemas de IA según los niveles de riesgo del Regl
 
 ??? question "5. Según el Reglamento europeo de IA, ¿en qué categoría de riesgo se sitúan los sistemas usados en selección de personal o evaluación crediticia?"
     En la categoría de riesgo alto, sujeta a requisitos estrictos de transparencia, supervisión humana y gestión de riesgos.
+
+??? question "6. ¿Qué relación hay entre inteligencia artificial, *machine learning* y *deep learning*?"
+    Son conjuntos anidados: el aprendizaje automático (*machine learning*) es una rama de la inteligencia artificial, y el aprendizaje profundo (*deep learning*) es a su vez un subconjunto del aprendizaje automático, basado en redes neuronales con muchas capas.
+
+??? question "7. Diferencia entre aprendizaje supervisado y no supervisado."
+    En el supervisado se entrena con datos etiquetados (cada entrada lleva asociado su resultado correcto), por ejemplo para clasificar correos como spam. En el no supervisado los datos no están etiquetados y el sistema busca por sí mismo patrones o agrupaciones, por ejemplo para segmentar clientes.
+
+??? question "8. ¿Por qué es imprescindible la verificación humana al usar IA generativa?"
+    Porque el modelo puede generar alucinaciones (información plausible pero falsa), puede estar desactualizado y no comprueba los hechos consultando fuentes: genera la respuesta estadísticamente más probable. En información crítica, un error sin verificar puede tener consecuencias reales.
+
+??? question "9. ¿Qué tipo de sistemas de IA se consideran de "riesgo inaceptable" en el AI Act?"
+    Los que vulneran derechos fundamentales y por ello están prohibidos, como los sistemas de puntuación social por parte de gobiernos o determinadas formas de manipulación subliminal.
