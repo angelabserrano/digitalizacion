@@ -274,11 +274,13 @@ No todo son ventajas. Entre los principales retos y riesgos asociados a la digit
 
 <span class="actividad-titulo">**Actividad 1.1 — Mapa de digitalización de un sector**</span>
 
-Elige un sector productivo (por ejemplo, hostelería, transporte, construcción o el propio sector TIC) y elabora un breve informe (una página) que identifique:
+Elige un sector productivo (por ejemplo, hostelería, transporte, construcción o el propio sector TIC) y elabora un breve informe (una página) que incluya:
 
-1. Tres tecnologías digitales que ya se usan habitualmente en ese sector.
-2. Un ejemplo real de empresa del sector que haya llevado a cabo una transformación digital relevante.
-3. Un riesgo o reto específico de la digitalización en ese sector.
+1. Dos problemas o necesidades del sector.
+2. Qué tecnologías digitales pueden abordarlos.
+3. El resultado o beneficio esperado.
+4. Una empresa real del sector que haya llevado a cabo una transformación digital relevante.
+5. Un riesgo o reto específico asociado a esa digitalización.
 
 <span class="actividad-titulo">**Actividad 1.2 — Autoevaluación DigComp**</span>
 
