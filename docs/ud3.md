@@ -175,6 +175,13 @@ Aplicando la regla 3-2-1, diseña una estrategia de copias de seguridad para los
 
 Busca información sobre un incidente de seguridad real relacionado con almacenamiento en la nube mal configurado (por ejemplo, un bucket de almacenamiento accesible públicamente por error). Explica si la responsabilidad fue del proveedor o del cliente, según el modelo de responsabilidad compartida.
 
+## Mapa conceptual
+
+<figure markdown="span">
+  ![Mapa conceptual de la Unidad 3: la computación en la nube y sus tres ramas —concepto y fundamentos, funcionamiento y tecnologías, e implicaciones y retos](assets/img/ud3-mapa-conceptual.png){ width="960" }
+  <figcaption>Síntesis de la unidad: la computación en la nube se aborda desde su <strong>concepto y fundamentos</strong> (definición, características, modelos de servicio y de despliegue), su <strong>funcionamiento y tecnologías</strong> (virtualización, contenedores, servicios habituales y principales proveedores) y sus <strong>implicaciones y retos</strong> (ventajas, aplicaciones empresariales, riesgos y tendencias como el *edge computing* o el *green cloud*).</figcaption>
+</figure>
+
 ## Autoevaluación
 
 ??? question "1. Cita las cinco características esenciales de la computación en la nube según el NIST."
