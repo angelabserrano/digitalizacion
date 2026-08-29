@@ -290,6 +290,13 @@ Realiza una autoevaluación de tu competencia digital utilizando el marco DigCom
 
 En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: *"La digitalización acelerada de los servicios públicos deja atrás a quienes no tienen competencias digitales"*. Debatid en clase citando ejemplos reales.
 
+## Mapa conceptual
+
+<figure markdown="span">
+  ![Mapa conceptual de la Unidad 1: la digitalización y sus tres ramas —concepto y origen, alcance y aplicación, e implicaciones](assets/img/ud1-mapa-conceptual.png){ width="960" }
+  <figcaption>Síntesis de la unidad: la digitalización se aborda desde su <strong>concepto y origen</strong> (grados de intensidad y revoluciones industriales), su <strong>alcance y aplicación</strong> (convergencia IT–OT, sectores productivos y nuevos modelos de negocio) y sus <strong>implicaciones</strong> sociales y ambientales (competencia digital, brecha digital, Green IT y retos y riesgos).</figcaption>
+</figure>
+
 ## Autoevaluación
 
 ??? question "1. ¿Qué diferencia hay entre digitalización y transformación digital?"
@@ -309,10 +316,3 @@ En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: 
 
 ??? question "6. ¿Qué significa el término *Green IT*?"
     El conjunto de prácticas orientadas a reducir el impacto ambiental de las tecnologías digitales: eficiencia energética de los centros de datos, alargamiento de la vida útil de los dispositivos, reciclaje de residuos electrónicos y desarrollo de software eficiente.
-
-## Mapa conceptual
-
-<figure markdown="span">
-  ![Mapa conceptual de la Unidad 1: la digitalización y sus tres ramas —concepto y origen, alcance y aplicación, e implicaciones](assets/img/ud1-mapa-conceptual.png){ width="960" }
-  <figcaption>Síntesis de la unidad: la digitalización se aborda desde su <strong>concepto y origen</strong> (grados de intensidad y revoluciones industriales), su <strong>alcance y aplicación</strong> (convergencia IT–OT, sectores productivos y nuevos modelos de negocio) y sus <strong>implicaciones</strong> sociales y ambientales (competencia digital, brecha digital, Green IT y retos y riesgos).</figcaption>
-</figure>

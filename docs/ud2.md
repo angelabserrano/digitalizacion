@@ -208,6 +208,13 @@ Busca una noticia reciente sobre una empresa (española o internacional) que hay
 
 Elabora una tabla que relacione cada una de las tecnologías habilitadoras estudiadas con al menos un sector productivo de la UD1 en el que tenga especial relevancia.
 
+## Mapa conceptual
+
+<figure markdown="span">
+  ![Mapa conceptual de la Unidad 2: las tecnologías digitales habilitadoras y sus tres ramas —concepto y tipos, aplicación en las empresas, e implicaciones clave](assets/img/ud2-mapa-conceptual.png){ width="960" }
+  <figcaption>Síntesis de la unidad: las tecnologías digitales habilitadoras se abordan desde su <strong>concepto y tipos</strong> (IoT, Big Data, robótica y automatización, blockchain, realidad extendida, impresión 3D y 5G), su <strong>aplicación en las empresas</strong> (impacto en los procesos, sectores y ejemplos de uso) y sus <strong>implicaciones clave</strong> (oportunidades, retos y riesgos, entre ellos la ciberseguridad).</figcaption>
+</figure>
+
 ## Autoevaluación
 
 ??? question "1. ¿Qué son las 'V' del Big Data? Cita al menos tres."
