@@ -186,6 +186,13 @@ Pide a un asistente de IA generativa información muy específica sobre un tema 
 
 Clasifica cada uno de estos sistemas de IA según los niveles de riesgo del Reglamento europeo de IA (inaceptable, alto, limitado o mínimo): un filtro de spam en el correo; un sistema que evalúa currículums para preseleccionar candidatos a un puesto de trabajo; un chatbot de atención al cliente de una tienda online; un sistema de puntuación social obligatorio implantado por un gobierno.
 
+## Mapa conceptual
+
+<figure markdown="span">
+  ![Mapa conceptual de la Unidad 4: la inteligencia artificial y sus tres ramas —concepto y fundamentos, funcionamiento y tecnologías, e implicaciones y retos](assets/img/ud4-mapa-conceptual.png){ width="960" }
+  <figcaption>Síntesis de la unidad: la inteligencia artificial se aborda desde su <strong>concepto y fundamentos</strong> (definición, áreas principales, tipos de aprendizaje automático y el papel de los datos), su <strong>funcionamiento y tecnologías</strong> (cómo aprenden los algoritmos, técnicas clave, herramientas y el proceso de desarrollo) y sus <strong>implicaciones y retos</strong> (aplicaciones empresariales, beneficios, riesgos éticos y tendencias como la IA generativa o explicable).</figcaption>
+</figure>
+
 ## Autoevaluación
 
 ??? question "1. ¿Qué diferencia hay entre IA débil e IA fuerte?"
