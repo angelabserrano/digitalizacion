@@ -105,7 +105,7 @@ El **Big Data** hace referencia a conjuntos de datos tan grandes, rápidos o var
 Características principales:
 
 - **Descentralización**: no depende de una autoridad central única; la copia del registro se distribuye entre muchos nodos.
-- **Inmutabilidad**: modificar un bloque exigiría modificar también todos los bloques posteriores en todos los nodos de la red, lo que la hace prácticamente inviable.
+- **Inmutabilidad**: los bloques están enlazados criptográficamente y el registro se distribuye entre múltiples nodos, por lo que modificar información ya registrada resulta extremadamente difícil y, además, puede ser detectado.
 - **Transparencia y trazabilidad**: todas las operaciones quedan registradas y son verificables.
 
 Aplicaciones más allá de las criptomonedas: trazabilidad de la cadena de suministro (por ejemplo, seguir el origen de un alimento desde el productor hasta el punto de venta), contratos inteligentes (*smart contracts*, programas que ejecutan automáticamente cláusulas contractuales cuando se cumplen ciertas condiciones), certificación de documentos y títulos académicos.
@@ -208,6 +208,13 @@ Busca una noticia reciente sobre una empresa (española o internacional) que hay
 
 Elabora una tabla que relacione cada una de las tecnologías habilitadoras estudiadas con al menos un sector productivo de la UD1 en el que tenga especial relevancia.
 
+## Mapa conceptual
+
+<figure markdown="span">
+  ![Mapa conceptual de la Unidad 2: las tecnologías digitales habilitadoras y sus tres ramas —concepto y tipos, aplicación en las empresas, e implicaciones clave](assets/img/ud2-mapa-conceptual.png){ width="960" }
+  <figcaption>Síntesis de la unidad: las tecnologías digitales habilitadoras se abordan desde su <strong>concepto y tipos</strong> (IoT, Big Data, robótica y automatización, blockchain, realidad extendida, impresión 3D y 5G), su <strong>aplicación en las empresas</strong> (impacto en los procesos, sectores y ejemplos de uso) y sus <strong>implicaciones clave</strong> (oportunidades, retos y riesgos, entre ellos la ciberseguridad).</figcaption>
+</figure>
+
 ## Autoevaluación
 
 ??? question "1. ¿Qué son las 'V' del Big Data? Cita al menos tres."
@@ -217,7 +224,7 @@ Elabora una tabla que relacione cada una de las tecnologías habilitadoras estud
     El robot industrial clásico trabaja en un entorno controlado y aislado de las personas, realizando tareas repetitivas programadas. El cobot (robot colaborativo) está diseñado para trabajar junto a personas, con sensores de seguridad que detienen su movimiento ante un contacto imprevisto.
 
 ??? question "3. ¿Qué característica de blockchain hace que sea difícil modificar un dato ya registrado?"
-    Que los bloques están enlazados criptográficamente y la información se distribuye entre múltiples nodos: modificar un bloque exigiría modificar también todos los posteriores en todas las copias de la red, lo que resulta prácticamente inviable.
+    Que los bloques están enlazados criptográficamente y el registro se distribuye entre múltiples nodos: modificar información ya registrada resulta extremadamente difícil y, además, puede ser detectado.
 
 ??? question "4. ¿Qué diferencia hay entre realidad virtual y realidad aumentada?"
     La realidad virtual sumerge al usuario en un entorno totalmente digital; la realidad aumentada superpone información digital sobre el entorno real, sin sustituirlo.
