@@ -9,6 +9,11 @@ Se llaman **tecnologías digitales habilitadoras** (en inglés, *enabling techno
 
 En esta unidad estudiamos las principales: el Internet de las Cosas, el Big Data, la robótica y automatización de procesos, blockchain, la realidad extendida, la impresión 3D, la conectividad avanzada (5G) y la ciberseguridad como tecnología transversal. La computación en la nube y la inteligencia artificial, por su peso específico, se estudian con más detalle en las UD3 y UD4.
 
+<figure markdown="span">
+  ![Siete tecnologías digitales habilitadoras -IoT, Big Data, robótica y automatización, blockchain, realidad extendida, impresión 3D y 5G-, con la ciberseguridad como tecnología transversal y la nube y la IA remitidas a UD3 y UD4](assets/img/ud2-tecnologias-habilitadoras.svg){ width="800" }
+  <figcaption>Las tecnologías digitales habilitadoras más importantes: la ciberseguridad protege al resto de forma transversal, mientras que la nube y la IA se estudian en detalle en unidades propias.</figcaption>
+</figure>
+
 !!! tip "Cómo se relacionan entre sí"
     Estas tecnologías raramente se usan aisladas: un sistema de mantenimiento predictivo típico combina **sensores IoT** (que generan datos), **big data** (que los almacena y procesa), **inteligencia artificial** (que detecta patrones de fallo) y **la nube** (donde se ejecuta todo el proceso).
 
