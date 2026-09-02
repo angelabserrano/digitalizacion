@@ -57,7 +57,95 @@ El término "inteligencia artificial" se acuñó en 1956. Desde entonces el camp
     2. **Supervisado** — se entrena con datos etiquetados (entrada + resultado correcto).
     3. **Por refuerzo** — aprende por ensayo y error con recompensa o penalización.
 
-## 3. Aplicaciones de la IA por sectores
+## 3. La IA en la automatización y la optimización de procesos
+
+Dos usos muy extendidos de la IA en las empresas son **automatizar** tareas que antes requerían intervención humana y **optimizar** decisiones que antes se tomaban "a ojo".
+
+**Automatización inteligente.** La RPA (UD2) automatiza tareas repetitivas siguiendo reglas fijas; al combinarla con IA, el sistema puede además **interpretar** información no estructurada y **decidir**:
+
+- Leer facturas, contratos o correos y extraer los datos clave (procesamiento de lenguaje natural, visión artificial).
+- Clasificar y enrutar solicitudes, tickets o incidencias.
+- Responder consultas frecuentes mediante asistentes conversacionales.
+- Detectar anomalías (fraude, fallos) y lanzar una alerta o una acción.
+
+Cuando se encadenan varias de estas piezas para automatizar un proceso de principio a fin se habla de **hiperautomatización**.
+
+**Optimización.** La IA busca la mejor combinación entre muchísimas posibles:
+
+- Rutas de reparto y planificación de flotas.
+- Niveles de inventario y previsión de demanda.
+- Consumo de energía en edificios o plantas.
+- Planificación de la producción y de los turnos.
+- Precios dinámicos.
+
+**Mejoras que aporta**: menos tiempo y menos errores, disponibilidad 24/7, liberar a las personas de tareas rutinarias para dedicarlas a otras de más valor, y decisiones basadas en datos en lugar de en intuición.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Un ayuntamiento usa un sistema que lee las instancias presentadas, extrae los datos, comprueba si falta documentación y responde automáticamente a las más sencillas. Además, otro sistema decide cada día el recorrido de los camiones de recogida de residuos para gastar el menor combustible posible.
+
+    **¿Cuál de los dos casos es automatización y cuál es optimización?**
+
+??? note "Ver respuesta"
+    - Leer instancias, extraer datos y responder a las sencillas es **automatización inteligente** (interpreta información no estructurada y ejecuta una tarea que hacía una persona).
+    - Decidir el recorrido de menor consumo entre todas las rutas posibles es **optimización** (elige la mejor combinación según un objetivo).
+
+## 4. Herramientas para trabajar con IA: lenguajes y plataformas
+
+Desarrollar soluciones de IA no exige partir de cero: existe un ecosistema maduro de lenguajes, librerías y servicios.
+
+**Lenguajes de programación más usados en IA:**
+
+- **Python**: es el lenguaje dominante en IA y ciencia de datos, por su sintaxis sencilla y su enorme ecosistema de librerías.
+- **R**: muy utilizado en estadística y análisis de datos.
+- **SQL**: imprescindible para extraer y preparar los datos guardados en bases de datos.
+- Según el contexto: **Julia** (cálculo científico), **C++** o **Java** cuando se necesita rendimiento o integración con sistemas existentes, y **JavaScript** para ejecutar modelos en el navegador.
+
+**Librerías y *frameworks* habituales (en Python):**
+
+- **scikit-learn**: aprendizaje automático "clásico" (clasificación, regresión, *clustering*).
+- **TensorFlow** y **PyTorch**: aprendizaje profundo (redes neuronales).
+- **pandas** y **NumPy**: manipulación y cálculo con datos.
+- **Matplotlib** y similares: visualización.
+
+**Plataformas y servicios:**
+
+- **Servicios de IA en la nube** (UD3): visión, lenguaje, voz o modelos generativos accesibles mediante API, sin entrenar nada.
+- **Entornos de trabajo**: *notebooks* (Jupyter, Google Colab) para experimentar con datos y modelos.
+- **Herramientas *no-code* / *low-code***: permiten crear modelos sencillos sin programar, subiendo un conjunto de datos o combinando bloques.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Un equipo quiere prototipar rápidamente un modelo que prediga la rotación de clientes a partir de una tabla de datos, y necesita también consultar y cruzar esos datos desde la base de datos corporativa.
+
+    **¿Qué lenguaje y qué tipo de herramienta encajarían mejor?**
+
+??? note "Ver respuesta"
+    **Python** con una librería de aprendizaje automático (por ejemplo, scikit-learn) sobre un *notebook* para prototipar con rapidez, y **SQL** para extraer y cruzar los datos de la base de datos corporativa.
+
+## 5. IA, datos y minería de datos: rentabilidad para la empresa
+
+La IA **no funciona sin datos**: aprende de ellos. Por eso va siempre unida al **Big Data** (UD2) y a la **minería de datos**.
+
+- **Minería de datos (*data mining*)**: conjunto de técnicas para descubrir patrones, relaciones y tendencias útiles dentro de grandes volúmenes de datos (reglas de asociación, agrupamiento, detección de anomalías, árboles de decisión). Es la "materia prima" sobre la que después se construyen los modelos de IA.
+- Flujo habitual: **datos** (IoT, transacciones, web, CRM) → **preparación y minería** → **modelo de IA** → **decisión o acción** → nuevos datos que realimentan el proceso.
+
+**Cómo se traduce en rentabilidad:**
+
+- **Más ingresos**: recomendaciones personalizadas, segmentación de clientes, previsión de demanda, precios óptimos y fidelización (predecir qué cliente va a abandonar).
+- **Menos costes**: mantenimiento predictivo, optimización de rutas e inventario, automatización de tareas, menos errores y devoluciones.
+- **Menos pérdidas**: detección de fraude y de impagos, control de calidad.
+- **Mejores decisiones**: cuadros de mando predictivos en lugar de informes que solo miran al pasado.
+
+La **calidad de los datos** es decisiva: datos incompletos o sesgados producen modelos poco fiables (*garbage in, garbage out*). La evaluación de la calidad del dato se trabaja en la UD5.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una tienda online implanta un modelo que analiza el histórico de compras y navegación para: (a) recomendar productos a cada cliente y (b) avisar de qué clientes tienen alta probabilidad de dejar de comprar.
+
+    **¿Por qué vías se espera que esto mejore la rentabilidad?**
+
+??? note "Ver respuesta"
+    Sobre todo por la vía de **más ingresos**: las recomendaciones personalizadas aumentan las ventas cruzadas, y anticipar el abandono permite actuar (ofertas, atención) para **fidelizar** antes de perder al cliente. Todo ello se apoya en la **minería** del histórico de datos.
+
+## 6. Aplicaciones de la IA por sectores
 
 Conectando con la digitalización sectorial vista en la UD1:
 
@@ -76,7 +164,31 @@ Conectando con la digitalización sectorial vista en la UD1:
 ??? note "Ver respuesta"
     **Visión artificial** (aprendizaje profundo aplicado a imágenes) para **control de calidad automatizado**: detecta defectos de forma continua, más rápido y sin la fatiga de la inspección manual, reduciendo las piezas defectuosas que llegan al cliente.
 
-## 4. IA generativa
+## 7. La IA en el sector informático (el sector del título)
+
+En el propio ámbito de la **administración de sistemas y las redes**, la IA se ha convertido en una herramienta de trabajo cotidiana:
+
+- **Asistentes de programación**: generan, completan y explican código, ayudan a depurar y a escribir pruebas o documentación.
+- **AIOps (operaciones de TI con IA)**: análisis automático de *logs* y métricas para detectar incidencias antes de que afecten al servicio, correlacionar alertas y sugerir la causa raíz.
+- **Ciberseguridad**: detección de intrusiones y de comportamiento anómalo en la red, filtrado de *phishing* y *spam*, priorización de vulnerabilidades (véase UD2).
+- **Automatización de la administración de sistemas**: generación de *scripts* y de ficheros de configuración, gestión predictiva de capacidad y de copias, respuesta automática a eventos.
+- **Soporte y *service desk***: *chatbots* que resuelven incidencias frecuentes y guían al usuario; clasificación y enrutado automático de *tickets*.
+- **Pruebas y calidad del software**: generación de casos de prueba, detección de regresiones.
+
+**Mejoras en los procesos de trabajo**: menos tiempo en tareas repetitivas, menos errores de configuración, respuesta más rápida a incidencias y más margen para el diseño y la mejora. La contrapartida: hay que **revisar** lo que produce la IA (código, configuraciones) y no perder el criterio técnico propio.
+
+!!! question "💡 Comprueba que lo has entendido"
+    En un departamento de sistemas, la IA sugiere el *script* de despliegue, resume cada noche miles de líneas de *log* y avisa de patrones de tráfico anómalos en la red.
+
+    **Asocia cada uso con su categoría (asistente de programación, AIOps, ciberseguridad) e indica una precaución común a los tres.**
+
+??? note "Ver respuesta"
+    - Sugerir el *script* de despliegue → **asistente de programación**.
+    - Resumir los *logs* y detectar incidencias → **AIOps**.
+    - Avisar de tráfico anómalo → **ciberseguridad**.
+    - Precaución común: **revisar y validar** la salida de la IA antes de aplicarla; el criterio técnico sigue siendo del profesional.
+
+## 8. IA generativa
 
 La **IA generativa** agrupa a los modelos capaces de crear contenido nuevo (texto, imágenes, audio, vídeo o código) en lugar de limitarse a clasificar o predecir sobre datos ya existentes. Es, con diferencia, el ámbito de la IA que más ha impactado en el uso cotidiano en los últimos años.
 
@@ -96,7 +208,7 @@ La **IA generativa** agrupa a los modelos capaces de crear contenido nuevo (text
 ??? note "Ver respuesta"
     Es **IA generativa**: crea contenido nuevo (una imagen que no existía) a partir de una descripción, en lugar de limitarse a clasificar o predecir sobre datos ya existentes. Se apoya en el aprendizaje profundo.
 
-### 4.1. Limitaciones de la IA generativa
+### 8.1. Limitaciones de la IA generativa
 
 - **Alucinaciones**: los modelos pueden generar información que suena plausible pero es incorrecta o directamente inventada, presentada con total seguridad.
 - **Desactualización**: un modelo entrenado con datos hasta una fecha determinada no conoce, por defecto, información posterior a ese momento.
@@ -112,9 +224,37 @@ Por ello, un principio fundamental en el uso profesional de la IA generativa es 
 ??? note "Ver respuesta"
     Una **alucinación**: información plausible pero inventada, presentada con seguridad (unida a la **falta de razonamiento verificable**: el modelo no consulta fuentes, genera la respuesta más probable). Lo habría evitado la **verificación humana** de la respuesta contra fuentes fiables antes de utilizarla.
 
-## 5. Ética y regulación de la inteligencia artificial
+## 9. Importancia presente y futura de la IA. Retos para el trabajador
 
-### 5.1. Sesgos algorítmicos
+**Presente.** La IA ya está integrada en servicios de uso diario (buscadores, traductores, recomendadores, asistentes, filtros antifraude) y en procesos de empresa de todos los sectores. La irrupción de la **IA generativa** (apartado 8) la ha puesto al alcance de cualquier persona sin perfil técnico.
+
+**Futuro (tendencias):**
+
+- **IA más presente y "invisible"**, integrada dentro de las herramientas que ya se usan.
+- **Agentes de IA** que no solo responden, sino que ejecutan tareas de varios pasos con cierta autonomía.
+- **IA en el dispositivo** (*edge*, UD3): modelos que funcionan en el móvil o en la máquina, sin enviar los datos a la nube.
+- **Más regulación y exigencia de transparencia** (apartado 10).
+- Debate abierto sobre **consumo energético**, propiedad intelectual y fiabilidad.
+
+**Retos para el trabajador:**
+
+- **Transformación de los puestos, más que desaparición**: la IA automatiza *tareas*, no siempre profesiones enteras; muchos empleos cambian de contenido.
+- **Recualificación permanente (*reskilling* y *upskilling*)**: saber usar herramientas de IA y trabajar *con* ellas se convierte en una competencia básica.
+- **Nuevos perfiles**: ingeniería de datos, entrenamiento y supervisión de modelos, auditoría de algoritmos, integración de servicios de IA.
+- **Competencias que ganan valor**: criterio para verificar resultados, pensamiento crítico, comunicación, creatividad y trato con personas.
+- **Riesgos a vigilar**: pérdida de cualificación por delegar en exceso, vigilancia laboral mediante IA y la **brecha** entre quienes saben aprovecharla y quienes no.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Ante la llegada de la IA generativa a su empresa, una persona teme que su puesto "desaparezca de un día para otro".
+
+    **Da una visión más matizada y una acción concreta que pueda tomar.**
+
+??? note "Ver respuesta"
+    Lo habitual es que la IA automatice **tareas** dentro del puesto, no el puesto entero: el trabajo se **transforma** y gana peso lo que la IA no hace bien (criterio, verificación, trato con personas). Acción concreta: **formarse** en el uso de esas herramientas (*upskilling*) para incorporarlas a su trabajo en lugar de competir con ellas.
+
+## 10. Ética y regulación de la inteligencia artificial
+
+### 10.1. Sesgos algorítmicos
 
 Un sistema de IA aprende de los datos con los que se entrena. Si esos datos reflejan sesgos históricos o sociales (por ejemplo, discriminación pasada en procesos de contratación), el sistema puede **reproducir e incluso amplificar** esos sesgos, aunque no exista intención discriminatoria por parte de quien lo desarrolla. Es un riesgo especialmente relevante en aplicaciones como la selección de personal, la concesión de créditos o la valoración de riesgo penal.
 
@@ -126,11 +266,11 @@ Un sistema de IA aprende de los datos con los que se entrena. Si esos datos refl
 ??? note "Ver respuesta"
     El modelo **reproducirá el sesgo histórico**: aprenderá a rechazar perfiles parecidos a los que ya se rechazaron. Aunque se elimine la variable "barrio", otras variables correlacionadas (código postal, ingresos, etc.) actúan como *proxy*, así que hay que auditar los datos y los resultados, no solo quitar un campo.
 
-### 5.2. Transparencia y explicabilidad
+### 10.2. Transparencia y explicabilidad
 
 Muchos modelos de IA, especialmente los basados en *deep learning*, funcionan como "cajas negras": es difícil explicar exactamente por qué han llegado a una conclusión concreta. Esto plantea problemas cuando la IA se usa para tomar decisiones que afectan a derechos de las personas (por ejemplo, denegar un préstamo), donde suele exigirse poder explicar el motivo de la decisión.
 
-### 5.3. El Reglamento europeo de Inteligencia Artificial (AI Act)
+### 10.3. El Reglamento europeo de Inteligencia Artificial (AI Act)
 
 La Unión Europea ha aprobado un reglamento específico para regular el desarrollo y uso de sistemas de IA, que clasifica los sistemas según su **nivel de riesgo**:
 
@@ -151,7 +291,7 @@ La Unión Europea ha aprobado un reglamento específico para regular el desarrol
     2. **Riesgo alto** — selección de personal; requisitos estrictos de transparencia, supervisión humana y gestión de riesgos.
     3. **Riesgo limitado** — sujeto sobre todo a obligaciones de transparencia.
 
-## 6. IA responsable en el entorno profesional
+## 11. IA responsable en el entorno profesional
 
 Algunas buenas prácticas para el uso profesional de herramientas de IA:
 
@@ -189,8 +329,8 @@ Clasifica cada uno de estos sistemas de IA según los niveles de riesgo del Regl
 ## Mapa conceptual
 
 <figure markdown="span">
-  ![Mapa conceptual de la Unidad 4: la inteligencia artificial y sus tres ramas —concepto y fundamentos, funcionamiento y tecnologías, e implicaciones y retos](assets/img/ud4-mapa-conceptual.png){ width="960" }
-  <figcaption>Síntesis de la unidad: la inteligencia artificial se aborda desde su <strong>concepto y fundamentos</strong> (definición, áreas principales, tipos de aprendizaje automático y el papel de los datos), su <strong>funcionamiento y tecnologías</strong> (cómo aprenden los algoritmos, técnicas clave, herramientas y el proceso de desarrollo) y sus <strong>implicaciones y retos</strong> (aplicaciones empresariales, beneficios, riesgos éticos y tendencias como la IA generativa o explicable).</figcaption>
+  ![Mapa conceptual de la Unidad 4: la inteligencia artificial y sus tres ramas —concepto y aprendizaje, la IA en la empresa, y presente, futuro y responsabilidad](assets/img/ud4-mapa-conceptual.png){ width="960" }
+  <figcaption>Síntesis de la unidad: la inteligencia artificial se aborda desde su <strong>concepto y aprendizaje</strong> (definición, IA débil y fuerte, <em>machine learning</em> y <em>deep learning</em>, tipos de aprendizaje), <strong>la IA en la empresa</strong> (automatización y optimización de procesos, lenguajes y herramientas, datos y minería para la rentabilidad, aplicaciones por sectores y en el sector informático, IA generativa) y su <strong>presente, futuro y responsabilidad</strong> (importancia y tendencias, retos para el trabajador, sesgos y explicabilidad, AI Act y uso responsable).</figcaption>
 </figure>
 
 ## Autoevaluación
@@ -221,3 +361,18 @@ Clasifica cada uno de estos sistemas de IA según los niveles de riesgo del Regl
 
 ??? question "9. ¿Qué tipo de sistemas de IA se consideran de "riesgo inaceptable" en el AI Act?"
     Los que vulneran derechos fundamentales y por ello están prohibidos, como los sistemas de puntuación social por parte de gobiernos o determinadas formas de manipulación subliminal.
+
+??? question "10. ¿Qué diferencia hay entre usar la IA para automatizar y usarla para optimizar un proceso?"
+    Automatizar es hacer que el sistema ejecute por sí mismo una tarea que antes hacía una persona (leer un documento y extraer datos, responder una consulta). Optimizar es elegir la mejor opción entre muchas posibles según un objetivo (la ruta de menor consumo, el nivel de inventario que minimiza coste).
+
+??? question "11. Cita el lenguaje de programación más usado en IA y dos librerías habituales."
+    **Python**. Librerías habituales: scikit-learn (aprendizaje automático clásico), TensorFlow y PyTorch (aprendizaje profundo), pandas y NumPy (datos). También R y SQL son frecuentes en el trabajo con datos.
+
+??? question "12. ¿Qué es la minería de datos y cómo se relaciona con la rentabilidad de la empresa?"
+    Es el conjunto de técnicas para descubrir patrones y tendencias útiles en grandes volúmenes de datos. Alimenta a los modelos de IA que mejoran la rentabilidad por varias vías: más ingresos (recomendación, previsión de demanda, fidelización), menos costes (mantenimiento predictivo, optimización, automatización) y menos pérdidas (detección de fraude, control de calidad).
+
+??? question "13. Pon dos ejemplos de uso de la IA en el sector informático."
+    Por ejemplo: asistentes de programación que generan y explican código; AIOps para analizar *logs* y detectar incidencias antes de que afecten al servicio; detección de intrusiones y de *phishing* en ciberseguridad; *chatbots* de soporte y clasificación de *tickets*; generación de *scripts* y de configuración.
+
+??? question "14. ¿Por qué se dice que la IA transforma los puestos de trabajo más que hacerlos desaparecer? Cita un reto para el trabajador."
+    Porque la IA automatiza tareas concretas dentro de un puesto, no siempre la profesión entera: el contenido del trabajo cambia y gana peso lo que la IA no hace bien (criterio, verificación, trato con personas). Un reto: la **recualificación permanente** (*reskilling* y *upskilling*) para aprender a trabajar con estas herramientas.
