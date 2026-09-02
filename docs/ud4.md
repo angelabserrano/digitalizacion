@@ -166,7 +166,7 @@ Conectando con la digitalización sectorial vista en la UD1:
 
 ## 7. La IA en el sector informático (el sector del título)
 
-En el propio ámbito de la **administración de sistemas y las redes**, la IA se ha convertido en una herramienta de trabajo cotidiana:
+En el propio ámbito de la **informática** —administración de sistemas, redes y desarrollo de software—, la IA se ha convertido en una herramienta de trabajo cotidiana:
 
 - **Asistentes de programación**: generan, completan y explican código, ayudan a depurar y a escribir pruebas o documentación.
 - **AIOps (operaciones de TI con IA)**: análisis automático de *logs* y métricas para detectar incidencias antes de que afecten al servicio, correlacionar alertas y sugerir la causa raíz.

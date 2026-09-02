@@ -5,9 +5,9 @@ hide:
 
 ![Digitalización aplicada a los sectores productivos](assets/img/logo_portada.png)
 
-**Ciclo formativo de grado superior Administración de Sistemas Informáticos en Red (ASIR)** · apuntes del módulo transversal Digitalización aplicada a los sectores productivos.
+Apuntes del módulo transversal **Digitalización aplicada a los sectores productivos**, común a los ciclos formativos de grado superior de la familia profesional de Informática y Comunicaciones (ASIR, DAW y DAM).
 
-Este módulo aborda la transformación digital desde una perspectiva transversal a todos los sectores productivos: qué tecnologías la hacen posible, cómo se gestionan los datos y la información en la nube, qué papel juega la inteligencia artificial y cómo se diseña y ejecuta un proyecto real de digitalización en una organización.
+Este módulo aborda la transformación digital desde una perspectiva transversal a todos los sectores productivos: qué es y cómo afecta a las empresas, qué tecnologías habilitadoras la hacen posible, el papel de la nube y de la inteligencia artificial, cómo se analizan y protegen los datos que todo ello genera, y cómo se diseña y ejecuta un proyecto real de digitalización en una organización.
 
 - [UD1. Digitalización de los sectores productivos](ud1.md)
 - [UD2. Tecnologías digitales habilitadoras](ud2.md)
