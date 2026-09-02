@@ -376,20 +376,23 @@ En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: 
 ??? question "1. ¿Qué diferencia hay entre digitalización y transformación digital?"
     La digitalización consiste en aplicar tecnologías digitales a procesos ya existentes para mejorarlos (por ejemplo, sustituir el papel por un documento digital). La transformación digital va más allá: implica repensar el modelo de negocio, la organización y la cultura de la empresa en torno a lo digital.
 
-??? question "2. ¿Qué diferencia hay entre un entorno IT y un entorno OT en una empresa industrial?"
-    El entorno IT (*Information Technology*) gestiona la información del negocio: servidores, bases de datos, ERP, redes corporativas. El entorno OT (*Operational Technology*) controla y supervisa procesos físicos y maquinaria: PLC, sistemas SCADA, sensores y actuadores de planta. La Industria 4.0 se caracteriza por la convergencia de ambos entornos.
-
-??? question "3. ¿Qué es un gemelo digital y para qué se utiliza en la Industria 4.0?"
-    Es una réplica virtual de un producto, proceso o sistema físico que permite simular su comportamiento sin necesidad de actuar sobre el elemento real, anticipando problemas y optimizando decisiones antes de aplicarlas en el mundo físico.
-
-??? question "4. ¿Qué significa el término *Green IT*?"
-    El conjunto de prácticas orientadas a reducir el impacto ambiental de las tecnologías digitales: eficiencia energética de los centros de datos, alargamiento de la vida útil de los dispositivos, reciclaje de residuos electrónicos y desarrollo de software eficiente.
-
-??? question "5. ¿Cómo se relaciona la implantación de tecnología digital con la organización de la empresa?"
+??? question "2. ¿Cómo se relaciona la implantación de tecnología digital con la organización de la empresa?"
     Cada área o departamento incorpora herramientas digitales propias (BI en dirección, ERP en administración, CRM en el área comercial, SCADA en producción…). La digitalización real exige que esas herramientas se integren entre sí —que el dato se introduzca una vez y fluya— lo que obliga a revisar procesos y, en ocasiones, el propio organigrama, con perfiles nuevos como el de responsable de transformación digital o analista de datos.
 
-??? question "6. Cita dos similitudes entre los entornos IT y OT."
+??? question "3. ¿Qué diferencia hay entre un entorno IT y un entorno OT en una empresa industrial?"
+    El entorno IT (*Information Technology*) gestiona la información del negocio: servidores, bases de datos, ERP, redes corporativas. El entorno OT (*Operational Technology*) controla y supervisa procesos físicos y maquinaria: PLC, sistemas SCADA, sensores y actuadores de planta. La Industria 4.0 se caracteriza por la convergencia de ambos entornos.
+
+??? question "4. Cita dos similitudes entre los entornos IT y OT."
     Por ejemplo: ambos son tecnología que procesa datos y automatiza tareas; ambos se apoyan en hardware, software y redes; ambos son críticos para la actividad; ambos necesitan ciberseguridad y personal cualificado; ambos tienden a usar tecnologías comunes (redes IP, servidores, la nube).
 
-??? question "7. Menciona tres ventajas de digitalizar una empresa industrial de extremo a extremo."
+??? question "5. Menciona tres ventajas de digitalizar una empresa industrial de extremo a extremo."
     Por ejemplo: acceso y almacenamiento de la información más rápidos; disponibilidad 24/7; reducción de costes al eliminar tareas manuales y errores; aumento de la productividad; trazabilidad completa del proceso; decisiones en tiempo real; mantenimiento predictivo; y, como resultado, mejora de la competitividad.
+
+??? question "6. ¿Qué es un gemelo digital y para qué se utiliza en la Industria 4.0?"
+    Es una réplica virtual de un producto, proceso o sistema físico que permite simular su comportamiento sin necesidad de actuar sobre el elemento real, anticipando problemas y optimizando decisiones antes de aplicarlas en el mundo físico.
+
+??? question "7. ¿Qué significa el término *Green IT*?"
+    El conjunto de prácticas orientadas a reducir el impacto ambiental de las tecnologías digitales: eficiencia energética de los centros de datos, alargamiento de la vida útil de los dispositivos, reciclaje de residuos electrónicos y desarrollo de software eficiente.
+
+??? question "8. Cita dos retos o riesgos asociados a la digitalización de los sectores productivos."
+    Por ejemplo: el impacto en el empleo y la necesidad de recualificación (*reskilling* y *upskilling*); la dependencia tecnológica ante fallos, ciberataques o cortes de suministro; el aumento de la superficie de exposición a amenazas de ciberseguridad; la desinformación; la concentración de poder en unos pocos grandes proveedores; o la necesidad de adaptar el marco regulatorio.

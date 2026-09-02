@@ -356,47 +356,50 @@ Para una pyme ficticia (por ejemplo, una clínica dental con 8 personas), enumer
 
 ## Autoevaluación
 
-??? question "1. Cita al menos cuatro dimensiones de la calidad del dato."
-    Exactitud, completitud, consistencia, actualidad, unicidad y validez (se consideran correctas cualesquiera cuatro).
-
-??? question "2. ¿Qué relación existe entre el Big Data, la ciencia de datos y el aprendizaje automático (*machine learning*)?"
-    El Big Data aporta el volumen y la infraestructura de datos; la ciencia de datos es la disciplina que extrae conocimiento útil de esos datos combinando estadística, programación y conocimiento del negocio; el aprendizaje automático y el aprendizaje profundo son las técnicas que la ciencia de datos utiliza, en la fase de modelado, para detectar patrones cuando la relación entre variables es demasiado compleja para un análisis estadístico tradicional.
-
-??? question "3. Diferencia entre análisis descriptivo y análisis predictivo."
-    El análisis descriptivo resume y explica qué ha ocurrido a partir de datos históricos. El análisis predictivo utiliza esos datos históricos y técnicas estadísticas o de aprendizaje automático para anticipar qué es probable que ocurra en el futuro.
-
-??? question "4. ¿Qué son los derechos ARSULI?"
-    Los derechos que el RGPD reconoce a las personas sobre sus datos personales: Acceso, Rectificación, Supresión, Limitación, Portabilidad y Oposición.
-
-??? question "5. ¿Qué diferencia hay entre cumplir la normativa de protección de datos y actuar de forma éticamente responsable con los datos?"
-    Cumplir la normativa es el requisito legal mínimo. La ética del dato va más allá, planteando si el uso de los datos es justo, si el consentimiento fue realmente informado, o si existe riesgo de reidentificar a una persona combinando datos aparentemente inocuos, aunque el tratamiento sea legal.
-
-??? question "6. ¿Qué es la minimización de datos?"
-    El principio según el cual solo deben recogerse y tratarse los datos estrictamente necesarios para la finalidad concreta declarada, evitando recopilar información adicional "por si acaso".
-
-??? question "7. Nombra las seis fases del ciclo de vida del dato."
-    Recogida, almacenamiento, procesamiento, análisis, uso y difusión, y conservación o eliminación.
-
-??? question "8. ¿Qué es la reidentificación y por qué es un riesgo ético?"
-    Es la posibilidad de identificar a una persona combinando varios datos que, por separado, parecían anónimos o inocuos. Es un riesgo porque un conjunto de datos aparentemente anonimizado puede dejar de serlo en la práctica y llegar a perjudicar a personas concretas.
-
-??? question "9. ¿Qué es un dato especialmente protegido? Cita dos ejemplos."
-    Una categoría de datos personales que el RGPD somete a garantías reforzadas por su sensibilidad. Ejemplos: datos de salud, origen étnico o racial, opiniones políticas, convicciones religiosas, afiliación sindical, datos genéticos o biométricos, y datos sobre la vida u orientación sexual.
-
-??? question "10. ¿Por qué truncar el eje vertical de un gráfico de barras puede resultar engañoso?"
-    Porque exagera visualmente las diferencias entre valores: una variación pequeña en términos relativos parece enorme. El eje de un gráfico de barras debería empezar en cero.
-
-??? question "11. ¿Qué diferencia hay entre dato, información y conocimiento?"
+??? question "1. ¿Qué diferencia hay entre dato, información y conocimiento?"
     El dato es un hecho aislado sin contexto; la información es el dato organizado y puesto en contexto, de modo que responde a una pregunta; el conocimiento es la información interpretada y combinada con la experiencia, que permite decidir cómo actuar.
 
-??? question "12. Cita las tres propiedades de la información que protege la ciberseguridad y dos amenazas habituales."
+??? question "2. Nombra las seis fases del ciclo de vida del dato."
+    Recogida, almacenamiento, procesamiento, análisis, uso y difusión, y conservación o eliminación.
+
+??? question "3. Cita al menos cuatro dimensiones de la calidad del dato."
+    Exactitud, completitud, consistencia, actualidad, unicidad y validez (se consideran correctas cualesquiera cuatro).
+
+??? question "4. ¿Qué relación existe entre el Big Data, la ciencia de datos y el aprendizaje automático (*machine learning*)?"
+    El Big Data aporta el volumen y la infraestructura de datos; la ciencia de datos es la disciplina que extrae conocimiento útil de esos datos combinando estadística, programación y conocimiento del negocio; el aprendizaje automático y el aprendizaje profundo son las técnicas que la ciencia de datos utiliza, en la fase de modelado, para detectar patrones cuando la relación entre variables es demasiado compleja para un análisis estadístico tradicional.
+
+??? question "5. ¿Qué diferencia hay entre un *data warehouse* y un *data lake*, y qué dos medidas mínimas protegen a ambos?"
+    El *data warehouse* almacena datos ya depurados y organizados para el análisis; el *data lake* guarda datos en bruto, de cualquier formato, para explotarlos más adelante. En ambos, como mínimo: control de acceso con mínimo privilegio y cifrado (en tránsito y en reposo), además de copias de seguridad probadas.
+
+??? question "6. Diferencia entre análisis descriptivo y análisis predictivo."
+    El análisis descriptivo resume y explica qué ha ocurrido a partir de datos históricos. El análisis predictivo utiliza esos datos históricos y técnicas estadísticas o de aprendizaje automático para anticipar qué es probable que ocurra en el futuro.
+
+??? question "7. ¿Por qué truncar el eje vertical de un gráfico de barras puede resultar engañoso?"
+    Porque exagera visualmente las diferencias entre valores: una variación pequeña en términos relativos parece enorme. El eje de un gráfico de barras debería empezar en cero.
+
+??? question "8. ¿Qué es la minimización de datos?"
+    El principio según el cual solo deben recogerse y tratarse los datos estrictamente necesarios para la finalidad concreta declarada, evitando recopilar información adicional "por si acaso".
+
+??? question "9. ¿Qué son los derechos ARSULI?"
+    Los derechos que el RGPD reconoce a las personas sobre sus datos personales: Acceso, Rectificación, Supresión, Limitación, Portabilidad y Oposición.
+
+??? question "10. ¿Qué es un dato especialmente protegido? Cita dos ejemplos."
+    Una categoría de datos personales que el RGPD somete a garantías reforzadas por su sensibilidad. Ejemplos: datos de salud, origen étnico o racial, opiniones políticas, convicciones religiosas, afiliación sindical, datos genéticos o biométricos, y datos sobre la vida u orientación sexual.
+
+??? question "11. ¿Qué diferencia hay entre cumplir la normativa de protección de datos y actuar de forma éticamente responsable con los datos?"
+    Cumplir la normativa es el requisito legal mínimo. La ética del dato va más allá, planteando si el uso de los datos es justo, si el consentimiento fue realmente informado, o si existe riesgo de reidentificar a una persona combinando datos aparentemente inocuos, aunque el tratamiento sea legal.
+
+??? question "12. ¿Qué es la reidentificación y por qué es un riesgo ético?"
+    Es la posibilidad de identificar a una persona combinando varios datos que, por separado, parecían anónimos o inocuos. Es un riesgo porque un conjunto de datos aparentemente anonimizado puede dejar de serlo en la práctica y llegar a perjudicar a personas concretas.
+
+??? question "13. Cita las tres propiedades de la información que protege la ciberseguridad y dos amenazas habituales."
     Propiedades: **confidencialidad**, **integridad** y **disponibilidad**. Amenazas (dos cualesquiera): malware y ransomware, phishing e ingeniería social, fuga de datos, contraseñas débiles, ataques a la cadena de suministro, denegación de servicio (DDoS).
 
-??? question "13. ¿Qué es un plan director de seguridad y qué fases tiene?"
+??? question "14. ¿Qué es un plan director de seguridad y qué fases tiene?"
     Es el documento que ordena y prioriza las acciones de ciberseguridad de una organización según sus objetivos y presupuesto. Fases: análisis de la situación actual, análisis de riesgos, definición de objetivos y proyectos, priorización, e implantación y seguimiento.
 
-??? question "14. Cita tres medidas de teletrabajo seguro."
+??? question "15. Cita tres medidas de teletrabajo seguro."
     Por ejemplo: conexión mediante VPN, doble factor de autenticación (MFA), dispositivos gestionados por la empresa con cifrado de disco, no usar redes wifi públicas abiertas sin VPN, bloqueo automático de sesión, y separar el uso profesional del personal.
 
-??? question "15. ¿Por qué es importante la cultura de ciberseguridad y no solo las medidas técnicas?"
+??? question "16. ¿Por qué es importante la cultura de ciberseguridad y no solo las medidas técnicas?"
     Porque la mayoría de los incidentes empiezan por un error humano (un clic en un phishing, una contraseña reutilizada). La formación y concienciación continuas, unas políticas claras y poder comunicar los incidentes sin culpabilizar reducen ese riesgo que la tecnología por sí sola no cubre.

@@ -187,32 +187,38 @@ Elige una pyme (real o inventada) y rellena un lienzo de transformación digital
 ??? question "1. ¿Por qué instalar un nuevo programa de gestión no es, por sí solo, un proyecto de transformación digital?"
     Porque la transformación digital implica un cambio en los procesos, el modelo de negocio o la cultura de la organización, con formación de las personas implicadas y un objetivo claro; la tecnología es el medio, no un fin en sí mismo.
 
-??? question "2. ¿Qué significa que un objetivo sea SMART?"
-    Que sea específico, medible, alcanzable, relevante y con un plazo de tiempo definido.
-
-??? question "3. Cita al menos tres elementos que debería incluir un plan de digitalización."
-    Por ejemplo: qué tecnologías se incorporarán y en qué orden, qué datos se generarán y cómo se protegerán, el presupuesto necesario, la formación requerida y los riesgos identificados (se consideran correctos cualesquiera tres).
-
-??? question "4. ¿Qué diferencia hay entre una metodología en cascada y una metodología ágil en la gestión de un proyecto?"
-    La metodología en cascada planifica todo el proyecto de principio a fin antes de ejecutarlo, adecuada cuando los requisitos son estables. La metodología ágil divide el proyecto en ciclos cortos con entregas incrementales, permitiendo ajustar el rumbo según los resultados, más adecuada cuando las necesidades se van afinando durante la ejecución.
-
-??? question "5. ¿Por qué la evaluación de resultados (KPI) no debe entenderse como la fase final y única de un proyecto de transformación digital?"
-    Porque la transformación digital es un proceso de mejora continua: los resultados obtenidos deben retroalimentar un nuevo diagnóstico, dando lugar a sucesivos ciclos de mejora en lugar de un proyecto cerrado de una sola vez.
-
-??? question "6. Cita tres herramientas de diagnóstico de la situación de partida."
+??? question "2. Cita tres herramientas de diagnóstico de la situación de partida."
     Por ejemplo: un test de autodiagnóstico digital (como el de Acelera pyme / red.es), un modelo de madurez digital por niveles, un mapa de procesos, un análisis DAFO centrado en lo digital y un inventario tecnológico.
 
-??? question "7. ¿Qué diferencia hay entre los objetivos estratégicos de la empresa y los objetivos del proyecto de digitalización?"
+??? question "3. ¿Qué diferencia hay entre los objetivos estratégicos de la empresa y los objetivos del proyecto de digitalización?"
     Los objetivos estratégicos son las metas del negocio (crecer, reducir costes, mejorar el servicio, abrir un canal). Los objetivos del proyecto son metas SMART concretas que dan soporte a los estratégicos; cada iniciativa digital debe alinearse con al menos un objetivo estratégico.
 
-??? question "8. ¿Para qué sirve el lienzo de transformación digital?"
+??? question "4. ¿Qué significa que un objetivo sea SMART?"
+    Que sea específico, medible, alcanzable, relevante y con un plazo de tiempo definido.
+
+??? question "5. ¿Para qué sirve el lienzo de transformación digital?"
     Es una plantilla visual que permite mapear en una sola hoja qué áreas de la empresa se van a digitalizar (clientes, procesos, producto, modelo de negocio, datos, personas, tecnología), cómo se relacionan entre sí y cómo encajan las áreas digitalizadas con las que no lo están, evitando "islas digitales".
 
-??? question "9. ¿Qué significa "integración en el conjunto" al elegir tecnologías?"
+??? question "6. ¿Qué significa "integración en el conjunto" al elegir tecnologías?"
     Que las soluciones no queden aisladas: que datos, aplicaciones y plataformas se comuniquen (APIs, formatos comunes, un modelo de datos coherente) de modo que un dato se introduzca una sola vez y fluya, evitando silos de información y dobles grabaciones.
 
-??? question "10. En el diseño de la implementación, ¿qué se analiza al comparar costes y beneficios?"
+??? question "7. Al digitalizar un área nueva, ¿qué hay que analizar respecto a sus datos y a su seguridad?"
+    Para los datos: qué datos genera o usa, dónde se almacenan, cómo se garantiza su calidad, quién y con qué herramientas los analiza y qué KPI se obtendrán. Para la seguridad: las posibles brechas de esa área (nuevos puntos de entrada como dispositivos IoT o accesos remotos, datos personales que pasan a tratarse, dependencia de un proveedor) y las medidas para cubrirlas, con enfoque de seguridad desde el diseño.
+
+??? question "8. Cita al menos tres elementos que debería incluir un plan de digitalización."
+    Por ejemplo: qué tecnologías se incorporarán y en qué orden, qué datos se generarán y cómo se protegerán, el presupuesto necesario, la formación requerida y los riesgos identificados (se consideran correctos cualesquiera tres).
+
+??? question "9. En el diseño de la implementación, ¿qué se analiza al comparar costes y beneficios?"
     Se estima el presupuesto (licencias, equipos, servicios en la nube, formación, horas) frente a los beneficios esperados (ahorro de tiempo y costes, más ingresos, menos errores); su comparación da el retorno de la inversión (ROI) y ayuda a priorizar. También se contemplan las ayudas públicas, como el Kit Digital.
 
-??? question "11. ¿Por qué es importante documentar los cambios de un proyecto de transformación digital?"
+??? question "10. ¿Qué diferencia hay entre una metodología en cascada y una metodología ágil en la gestión de un proyecto?"
+    La metodología en cascada planifica todo el proyecto de principio a fin antes de ejecutarlo, adecuada cuando los requisitos son estables. La metodología ágil divide el proyecto en ciclos cortos con entregas incrementales, permitiendo ajustar el rumbo según los resultados, más adecuada cuando las necesidades se van afinando durante la ejecución.
+
+??? question "11. ¿Por qué la gestión del cambio y la idoneidad de los recursos humanos son decisivas en un proyecto de transformación digital?"
+    Porque la resistencia al cambio es una de las causas más frecuentes de fracaso, incluso con la tecnología adecuada: hace falta comunicar objetivos y beneficios, formar según los perfiles e implicar a las personas usuarias desde el principio. Además hay que valorar si el equipo tiene las competencias necesarias o si hay que formar, contratar o externalizar, y definir roles y responsabilidades para que el proyecto no dependa de una sola persona.
+
+??? question "12. ¿Por qué es importante documentar los cambios de un proyecto de transformación digital?"
     Porque la memoria del proyecto (qué se hizo y por qué, qué decisiones y configuración, qué formación, qué queda pendiente) da continuidad al trabajo, evita que dependa de una sola persona y sirve para justificar la inversión ante la dirección o ante una ayuda pública.
+
+??? question "13. ¿Por qué la evaluación de resultados (KPI) no debe entenderse como la fase final y única de un proyecto de transformación digital?"
+    Porque la transformación digital es un proceso de mejora continua: los resultados obtenidos deben retroalimentar un nuevo diagnóstico, dando lugar a sucesivos ciclos de mejora en lugar de un proyecto cerrado de una sola vez.

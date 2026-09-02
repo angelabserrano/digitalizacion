@@ -386,3 +386,6 @@ Elabora una tabla que relacione cada una de las tecnologías habilitadoras estud
 
 ??? question "13. Pon un ejemplo de nuevo mercado u oportunidad de negocio generado por las THD."
     Por ejemplo: la servitización o pago por uso (vender horas de máquina en lugar del equipo), los productos conectados con servicios digitales posventa, las plataformas de datos, o los servicios para ciudades inteligentes (sensores, plataformas y analítica para tráfico, alumbrado o residuos).
+
+??? question "14. ¿Qué aporta la inteligencia artificial como tecnología habilitadora?"
+    Permite la **automatización** de tareas que no son puramente mecánicas (clasificar documentos, atender consultas, inspeccionar piezas por visión artificial), la **predicción** (mantenimiento predictivo, previsión de demanda, detección de fraude) y la **optimización** (rutas, precios, consumo energético, planificación). Aprende a partir de grandes volúmenes de datos, por lo que va unida al Big Data. Se estudia en detalle en la UD4.
