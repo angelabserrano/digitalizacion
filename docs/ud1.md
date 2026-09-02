@@ -181,13 +181,16 @@ Digitalizar **de extremo a extremo** (*end-to-end*) significa que la informació
 
 Principales ventajas:
 
-- **Visibilidad y trazabilidad completas**: se sigue cada pedido, lote o producto en tiempo real a lo largo de todo el proceso.
-- **Decisiones basadas en datos y en tiempo real**: los datos de planta alimentan la gestión del negocio y las decisiones de negocio se trasladan a la planta, reduciendo la incertidumbre.
-- **Mayor eficiencia y menores costes**: se eliminan tareas manuales, dobles registros y errores de transcripción; se optimizan inventarios, plazos y consumo de energía.
-- **Flexibilidad y personalización**: la producción se adapta con rapidez a los cambios de demanda (personalización en masa).
-- **Calidad y mantenimiento predictivo**: se detectan antes los defectos y las averías, evitando paradas de línea.
-- **Mejor servicio al cliente**: plazos más fiables, información del estado del pedido y posventa proactiva (servitización).
-- **Base para innovar**: los datos integrados hacen posibles nuevos servicios y modelos de negocio (véase apartado 3).
+- **Acceso y almacenamiento de la información más rápidos**: los datos de toda la cadena están disponibles al instante, sin buscarlos en papel ni en aplicaciones aisladas.
+- **Disponibilidad 24/7**: la información y los sistemas son accesibles en cualquier momento, con una producción que puede funcionar de forma continua.
+- **Reducción de costes**: se eliminan tareas manuales, dobles registros y errores de transcripción, y se optimizan inventarios, plazos y consumo de energía.
+- **Aumento de la productividad**: procesos más ágiles, con menos tiempos muertos y menos paradas.
+- **Trazabilidad y visibilidad completas**: se sigue cada pedido, lote o producto en tiempo real a lo largo de todo el proceso.
+- **Decisiones basadas en datos y en tiempo real**: los datos de planta (OT) alimentan la gestión del negocio (IT) y las decisiones de negocio se trasladan a la planta.
+- **Mejor calidad y mantenimiento predictivo**: se anticipan los defectos y las averías, evitando paradas de línea.
+- **Flexibilidad y mejor servicio al cliente**: la producción se adapta con rapidez a la demanda (personalización en masa) y el cliente recibe plazos más fiables e información del estado de su pedido.
+
+Todo ello se traduce en una **mejora de la competitividad** de la empresa y en una base para **innovar** con nuevos servicios y modelos de negocio (véase apartado 3).
 
 Como contrapartida, una empresa digitalizada de extremo a extremo amplía su **superficie de exposición a ciberataques** y aumenta su **dependencia tecnológica**, riesgos que se abordan en el apartado 5.
 
@@ -389,4 +392,4 @@ En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: 
     Por ejemplo: ambos son tecnología que procesa datos y automatiza tareas; ambos se apoyan en hardware, software y redes; ambos son críticos para la actividad; ambos necesitan ciberseguridad y personal cualificado; ambos tienden a usar tecnologías comunes (redes IP, servidores, la nube).
 
 ??? question "7. Menciona tres ventajas de digitalizar una empresa industrial de extremo a extremo."
-    Por ejemplo: visibilidad y trazabilidad completas del proceso; decisiones basadas en datos en tiempo real; mayor eficiencia y menores costes al eliminar tareas manuales y dobles registros; flexibilidad para personalizar la producción; mantenimiento predictivo; mejor servicio al cliente.
+    Por ejemplo: acceso y almacenamiento de la información más rápidos; disponibilidad 24/7; reducción de costes al eliminar tareas manuales y errores; aumento de la productividad; trazabilidad completa del proceso; decisiones en tiempo real; mantenimiento predictivo; y, como resultado, mejora de la competitividad.
