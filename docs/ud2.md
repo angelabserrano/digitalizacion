@@ -7,11 +7,11 @@
 
 Se llaman **tecnologías digitales habilitadoras** (en inglés, *enabling technologies*) a aquellas tecnologías que, por sí mismas, no resuelven un problema concreto de un sector, pero **hacen posible** que se desarrollen soluciones digitales avanzadas en múltiples sectores a la vez. Son la base técnica sobre la que se construye la Industria 4.0 y, en general, la digitalización de los sectores productivos vista en la UD1.
 
-En esta unidad estudiamos las principales: el Internet de las Cosas, el Big Data, la robótica y automatización de procesos, blockchain, la realidad extendida, la impresión 3D, la conectividad avanzada (5G) y la ciberseguridad como tecnología transversal. La computación en la nube y la inteligencia artificial, por su peso específico, se estudian con más detalle en las UD3 y UD4.
+En esta unidad estudiamos las principales: el Internet de las Cosas, el Big Data, la inteligencia artificial, los gemelos digitales, la robótica y automatización de procesos, blockchain, la realidad extendida, la impresión 3D, la conectividad avanzada (5G) y la ciberseguridad como tecnología transversal. La **inteligencia artificial** y la **computación en la nube** se presentan aquí de forma introductoria y se desarrollan en detalle en las UD4 y UD3, respectivamente. Al final de la unidad se analiza el impacto conjunto de estas tecnologías en la **productividad**, la **sostenibilidad** y la aparición de **nuevos mercados**.
 
 <figure markdown="span">
-  ![Siete tecnologías digitales habilitadoras -IoT, Big Data, robótica y automatización, blockchain, realidad extendida, impresión 3D y 5G-, con la ciberseguridad como tecnología transversal y la nube y la IA remitidas a UD3 y UD4](assets/img/ud2-tecnologias-habilitadoras.svg){ width="800" }
-  <figcaption>Las tecnologías digitales habilitadoras más importantes: la ciberseguridad protege al resto de forma transversal, mientras que la nube y la IA se estudian en detalle en unidades propias.</figcaption>
+  ![Nueve tecnologías digitales habilitadoras -IoT, Big Data, inteligencia artificial, gemelos digitales, robótica y automatización, blockchain, realidad extendida, impresión 3D y 5G-, con la ciberseguridad como tecnología transversal y la computación en la nube remitida a la UD3](assets/img/ud2-tecnologias-habilitadoras.svg){ width="820" }
+  <figcaption>Las tecnologías digitales habilitadoras más importantes: la ciberseguridad protege al resto de forma transversal, mientras que la nube y la IA, por su peso, se estudian en detalle en las UD3 y UD4.</figcaption>
 </figure>
 
 !!! tip "Cómo se relacionan entre sí"
@@ -58,6 +58,40 @@ El **Internet de las Cosas (*Internet of Things*, IoT)** es la red de objetos f�
     - **Plataforma/nube**: el servicio que recibe los datos, guarda el histórico y los compara con el umbral.
     - **Aplicación**: la lógica que ordena abrir la válvula y envía el aviso al móvil del agricultor.
 
+### 2.3. Objetos inteligentes, ciudades inteligentes y oportunidades de negocio
+
+Cuando un objeto cotidiano incorpora sensores, conectividad y algo de capacidad de proceso, se convierte en un **objeto inteligente (*smart object*)**: sabe medir su entorno, comunicarse y, a veces, decidir por sí mismo (un termostato que aprende horarios, una máquina que pide su propio repuesto).
+
+La suma de muchos objetos inteligentes en un entorno urbano da lugar a la **ciudad inteligente (*smart city*)**: tráfico, alumbrado, aparcamiento, riego de parques, recogida de residuos o calidad del aire gestionados con datos en tiempo real. Para el sector informático, la *smart city* es un **mercado en sí mismo**: despliegue de sensores, plataformas de datos, aplicaciones ciudadanas, integración de sistemas y analítica.
+
+### 2.4. Ventajas y riesgos del IoT para las empresas
+
+**Ventajas:**
+
+- **Visibilidad en tiempo real** de procesos, activos y productos (dónde están y en qué estado).
+- **Mantenimiento predictivo**: menos paradas no planificadas y menos averías graves.
+- **Eficiencia**: se ajusta el consumo de energía, agua y materias primas al necesario; menos desplazamientos.
+- **Calidad**: detección temprana de desviaciones en el proceso.
+- **Nuevos servicios**: pago por uso, monitorización remota, servitización (véase UD1).
+- **Decisiones basadas en datos** a lo largo de toda la cadena (convergencia IT-OT).
+
+**Riesgos:**
+
+- **Seguridad**: cada dispositivo conectado amplía la superficie de ataque; muchos equipos IoT mantienen contraseñas por defecto y se actualizan poco, y pueden acabar integrados en redes de bots (*botnets*).
+- **Privacidad**: los sensores captan datos personales o de comportamiento que hay que proteger (RGPD, véase UD5).
+- **Dependencia y disponibilidad**: si falla la conectividad o la plataforma, el proceso se resiente.
+- **Interoperabilidad**: fabricantes y protocolos distintos dificultan integrarlo todo en un único sistema.
+- **Coste y obsolescencia**: desplegar, mantener y sustituir miles de dispositivos, y gestionar sus residuos electrónicos.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una empresa de transporte instala sensores de temperatura y localización en todos sus camiones frigoríficos y los conecta a una plataforma en la nube.
+
+    **Indica dos ventajas para la empresa y dos riesgos que debe vigilar.**
+
+??? note "Ver respuesta"
+    - **Ventajas** (dos cualesquiera): visibilidad en tiempo real de la flota y de la cadena de frío, alertas tempranas si la temperatura se desvía, mantenimiento predictivo de los equipos, posibilidad de ofrecer al cliente un servicio de trazabilidad.
+    - **Riesgos** (dos cualesquiera): seguridad de los dispositivos (acceso no autorizado a la plataforma o a los camiones), privacidad de los datos de localización del personal, dependencia de la conectividad móvil, coste de mantener y renovar los sensores.
+
 ## 3. Big Data
 
 El **Big Data** hace referencia a conjuntos de datos tan grandes, rápidos o variados que las herramientas tradicionales de gestión de bases de datos no son capaces de procesarlos eficientemente. Suele caracterizarse mediante las llamadas **"V" del Big Data**:
@@ -89,7 +123,50 @@ El **Big Data** hace referencia a conjuntos de datos tan grandes, rápidos o var
     - **Velocidad**: parte del procesamiento debe hacerse en tiempo real (stock).
     - Todavía habría que valorar la **veracidad** (calidad de los datos) para poder extraer **valor**.
 
-## 4. Robótica y automatización de procesos
+## 4. Inteligencia artificial
+
+La **inteligencia artificial (IA)** es la capacidad de un sistema informático para realizar tareas que normalmente requieren inteligencia humana: reconocer imágenes o voz, entender lenguaje natural, detectar patrones, predecir valores o tomar decisiones. El enfoque dominante hoy es el **aprendizaje automático (*machine learning*)**: en lugar de programar reglas explícitas, el sistema aprende a partir de grandes volúmenes de datos, de ahí su estrecha relación con el Big Data.
+
+Como tecnología habilitadora, la IA aporta:
+
+- **Automatización cognitiva**: tareas que no son puramente mecánicas — clasificar documentos, atender consultas, inspeccionar piezas mediante visión artificial.
+- **Predicción**: mantenimiento predictivo, previsión de demanda, detección de fraude.
+- **Optimización**: rutas de reparto, precios, consumo energético, planificación de la producción.
+
+Por su peso específico, la IA se estudia en profundidad en la **UD4** (aplicaciones en el sector, relación con los datos, lenguajes de programación y retos).
+
+!!! question "💡 Comprueba que lo has entendido"
+    Un taller quiere que un sistema revise automáticamente las fotos de cada pieza fabricada y avise cuando detecte un defecto, aprendiendo a partir de miles de imágenes de piezas correctas y defectuosas.
+
+    **¿Qué tecnología habilitadora se está aplicando y con qué otra se apoya?**
+
+??? note "Ver respuesta"
+    **Inteligencia artificial** (visión artificial mediante aprendizaje automático), que se apoya en el **Big Data**: necesita un gran conjunto de imágenes etiquetadas para aprender a distinguir una pieza correcta de una defectuosa.
+
+## 5. Gemelos digitales
+
+Un **gemelo digital (*digital twin*)** es una réplica virtual de un objeto, proceso o sistema físico, alimentada **en tiempo real** con los datos que envían sus sensores. No es solo un modelo 3D: el gemelo evoluciona con el elemento real y permite **simular** escenarios ("¿qué pasaría si…?") antes de actuar sobre el mundo físico.
+
+Se habla de gemelo digital de un **componente** (un motor), de un **producto** completo (un vehículo), de un **proceso** (una línea de montaje) o de un **sistema** (una planta, un edificio, una ciudad).
+
+Aplicaciones:
+
+- **Diseño y prototipado**: probar variantes sin necesidad de fabricarlas.
+- **Operación**: monitorizar el estado real del activo y anticipar fallos.
+- **Optimización**: ensayar cambios de parámetros en el gemelo y trasladar al sistema real solo los que mejoran el resultado.
+- **Formación**: entrenar al personal sobre la réplica, sin riesgo ni coste de parada.
+
+El gemelo digital es un buen ejemplo de **convergencia de varias THD**: IoT (datos en tiempo real), Big Data (histórico), IA (predicción) y, a menudo, realidad extendida (visualización).
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una fábrica crea una réplica virtual de su línea de envasado que recibe los datos de los sensores en directo. Antes de cambiar la velocidad de la cinta, prueba el cambio en la réplica y comprueba el efecto sobre la producción y el consumo.
+
+    **¿Por qué esto es un gemelo digital y no un simple plano o modelo 3D?**
+
+??? note "Ver respuesta"
+    Porque está **conectado en tiempo real** con la línea física (a través de los sensores) y **evoluciona con ella**, lo que permite simular cambios sobre el estado real actual antes de aplicarlos. Un plano o un modelo 3D son estáticos y no reflejan lo que está ocurriendo ahora en la planta.
+
+## 6. Robótica y automatización de procesos
 
 - **Robótica industrial clásica**: robots programados para tareas repetitivas en entornos controlados (brazos robóticos en cadenas de montaje).
 - **Robótica colaborativa (*cobots*)**: robots diseñados para trabajar codo con codo con personas, con sensores de seguridad que detienen su movimiento ante un contacto imprevisto.
@@ -103,7 +180,7 @@ El **Big Data** hace referencia a conjuntos de datos tan grandes, rápidos o var
 ??? note "Ver respuesta"
     **RPA**: es una tarea administrativa, repetitiva y realizada sobre aplicaciones informáticas, sin ningún componente físico. No se necesitan robots (ni industriales ni colaborativos), sino software que reproduzca las acciones de la persona sobre esos programas.
 
-## 5. Blockchain y tecnologías de registro distribuido
+## 7. Blockchain y tecnologías de registro distribuido
 
 **Blockchain** (cadena de bloques) es una tecnología de registro distribuido: una base de datos compartida entre múltiples participantes (nodos), en la que la información se organiza en bloques enlazados criptográficamente, de forma que una vez registrado un dato resulta extremadamente difícil modificarlo sin que se detecte.
 
@@ -127,7 +204,7 @@ Aplicaciones más allá de las criptomonedas: trazabilidad de la cadena de sumin
 
     Un *smart contract* podría, además, liberar el pago al productor en cuanto se confirma la entrega.
 
-## 6. Realidad virtual, aumentada y mixta
+## 8. Realidad virtual, aumentada y mixta
 
 | Tecnología | Qué hace | Ejemplo de uso |
 |---|---|---|
@@ -149,7 +226,7 @@ Aplicaciones profesionales destacadas: formación de personal en entornos de rie
     2. **Realidad virtual** — el entorno es totalmente digital.
     3. **Realidad mixta** — objetos reales y virtuales conviven e interactúan entre sí.
 
-## 7. Impresión 3D y fabricación aditiva
+## 9. Impresión 3D y fabricación aditiva
 
 La **fabricación aditiva**, popularmente conocida como impresión 3D, construye objetos añadiendo material capa a capa (a partir de un diseño digital), frente a la fabricación tradicional o sustractiva (que parte de un bloque de material y elimina lo sobrante, como en el mecanizado).
 
@@ -165,7 +242,7 @@ Limitaciones: velocidad de producción más lenta que la fabricación en serie t
 ??? note "Ver respuesta"
     Para **una pieza única y urgente** aprovecha sus ventajas: fabricación bajo demanda, sin utillaje ni reconfiguración, y producción cerca de donde se necesita. Para **50.000 unidades** pesan sus limitaciones: es más lenta que la fabricación en serie y el coste por pieza no compensa frente al moldeado o el mecanizado a gran escala.
 
-## 8. Conectividad avanzada: 5G y redes de nueva generación
+## 10. Conectividad avanzada: 5G y redes de nueva generación
 
 Las tecnologías anteriores (IoT masivo, realidad aumentada, vehículos autónomos, telecirugía) necesitan redes de comunicación con prestaciones que las generaciones anteriores de telefonía móvil no podían ofrecer. El **5G** aporta tres mejoras clave:
 
@@ -185,7 +262,56 @@ Las tecnologías anteriores (IoT masivo, realidad aumentada, vehículos autónom
     2. **Menor latencia** (tiempo de respuesta casi instantáneo).
     3. **Mayor velocidad de transmisión** (banda ancha móvil mejorada).
 
-## 9. La ciberseguridad como tecnología habilitadora transversal
+## 11. Impacto de las tecnologías habilitadoras en la empresa
+
+### 11.1. Productividad y mejoras en los entornos IT y OT
+
+Cada tecnología habilitadora mejora tanto la **parte de negocio (IT)** como la **parte de planta (OT)** y, sobre todo, la **conexión entre ambas** (véase UD1):
+
+| Tecnología | Mejora en negocio (IT) | Mejora en planta (OT) |
+|---|---|---|
+| IoT / IIoT | Datos de operación disponibles para la gestión | Monitorización y control de máquinas |
+| Big Data | Cuadros de mando, previsión de demanda | Análisis de los datos de proceso |
+| Inteligencia artificial | Automatización de tareas administrativas, previsión | Visión artificial, mantenimiento predictivo |
+| Gemelos digitales | Simulación de escenarios de negocio | Optimización de líneas y equipos |
+| Robótica / RPA | RPA en procesos administrativos | Cobots y robots en producción |
+| Blockchain | Contratos y pagos automáticos | Trazabilidad de la cadena de suministro |
+| Impresión 3D | Catálogo bajo demanda, menos stock | Repuestos y utillaje fabricados en planta |
+| 5G | Movilidad y acceso remoto | Conexión masiva de sensores, control en tiempo real |
+
+En conjunto, las THD **reducen tiempos y errores, aumentan la calidad y permiten decidir más rápido**, porque el dato fluye sin fricción entre la planta y la gestión.
+
+### 11.2. Tecnologías habilitadoras, sostenibilidad y eficiencia
+
+Bien implantadas, las THD contribuyen a una **economía más sostenible y eficiente**:
+
+- **Menos consumo de recursos**: sensores e IA ajustan el uso de energía, agua y materias primas al estrictamente necesario.
+- **Menos residuos y desperdicio**: control de calidad temprano, mantenimiento predictivo (menos averías y piezas desechadas) y fabricación bajo demanda.
+- **Menos transporte**: producción descentralizada (impresión 3D) y operación o mantenimiento en remoto (5G, realidad aumentada, gemelos digitales).
+- **Economía circular**: la trazabilidad (blockchain, IoT) facilita reparar, reutilizar y reciclar.
+
+**Contrapartida:** las propias THD consumen energía y generan residuos electrónicos (centros de datos, dispositivos IoT), por lo que su balance ambiental debe evaluarse caso a caso (*Green IT*, véase UD1).
+
+### 11.3. Nuevos productos, servicios y mercados
+
+Las THD no solo mejoran lo que ya se hacía: **abren mercados que antes no existían**:
+
+- **Servitización y pago por uso**: vender el resultado (horas de máquina, aire comprimido, kilómetros) en lugar del producto.
+- **Productos conectados**: electrodomésticos, vehículos o maquinaria que prestan servicios digitales después de la venta.
+- **Plataformas y datos**: intermediar entre oferta y demanda o poner en valor datos agregados, con las debidas garantías.
+- **Ciudades inteligentes**: gestión de tráfico, alumbrado, residuos o aparcamiento como oportunidad de negocio para empresas tecnológicas (sensores, plataformas, integración, analítica).
+- **Fabricación personalizada**: series cortas y productos a medida a un coste asumible (impresión 3D, fabricación flexible).
+
+!!! question "💡 Comprueba que lo has entendido"
+    Un fabricante de compresores instala sensores en sus equipos, analiza los datos con IA y deja de vender la máquina: ahora cobra por el aire comprimido suministrado, con mantenimiento incluido.
+
+    **Relaciona este caso con (a) una mejora de eficiencia/sostenibilidad y (b) un nuevo mercado.**
+
+??? note "Ver respuesta"
+    - **(a) Eficiencia y sostenibilidad**: el mantenimiento predictivo evita averías y alarga la vida de los equipos, y el ajuste fino del funcionamiento reduce el consumo energético.
+    - **(b) Nuevo mercado**: pasa de un mercado de venta de producto a uno de **servicio (servitización / pago por uso)**, con ingresos recurrentes y una relación continua con el cliente.
+
+## 12. La ciberseguridad como tecnología habilitadora transversal
 
 Cuantos más dispositivos, sensores y sistemas se conectan, mayor es la **superficie de exposición** a ciberataques. Por eso la ciberseguridad no es una tecnología habilitadora "más", sino una condición necesaria para que todas las demás puedan desplegarse con confianza: sin garantías de seguridad, ninguna empresa conectará su maquinaria industrial a internet, ni ningún ciudadano confiará sus datos a un sistema digital. Este módulo dedica contenido específico a la seguridad en la nube (UD3) y a la protección de datos (UD5); aquí basta con retener que **la seguridad debe diseñarse desde el principio (*security by design*)**, no añadirse al final del proceso.
 
@@ -207,7 +333,7 @@ Elige un problema cotidiano (por ejemplo, controlar el riego de las plantas de t
 
 <span class="actividad-titulo">**Actividad 2.2 — Investigación: tecnologías habilitadoras en una empresa real**</span>
 
-Busca una noticia reciente sobre una empresa (española o internacional) que haya implantado alguna de las tecnologías estudiadas en esta unidad (IoT, big data, RPA, blockchain, realidad aumentada, impresión 3D o 5G). Resume en cinco líneas qué problema resolvía y qué resultado obtuvo.
+Busca una noticia reciente sobre una empresa (española o internacional) que haya implantado alguna de las tecnologías estudiadas en esta unidad (IoT, big data, IA, gemelos digitales, RPA o robótica, blockchain, realidad aumentada, impresión 3D o 5G). Resume en cinco líneas qué problema resolvía y qué resultado obtuvo.
 
 <span class="actividad-titulo">**Actividad 2.3 — Cuadro comparativo**</span>
 
@@ -217,7 +343,7 @@ Elabora una tabla que relacione cada una de las tecnologías habilitadoras estud
 
 <figure markdown="span">
   ![Mapa conceptual de la Unidad 2: las tecnologías digitales habilitadoras y sus tres ramas —concepto y tipos, aplicación en las empresas, e implicaciones clave](assets/img/ud2-mapa-conceptual.png){ width="960" }
-  <figcaption>Síntesis de la unidad: las tecnologías digitales habilitadoras se abordan desde su <strong>concepto y tipos</strong> (IoT, Big Data, robótica y automatización, blockchain, realidad extendida, impresión 3D y 5G), su <strong>aplicación en las empresas</strong> (impacto en los procesos, sectores y ejemplos de uso) y sus <strong>implicaciones clave</strong> (oportunidades, retos y riesgos, entre ellos la ciberseguridad).</figcaption>
+  <figcaption>Síntesis de la unidad: las tecnologías digitales habilitadoras se abordan desde su <strong>concepto y tipos</strong> (IoT, Big Data, IA, gemelos digitales, robótica y automatización, blockchain, realidad extendida, impresión 3D y 5G), su <strong>aplicación en las empresas</strong> (mejoras en negocio y planta, sectores y ejemplos de uso) y sus <strong>implicaciones clave</strong> (sostenibilidad y eficiencia, nuevos mercados, y retos y riesgos, entre ellos la ciberseguridad).</figcaption>
 </figure>
 
 ## Autoevaluación
@@ -248,3 +374,15 @@ Elabora una tabla que relacione cada una de las tecnologías habilitadoras estud
 
 ??? question "9. ¿Qué significa que la seguridad debe aplicarse *by design*?"
     Que la ciberseguridad se tiene en cuenta desde el principio del diseño de un sistema o proyecto, y no como un añadido final. Así se evitan fallos de arquitectura que después serían más caros y difíciles de corregir.
+
+??? question "10. Cita dos ventajas y dos riesgos del IoT para una empresa."
+    **Ventajas** (dos cualesquiera): visibilidad en tiempo real de procesos y activos, mantenimiento predictivo, eficiencia en el uso de recursos, nuevos servicios (pago por uso, monitorización remota). **Riesgos** (dos cualesquiera): mayor superficie de ataque, privacidad de los datos captados, dependencia de la conectividad y la plataforma, problemas de interoperabilidad, coste y obsolescencia de los dispositivos.
+
+??? question "11. ¿Qué es un gemelo digital y en qué se diferencia de un modelo 3D?"
+    Es una réplica virtual de un objeto, proceso o sistema físico conectada **en tiempo real** con él mediante sensores, que permite simular escenarios antes de actuar sobre el elemento real. A diferencia de un modelo 3D, que es estático, el gemelo digital evoluciona con el sistema real y refleja su estado actual.
+
+??? question "12. Indica dos formas en que las tecnologías habilitadoras contribuyen a la sostenibilidad."
+    Por ejemplo: ajustan el consumo de energía, agua y materias primas al necesario (sensores + IA); reducen residuos y desperdicio mediante control de calidad temprano y mantenimiento predictivo; disminuyen el transporte gracias a la producción descentralizada y la operación remota; facilitan la economía circular mediante la trazabilidad.
+
+??? question "13. Pon un ejemplo de nuevo mercado u oportunidad de negocio generado por las THD."
+    Por ejemplo: la servitización o pago por uso (vender horas de máquina en lugar del equipo), los productos conectados con servicios digitales posventa, las plataformas de datos, o los servicios para ciudades inteligentes (sensores, plataformas y analítica para tráfico, alumbrado o residuos).
