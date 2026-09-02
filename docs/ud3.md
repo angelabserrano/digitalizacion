@@ -133,7 +133,7 @@ Esto conecta con el concepto de **soberanía digital**: la capacidad de un país
 
 - **Dependencia del proveedor (*vendor lock-in*)**: cambiar de proveedor puede resultar técnica y económicamente costoso.
 - Dependencia de la conectividad a internet: sin conexión, el acceso al servicio puede verse comprometido.
-- Preocupaciones de seguridad y privacidad, especialmente con datos sensibles (se desarrolla más adelante).
+- Preocupaciones de seguridad y privacidad, especialmente con datos sensibles (se desarrolla en el apartado 9).
 - Coste a largo plazo: el pago por uso puede acabar siendo más caro que una infraestructura propia bien dimensionada, si el uso es intensivo y constante en el tiempo.
 - Cuestiones de soberanía digital, ya comentadas.
 

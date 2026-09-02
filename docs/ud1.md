@@ -189,7 +189,7 @@ Principales ventajas:
 - **Mejor servicio al cliente**: plazos más fiables, información del estado del pedido y posventa proactiva (servitización).
 - **Base para innovar**: los datos integrados hacen posibles nuevos servicios y modelos de negocio (véase apartado 3).
 
-Como contrapartida, una empresa digitalizada de extremo a extremo amplía su **superficie de exposición a ciberataques** y aumenta su **dependencia tecnológica**, riesgos que se abordan en el apartado 7.
+Como contrapartida, una empresa digitalizada de extremo a extremo amplía su **superficie de exposición a ciberataques** y aumenta su **dependencia tecnológica**, riesgos que se abordan en el apartado 5.
 
 !!! question "💡 Comprueba que lo has entendido"
     Una fábrica conecta su tienda online, su ERP y sus máquinas de forma que un pedido llega directamente a la línea de producción y el cliente puede consultar en qué fase está su producto.
