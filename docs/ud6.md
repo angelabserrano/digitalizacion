@@ -18,69 +18,127 @@ Un **proyecto de transformación digital** es una iniciativa planificada, con ob
 
 ## 3. Fases de un proyecto de transformación digital
 
-### 3.1. Diagnóstico de la madurez digital
+Un proyecto de transformación digital se organiza en una secuencia de fases que, aunque se presentan en orden, se retroalimentan entre sí.
 
-Antes de proponer ningún cambio, hay que conocer el punto de partida. El **diagnóstico de madurez digital** analiza, entre otros aspectos:
+### 3.1. Diagnóstico de la situación de partida
 
-- Infraestructura tecnológica actual (equipos, conectividad, software).
-- Procesos ya digitalizados frente a procesos manuales o en papel.
-- Competencias digitales del personal.
-- Cultura organizativa: ¿existe resistencia al cambio? ¿hay apoyo directivo?
-- Nivel de madurez en el uso de datos para la toma de decisiones (UD5).
+Antes de proponer ningún cambio hay que conocer el punto de partida. Algunas **herramientas de diagnóstico** habituales:
 
-Existen modelos de madurez digital (habitualmente organizados en niveles, del 1 — "inicial", al 5 — "optimizado") que permiten situar a una organización y compararla con el estándar de su sector.
+- **Test de autodiagnóstico digital**: cuestionarios que sitúan a la empresa en un nivel de madurez (por ejemplo, el *Test de Diagnóstico Digital* de Acelera pyme / red.es).
+- **Modelos de madurez digital**: escalas, normalmente de 5 niveles (del 1 "inicial" al 5 "optimizado"), para compararse con el estándar del sector.
+- **Mapa de procesos**: inventario de los procesos de la empresa y de cómo se hacen hoy (manual, en papel, con hoja de cálculo, con una aplicación).
+- **Análisis DAFO** centrado en lo digital: debilidades y fortalezas internas, amenazas y oportunidades del entorno.
+- **Inventario tecnológico**: equipos, conectividad, aplicaciones, datos y su estado.
 
-### 3.2. Definición de objetivos y alcance
+El diagnóstico debe cubrir la **infraestructura**, los **procesos**, las **competencias digitales del personal**, el uso de **datos** para decidir (UD5) y la **cultura** (¿hay resistencia al cambio?, ¿hay apoyo de la dirección?).
 
-A partir del diagnóstico se definen objetivos **concretos y medibles**. Es habitual aplicar el criterio **SMART**: específicos (*specific*), medibles (*measurable*), alcanzables (*achievable*), relevantes (*relevant*) y con un plazo definido (*time-bound*).
+### 3.2. Objetivos estratégicos, necesidades y oportunidades de negocio
+
+La transformación digital no es un fin en sí misma: debe servir a la **estrategia de la empresa**. Tras el diagnóstico conviene:
+
+- **Identificar los objetivos estratégicos** de la organización (crecer, reducir costes, mejorar el servicio, abrir un canal de venta, cumplir una normativa…) y **alinear** cada iniciativa digital con al menos uno de ellos.
+- Tener en cuenta las **necesidades presentes y futuras**: no solo el problema de hoy, sino hacia dónde quiere ir la empresa en 2-3 años (crecimiento previsto, nuevos mercados, relevo generacional).
+- Detectar las **oportunidades de negocio** que abre la digitalización: nuevos productos o servicios digitales, nuevos canales y mercados, servitización, personalización, mejora de la experiencia de cliente o eficiencia que libera recursos (se apoya en UD1 y UD2).
+
+Con todo ello se formulan los **objetivos del proyecto**, que conviene que sean **SMART**: específicos, medibles, alcanzables, relevantes y con un plazo definido.
 
 !!! reto "Reto: convierte un objetivo vago en un objetivo SMART"
-    El objetivo "queremos digitalizar la empresa" no es SMART. Reformúlalo en un objetivo SMART para una pyme concreta que tú elijas (por ejemplo: "implantar un sistema de reservas online que reduzca las llamadas telefónicas de gestión de citas en un 50% en los próximos 6 meses").
+    El objetivo "queremos digitalizar la empresa" no es SMART. Reformúlalo en un objetivo SMART para una pyme concreta que tú elijas (por ejemplo: "implantar un sistema de reservas online que reduzca las llamadas telefónicas de gestión de citas en un 50 % en los próximos 6 meses").
 
-### 3.3. Diseño del plan de digitalización (hoja de ruta)
+### 3.3. El lienzo de transformación digital
 
-El plan de digitalización traduce los objetivos en un conjunto ordenado de acciones, con responsables, plazos y recursos asignados. Debe considerar, como mínimo:
+El **lienzo (o *canvas*) de transformación digital** es una plantilla visual que ayuda a mapear, sobre una sola hoja, **qué áreas de la empresa se van a digitalizar** y cómo se relacionan. Áreas que suele contemplar:
 
-- Qué tecnologías se van a incorporar y en qué orden (relacionando con las estudiadas en las UD2, UD3 y UD4: ¿hace falta IoT? ¿se necesita migrar servicios a la nube? ¿tiene sentido incorporar IA en algún proceso?).
-- Qué datos se van a generar o tratar, y qué medidas de calidad y protección de datos se aplicarán (UD5).
-- Qué presupuesto es necesario y de dónde va a salir.
-- Qué formación necesita el personal implicado.
-- Qué riesgos existen y cómo se van a mitigar (incluida la ciberseguridad).
+| Área | Preguntas que plantea |
+|---|---|
+| **Clientes y experiencia** | ¿Cómo captamos, atendemos y fidelizamos? ¿Por qué canales? |
+| **Procesos internos** | ¿Qué procesos son manuales o repetitivos y podrían automatizarse? |
+| **Producto o servicio** | ¿Se puede añadir una capa digital (conectividad, servicios, datos)? |
+| **Modelo de negocio** | ¿Aparecen nuevas formas de generar ingresos (suscripción, plataforma)? |
+| **Datos** | ¿Qué datos generamos, cómo los guardamos y los analizamos? |
+| **Personas y cultura** | ¿Qué competencias y qué cambio cultural hacen falta? |
+| **Tecnología e infraestructura** | ¿Qué base necesitamos (red, nube, seguridad)? |
 
-### 3.4. Selección de tecnologías y proveedores
+Un paso clave es **identificar y alinear las áreas de negocio/producción con las de comunicaciones y sistemas** (la convergencia IT-OT de la UD1): de poco sirve digitalizar la producción si la información no llega a la gestión, o al revés.
 
-En esta fase se decide, para cada necesidad identificada, qué solución concreta se va a implantar: por ejemplo, si conviene una solución en la nube pública o sería mejor una nube privada (UD3), qué proveedor ofrece mejores garantías de protección de datos (UD5), o si un proceso concreto se beneficiaría de automatización mediante RPA o inteligencia artificial (UD2 y UD4). Conviene comparar varias alternativas atendiendo no solo al precio, sino también a la escalabilidad, el soporte, el cumplimiento normativo y el riesgo de dependencia del proveedor (*vendor lock-in*, visto en la UD3).
+También hay que analizar el **encaje de las áreas ya digitalizadas entre sí y con las que no lo están**: evitar "islas digitales" que no se comunican y planificar la transición para que el proceso nuevo y el antiguo convivan durante un tiempo.
 
-### 3.5. Gestión del cambio y factor humano
+!!! question "💡 Comprueba que lo has entendido"
+    Un taller digitaliza la recepción de vehículos con una app, pero el taller sigue anotando las reparaciones en papel y la facturación se hace aparte, en una hoja de cálculo que nadie conecta con la app.
 
-La resistencia al cambio es una de las causas más frecuentes de fracaso de los proyectos de transformación digital, incluso cuando la tecnología elegida es la adecuada. La **gestión del cambio** incluye:
+    **¿Qué problema de encaje entre áreas hay y cómo lo reflejaría el lienzo?**
 
-- Comunicación clara de los objetivos y beneficios del proyecto a todas las personas afectadas.
+??? note "Ver respuesta"
+    Se han creado **islas digitales**: la recepción está digitalizada pero no se comunica con reparaciones ni con facturación, así que el dato se vuelve a teclear varias veces. El lienzo mostraría que las áreas de **procesos internos** y **datos** están sin integrar, y que el siguiente paso es conectarlas antes de digitalizar nada más.
+
+### 3.4. Selección de tecnologías idóneas e integración
+
+Para cada necesidad detectada se elige la **tecnología más idónea en función de la empresa** (tamaño, sector, presupuesto, madurez). Ayuda relacionar cada área con las tecnologías del módulo:
+
+| Necesidad / área | Tecnologías candidatas |
+|---|---|
+| Vender y atender por más canales | Comercio electrónico, CRM, chatbots (UD2, UD4) |
+| Automatizar tareas administrativas | RPA, IA para leer documentos (UD2, UD4) |
+| Controlar y monitorizar la producción | Sensores IoT, SCADA, gemelos digitales (UD2) |
+| Guardar y compartir información | Servicios en la nube: IaaS / PaaS / SaaS (UD3) |
+| Analizar datos y decidir | BI, ciencia de datos, IA (UD4, UD5) |
+| Proteger la información | Copias, cifrado, MFA, plan director (UD5) |
+
+Criterios de elección: además del precio, la **escalabilidad**, el **soporte**, el **cumplimiento normativo** y el **riesgo de dependencia del proveedor** (*vendor lock-in*, UD3).
+
+**Integración en el conjunto.** Las soluciones no deben quedar aisladas: hay que planificar la **integración entre datos, aplicaciones y plataformas** para que un dato se introduzca una sola vez y fluya (APIs y conectores, formatos comunes, un modelo de datos coherente). El objetivo es evitar los **silos de información** y las dobles grabaciones.
+
+### 3.5. Tratamiento de los datos y brechas de seguridad por áreas
+
+**Tratamiento de los datos y su análisis.** El plan debe definir, para los datos que el proyecto va a generar o usar: qué datos son, dónde se almacenan, cómo se garantiza su calidad (UD5), quién y con qué herramientas los analiza, y qué indicadores (KPI) se obtendrán.
+
+**Brechas de seguridad por áreas.** Para cada área que se digitaliza se analizan sus **posibles brechas de seguridad**: nuevos puntos de entrada (dispositivos IoT, accesos remotos, servicios en la nube), datos personales que pasan a tratarse, dependencia de un proveedor… y se definen las medidas (control de acceso, cifrado, copias, formación) con el enfoque de **seguridad desde el diseño** (UD2) y el **plan director de seguridad** (UD5).
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una tienda añade una web con pasarela de pago, un TPV conectado y un servicio en la nube para la contabilidad.
+
+    **Indica una brecha de seguridad asociada a cada una de esas tres áreas.**
+
+??? note "Ver respuesta"
+    - **Web con pasarela de pago**: datos personales y de tarjeta; riesgo de ataques web y de fuga de datos → cifrado (HTTPS), actualizaciones, no almacenar datos de tarjeta.
+    - **TPV conectado**: nuevo dispositivo en la red; riesgo de malware o acceso no autorizado → segmentar la red, contraseñas robustas, actualizaciones.
+    - **Contabilidad en la nube**: acceso remoto y dependencia del proveedor → MFA, mínimo privilegio, copias propias y revisar las garantías del proveedor.
+
+### 3.6. Diseño de la implementación: hoja de ruta, costes, tiempos y recursos
+
+El plan traduce los objetivos en un conjunto ordenado de acciones con responsables, plazos y recursos:
+
+- **Hoja de ruta**: qué tecnologías se incorporan y en qué orden, qué formación hace falta y qué riesgos se mitigan.
+- **Costes y beneficios**: se estima el **presupuesto** (licencias, equipos, servicios en la nube, formación, horas de trabajo) y los **beneficios** esperados (ahorro de tiempo y costes, más ingresos, menos errores). Comparar ambos da el **retorno de la inversión (ROI)** y ayuda a priorizar.
+- **Financiación y ayudas**: programas como el **Kit Digital** (fondos europeos) ofrecen ayudas directas a pymes y autónomos para soluciones de digitalización (ciberseguridad, comercio electrónico, gestión de procesos, presencia en internet…); conviene contemplarlos en el plan económico.
+- **Desarrollo temporal**: se ordenan las acciones en **fases e hitos**, con un **diagrama de Gantt** para plazos y dependencias y tableros **Kanban** para el seguimiento.
+- **Recursos materiales y humanos**: qué equipos, software y servicios se necesitan y qué personas (propias o externas) participan y con qué dedicación.
+- **Metodología de gestión**: *cascada* (planificación completa por adelantado, requisitos estables) o **ágil** (ciclos cortos con entregas incrementales y ajuste continuo, habitual en digitalización).
+
+### 3.7. Gestión del cambio y recursos humanos
+
+La resistencia al cambio es una de las causas más frecuentes de fracaso, incluso cuando la tecnología es la adecuada. La **gestión del cambio** incluye:
+
+- Comunicación clara de los objetivos y beneficios a todas las personas afectadas.
 - Formación adaptada a los distintos perfiles y niveles de competencia digital.
 - Implicación de las personas usuarias desde las primeras fases, no solo al final.
-- Acompañamiento durante la transición (por ejemplo, mantener temporalmente el proceso anterior como alternativa mientras se consolida el nuevo).
+- Acompañamiento durante la transición (por ejemplo, mantener temporalmente el proceso anterior mientras se consolida el nuevo).
 
-### 3.6. Financiación y ayudas: el ejemplo del Kit Digital
+Además hay que valorar la **idoneidad de los recursos humanos**: ¿el equipo tiene las competencias necesarias?, ¿hay que **formar**, **contratar** o **externalizar** parte del trabajo?, ¿quién asumirá el mantenimiento al terminar? Definir **roles y responsabilidades** (dirección del proyecto, referentes por área, soporte técnico) evita que todo dependa de una sola persona.
 
-En España, programas como el **Kit Digital** (financiado con fondos europeos) ofrecen ayudas económicas directas a pymes y autónomos para la contratación de soluciones de digitalización (ciberseguridad, comercio electrónico, gestión de procesos, presencia en internet, entre otras categorías). Conocer este tipo de instrumentos de financiación pública es relevante a la hora de diseñar el plan económico de un proyecto de digitalización, especialmente en pequeñas organizaciones con recursos limitados.
+### 3.8. Documentación, seguimiento y mejora continua
 
-### 3.7. Gestión del proyecto: metodologías y herramientas
+**Documentar los cambios en función de la estrategia.** El proyecto debe dejar una **memoria**: qué se ha hecho y por qué, qué decisiones se tomaron, qué configuración se ha desplegado, qué formación se ha impartido y qué queda pendiente. Esta documentación da continuidad al proyecto y sirve para justificar la inversión ante la dirección o ante una ayuda pública.
 
-- **Metodologías tradicionales (en cascada)**: planificación detallada de principio a fin antes de empezar la ejecución; adecuadas para proyectos con requisitos muy estables.
-- **Metodologías ágiles**: dividen el proyecto en ciclos cortos (*sprints*) con entregas incrementales, permitiendo ajustar el rumbo según los resultados obtenidos y el feedback recibido; especialmente adecuadas en proyectos de digitalización, donde es habitual que las necesidades se vayan afinando durante la propia ejecución.
-- **Herramientas de apoyo**: diagramas de Gantt para planificar tareas y plazos, tableros tipo Kanban para gestionar el flujo de trabajo, herramientas colaborativas de gestión de proyectos y seguimiento de tareas.
+**Seguimiento con KPI.** Hay que medir si se han cumplido los objetivos definidos en la fase 3.2 mediante **indicadores clave de rendimiento (KPI)** (UD5): tiempo medio de un proceso antes y después, reducción de errores o reclamaciones, ahorro de costes, grado de adopción de la nueva herramienta o satisfacción de las personas usuarias.
 
-### 3.8. Evaluación y seguimiento de resultados
-
-Un proyecto de transformación digital no termina con la implantación de la tecnología: hay que medir si se han cumplido los objetivos definidos en la fase 3.2, mediante **indicadores clave de rendimiento (KPI)**, concepto ya presentado en la UD5 al hablar de paneles de control. Ejemplos de KPI en un proyecto de digitalización: tiempo medio de un proceso antes y después del cambio, reducción de errores o reclamaciones, ahorro de costes, grado de adopción de la nueva herramienta por parte del personal, o satisfacción de las personas usuarias.
-
-Esta fase debe ser continua: los proyectos de transformación digital rara vez son un evento único, sino un proceso de **mejora continua** que se retroalimenta con nuevos diagnósticos.
+**Mejora continua.** La transformación digital rara vez es un evento único: los resultados retroalimentan un nuevo diagnóstico y dan lugar a sucesivos ciclos de mejora.
 
 ## 4. Resumen visual del proceso
 
 <figure markdown="span">
-  ![Secuencia de las seis fases de un proyecto de transformación digital con un bucle de retroalimentación](assets/img/ud6-fases-proyecto.svg){ width="860" }
-  <figcaption>Las fases se recorren en orden, pero la evaluación de resultados (KPI) retroalimenta un nuevo diagnóstico: la transformación digital es un proceso cíclico y continuo, no un proyecto con fin.</figcaption>
+  ![Secuencia de las fases de un proyecto de transformación digital, del diagnóstico a la documentación y el seguimiento, con un bucle de retroalimentación](assets/img/ud6-fases-proyecto.svg){ width="900" }
+  <figcaption>Las fases se recorren en orden, pero el seguimiento con KPI retroalimenta un nuevo diagnóstico: la transformación digital es un proceso cíclico y continuo, no un proyecto con fin.</figcaption>
 </figure>
 
 ---
@@ -113,6 +171,17 @@ Explica, con un ejemplo concreto, en qué tipo de proyecto de digitalización pr
 
 Consulta las categorías de ayuda disponibles actualmente en el programa Kit Digital (u otro programa de ayudas a la digitalización vigente) y relaciona al menos tres de esas categorías con contenidos vistos en este módulo.
 
+<span class="actividad-titulo">**Actividad 6.4 — Lienzo de transformación digital**</span>
+
+Elige una pyme (real o inventada) y rellena un lienzo de transformación digital sencillo con sus siete áreas (clientes y experiencia, procesos internos, producto o servicio, modelo de negocio, datos, personas y cultura, tecnología e infraestructura). Para cada área, anota una acción concreta de digitalización y marca cuáles quedarían integradas entre sí.
+
+## Mapa conceptual
+
+<figure markdown="span">
+  ![Mapa conceptual de la Unidad 6: el proyecto de transformación digital y sus tres ramas —punto de partida, el plan, y ejecución y cierre](assets/img/ud6-mapa-conceptual.png){ width="960" }
+  <figcaption>Síntesis de la unidad: un proyecto de transformación digital se aborda desde su <strong>punto de partida</strong> (qué es, diagnóstico con herramientas, objetivos estratégicos y oportunidades de negocio), <strong>el plan</strong> (lienzo de áreas a digitalizar, tecnologías idóneas e integración de datos y aplicaciones, tratamiento de datos y seguridad por áreas, e implementación con costes, tiempos y recursos) y su <strong>ejecución y cierre</strong> (gestión del cambio y recursos humanos, documentación de los cambios, seguimiento con KPI y mejora continua).</figcaption>
+</figure>
+
 ## Autoevaluación
 
 ??? question "1. ¿Por qué instalar un nuevo programa de gestión no es, por sí solo, un proyecto de transformación digital?"
@@ -129,3 +198,21 @@ Consulta las categorías de ayuda disponibles actualmente en el programa Kit Dig
 
 ??? question "5. ¿Por qué la evaluación de resultados (KPI) no debe entenderse como la fase final y única de un proyecto de transformación digital?"
     Porque la transformación digital es un proceso de mejora continua: los resultados obtenidos deben retroalimentar un nuevo diagnóstico, dando lugar a sucesivos ciclos de mejora en lugar de un proyecto cerrado de una sola vez.
+
+??? question "6. Cita tres herramientas de diagnóstico de la situación de partida."
+    Por ejemplo: un test de autodiagnóstico digital (como el de Acelera pyme / red.es), un modelo de madurez digital por niveles, un mapa de procesos, un análisis DAFO centrado en lo digital y un inventario tecnológico.
+
+??? question "7. ¿Qué diferencia hay entre los objetivos estratégicos de la empresa y los objetivos del proyecto de digitalización?"
+    Los objetivos estratégicos son las metas del negocio (crecer, reducir costes, mejorar el servicio, abrir un canal). Los objetivos del proyecto son metas SMART concretas que dan soporte a los estratégicos; cada iniciativa digital debe alinearse con al menos un objetivo estratégico.
+
+??? question "8. ¿Para qué sirve el lienzo de transformación digital?"
+    Es una plantilla visual que permite mapear en una sola hoja qué áreas de la empresa se van a digitalizar (clientes, procesos, producto, modelo de negocio, datos, personas, tecnología), cómo se relacionan entre sí y cómo encajan las áreas digitalizadas con las que no lo están, evitando "islas digitales".
+
+??? question "9. ¿Qué significa "integración en el conjunto" al elegir tecnologías?"
+    Que las soluciones no queden aisladas: que datos, aplicaciones y plataformas se comuniquen (APIs, formatos comunes, un modelo de datos coherente) de modo que un dato se introduzca una sola vez y fluya, evitando silos de información y dobles grabaciones.
+
+??? question "10. En el diseño de la implementación, ¿qué se analiza al comparar costes y beneficios?"
+    Se estima el presupuesto (licencias, equipos, servicios en la nube, formación, horas) frente a los beneficios esperados (ahorro de tiempo y costes, más ingresos, menos errores); su comparación da el retorno de la inversión (ROI) y ayuda a priorizar. También se contemplan las ayudas públicas, como el Kit Digital.
+
+??? question "11. ¿Por qué es importante documentar los cambios de un proyecto de transformación digital?"
+    Porque la memoria del proyecto (qué se hizo y por qué, qué decisiones y configuración, qué formación, qué queda pendiente) da continuidad al trabajo, evita que dependa de una sola persona y sirve para justificar la inversión ante la dirección o ante una ayuda pública.
