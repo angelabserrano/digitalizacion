@@ -150,10 +150,12 @@ Además hay que valorar la **idoneidad de los recursos humanos**: ¿el equipo ti
 
     1. **Diagnóstico**: describe su situación digital actual (qué usa, qué no usa, qué problema quieres resolver).
     2. **Objetivo SMART**: define un único objetivo claro y medible para el proyecto.
-    3. **Tecnologías propuestas**: indica qué tecnologías de las estudiadas en el módulo (IoT, nube, IA, herramientas de datos...) usarías y por qué, relacionándolas explícitamente con las UD2, UD3, UD4 y UD5.
-    4. **Datos**: qué datos personales o de negocio se generarían y qué medidas de protección aplicarías (RGPD).
-    5. **Gestión del cambio**: qué resistencias podrías encontrar entre el personal y cómo las abordarías.
-    6. **KPI de seguimiento**: al menos dos indicadores para medir si el proyecto ha tenido éxito.
+    3. **Lienzo**: mapea las áreas de la empresa que se van a digitalizar y marca cuáles quedarían integradas entre sí y cuáles no.
+    4. **Tecnologías propuestas**: indica qué tecnologías de las estudiadas en el módulo (IoT, nube, IA, herramientas de datos...) usarías y por qué, relacionándolas explícitamente con las UD2, UD3, UD4 y UD5.
+    5. **Datos y seguridad**: qué datos personales o de negocio se generarían, qué medidas de protección aplicarías (RGPD) y qué brechas de seguridad podría abrir cada área.
+    6. **Costes, plazos y recursos**: presupuesto aproximado, beneficios esperados, un calendario por fases y los recursos materiales y humanos necesarios (incluidas posibles ayudas como el Kit Digital).
+    7. **Gestión del cambio**: qué resistencias podrías encontrar entre el personal y cómo las abordarías.
+    8. **KPI de seguimiento**: al menos dos indicadores para medir si el proyecto ha tenido éxito.
 
     Este trabajo puede presentarse y defenderse oralmente en clase como cierre del módulo.
 

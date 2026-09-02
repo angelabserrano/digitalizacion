@@ -66,8 +66,8 @@ Antes de analizar cualquier dato hay que preguntarse si es fiable. Las principal
 | **Unicidad** | Si existen registros duplicados | El mismo cliente dado de alta dos veces con datos ligeramente distintos |
 | **Validez** | Si el dato cumple el formato o rango esperado | Una fecha de nacimiento en el futuro, o una edad de 250 años |
 
-!!! reto "Reto: audita un conjunto de datos"
-    Consigue (o te proporcionará el/la docente) una pequeña hoja de cálculo con datos de ejemplo que contenga errores intencionados. Identifica al menos un problema de cada una de las dimensiones de calidad anteriores.
+!!! reto "Reto rápido: detecta el error"
+    Sobre una tabla de datos que proyecte el/la docente, y en un par de minutos, indica a qué dimensión de calidad del dato corresponde cada anomalía que detectes. La versión con entrega y corrección se trabaja en la Actividad 5.1.
 
 ### 2.1. Consecuencias de una mala calidad del dato
 
