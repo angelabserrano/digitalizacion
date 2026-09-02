@@ -24,7 +24,7 @@ Antes de proponer ningún cambio, hay que conocer el punto de partida. El **diag
 
 - Infraestructura tecnológica actual (equipos, conectividad, software).
 - Procesos ya digitalizados frente a procesos manuales o en papel.
-- Competencias digitales del personal (puede apoyarse en el marco DigComp visto en la UD1).
+- Competencias digitales del personal.
 - Cultura organizativa: ¿existe resistencia al cambio? ¿hay apoyo directivo?
 - Nivel de madurez en el uso de datos para la toma de decisiones (UD5).
 

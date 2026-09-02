@@ -17,6 +17,17 @@ Conviene distinguir tres conceptos que a menudo se confunden:
 
 La transformación digital no es, por tanto, "comprar ordenadores": es un cambio estructural que afecta a procesos productivos, a la organización del trabajo, a la relación con el cliente y a la propia cultura de la empresa.
 
+Bien planteada, la digitalización aporta a la empresa **ventajas** claras:
+
+- **Reducción de costes y tiempos**: se automatizan tareas repetitivas y se eliminan errores y dobles registros.
+- **Mejores decisiones**: la información está disponible en tiempo real y permite anticiparse en lugar de reaccionar.
+- **Más productividad y calidad**: procesos más ágiles y con menos fallos.
+- **Cercanía al cliente**: nuevos canales de venta y atención, y productos o servicios personalizados.
+- **Flexibilidad** para adaptarse a los cambios del mercado.
+- **Nuevas oportunidades de negocio**: modelos digitales que antes no eran posibles (véase apartado 3).
+
+Estas ventajas se materializan plenamente cuando la digitalización abarca toda la empresa, de la gestión a la planta (véase 1.6).
+
 !!! question "💡 Comprueba que lo has entendido"
     ¿Dónde situarías cada caso?
 
@@ -52,7 +63,45 @@ La **cuarta revolución industrial o Industria 4.0** (desde ~2010) no se limita 
     - Informatizar el registro sin conectar los procesos entre sí → **tercera revolución industrial**.
     - Conectar máquinas y sensores para intercambiar datos en tiempo real → **cuarta revolución industrial (Industria 4.0)**.
 
-### 1.2. Entornos IT y OT
+### 1.2. La estructura de la empresa y la digitalización
+
+Toda empresa se organiza en **áreas o departamentos** con funciones distintas y en **niveles de decisión**:
+
+- **Nivel estratégico** (dirección): fija los objetivos a largo plazo.
+- **Nivel táctico** (mandos intermedios): planifica y coordina cada área.
+- **Nivel operativo** (personal de base): ejecuta las tareas del día a día.
+
+Áreas funcionales habituales: dirección, administración y finanzas, recursos humanos, comercial y marketing, compras, producción u operaciones, calidad, logística, I+D y sistemas/informática.
+
+La implantación de tecnología digital **no afecta a todos los departamentos de la misma forma**: cada área incorpora herramientas propias.
+
+| Área de la empresa | Tecnología digital característica |
+|---|---|
+| Dirección | Cuadros de mando, *business intelligence* (BI) |
+| Administración y finanzas | ERP, facturación y firma electrónica |
+| Recursos humanos | Portal del empleado, gestión de nóminas y turnos |
+| Comercial y marketing | CRM, comercio electrónico, analítica web |
+| Compras y logística | ERP, sistema de gestión de almacén (SGA) |
+| Producción y mantenimiento | SCADA, MES, sensores, robótica |
+
+Digitalizar en serio implica que estas herramientas **se integren entre sí**: un dato se introduce una sola vez y fluye por toda la organización. Eso obliga a revisar los procesos y, a veces, el propio organigrama, con perfiles nuevos como el de responsable de transformación digital o analista de datos.
+
+Dentro de esa estructura, unos departamentos trabajan sobre todo con **información del negocio** y otros actúan sobre el **proceso físico**. Esa distinción da lugar a los entornos IT y OT.
+
+- **Departamentos que suelen constituir el entorno IT**: dirección, administración y contabilidad, finanzas, recursos humanos, comercial y marketing, compras y el propio departamento de sistemas/informática.
+- **Departamentos con fuerte componente OT**: producción o fabricación, mantenimiento, control de calidad en planta y logística interna o de almacén.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una empresa implanta un CRM en el departamento comercial, un ERP en administración y un sistema SCADA en la planta de fabricación.
+
+    **¿Qué departamentos está digitalizando y cuáles pertenecen al entorno IT?**
+
+??? note "Ver respuesta"
+    - **Comercial** (CRM) y **administración** (ERP): gestionan información del negocio → entorno **IT**.
+    - **Producción** (SCADA): supervisa y controla el proceso físico → entorno **OT**.
+    - La tecnología digital llega a cada área con herramientas distintas; el reto es que el CRM, el ERP y el SCADA compartan datos en lugar de funcionar aislados.
+
+### 1.3. Entornos IT y OT
 
 En cualquier organización industrial conviene distinguir dos entornos tecnológicos que tradicionalmente han evolucionado por separado:
 
@@ -68,7 +117,43 @@ En cualquier organización industrial conviene distinguir dos entornos tecnológ
 | **Prioridad** | Confidencialidad e integridad | Disponibilidad y estabilidad |
 | **Ejemplo** | ERP registra un pedido | PLC controla una máquina |
 
-Departamentos que suelen constituir entorno IT: administración, contabilidad, recursos humanos, sistemas/informática, marketing. Departamentos que suelen constituir entorno OT: producción, mantenimiento, control de calidad, logística de planta.
+Los **departamentos que suelen constituir el entorno IT** son administración y contabilidad, finanzas, recursos humanos, comercial y marketing, compras y sistemas/informática; el **entorno OT** se concentra en producción, mantenimiento, control de calidad en planta y logística interna (véase 1.2).
+
+Pese a sus diferencias, IT y OT también presentan **similitudes** que explican por qué acaban integrándose:
+
+- Ambos son tecnología que **procesa datos** y automatiza tareas.
+- Ambos se apoyan en **hardware, software y redes de comunicación**.
+- Ambos son **críticos**: un fallo detiene la actividad, ya sea administrativa o productiva.
+- Ambos necesitan **ciberseguridad, mantenimiento, actualización y personal cualificado**.
+- Ambos tienden a usar **tecnologías comunes** (redes IP, servidores, virtualización, la nube), lo que facilita —y hace casi inevitable— su convergencia.
+
+### 1.4. Tecnologías de digitalización en planta y en negocio
+
+Al digitalizar una empresa se seleccionan tecnologías distintas según se actúe sobre el **negocio** (entorno IT) o sobre la **planta** (entorno OT):
+
+| Digitalización del negocio (IT) | Digitalización de la planta (OT) |
+|---|---|
+| ERP (gestión integrada) | Sensores y actuadores |
+| CRM (relación con clientes) | PLC (autómatas programables) |
+| BI y cuadros de mando | SCADA (supervisión y control) |
+| Facturación y firma electrónica | MES (ejecución de la fabricación) |
+| Ofimática y suites colaborativas en la nube | HMI (interfaz con el operario) |
+| Comercio electrónico y gestión documental | Redes industriales (Profinet, Modbus, OPC UA) |
+| Sistema de gestión de almacén (SGA) | Robótica industrial y colaborativa, visión artificial |
+
+Además, las **tecnologías habilitadoras digitales (THD)** actúan de puente entre ambos entornos, con mayor peso en uno u otro:
+
+- **En el negocio (IT)**: inteligencia artificial y *big data* para el análisis de datos, computación en la nube y ciberseguridad.
+- **En la planta (OT)**: IoT industrial (IIoT), gemelos digitales, robótica colaborativa, fabricación aditiva y visión artificial.
+
+Todas ellas se estudian en detalle en la UD2.
+
+!!! example "🏭 Ejemplo"
+    - **En negocio**: el departamento comercial registra un pedido en el CRM, que lo traslada al ERP.
+    - **En planta**: el ERP envía la orden de fabricación al MES, que ajusta los parámetros del PLC de la línea.
+    - **Resultado**: un mismo pedido recorre negocio y planta sin que nadie lo reescriba.
+
+### 1.5. La convergencia entre IT y OT
 
 Tradicionalmente IT y OT han funcionado como mundos separados, con redes, protocolos y culturas de trabajo distintas: IT prioriza la confidencialidad y la actualización frecuente; OT prioriza la disponibilidad continua y la estabilidad, evitando cambios que puedan detener una línea de producción. La Industria 4.0 (véase 2.1) se caracteriza precisamente por la **convergencia IT-OT**: sensores de planta (OT) que envían datos a sistemas de análisis y toma de decisiones de negocio (IT), y decisiones de negocio que repercuten directamente en la configuración de la planta.
 
@@ -78,7 +163,7 @@ Tradicionalmente IT y OT han funcionado como mundos separados, con redes, protoc
 </figure>
 
 !!! tip "Por qué importa la conexión IT-OT"
-    Digitalizar una empresa industrial "de extremo a extremo" significa que la información fluye sin fricción entre ambos entornos: un pedido registrado en el ERP (IT) puede ajustar automáticamente los parámetros de una máquina (OT), y un sensor de vibración en esa máquina (OT) puede generar una alerta de mantenimiento visible en el panel de gestión (IT). Esta conexión también multiplica la superficie de exposición a ciberataques, un aspecto que se retoma al hablar de las tecnologías habilitadoras (UD2) y de la nube (UD3).
+    Cuando ambos entornos se conectan, la información fluye sin fricción: un pedido registrado en el ERP (IT) puede ajustar automáticamente los parámetros de una máquina (OT), y un sensor de vibración en esa máquina (OT) puede generar una alerta de mantenimiento visible en el panel de gestión (IT). Esta conexión es la base para digitalizar la empresa "de extremo a extremo" (véase 1.6), pero también multiplica la superficie de exposición a ciberataques, un aspecto que se retoma al hablar de las tecnologías habilitadoras (UD2) y de la nube (UD3).
 
 !!! question "💡 Comprueba que lo has entendido"
     Un sensor detecta una temperatura anormal en una máquina y genera una alerta que aparece en el sistema de gestión de mantenimiento.
@@ -89,6 +174,31 @@ Tradicionalmente IT y OT han funcionado como mundos separados, con redes, protoc
     - **OT**: el sensor de temperatura instalado en la máquina y la medición de la variable física en planta. Es tecnología que actúa sobre el mundo físico y supervisa el proceso.
     - **IT**: el sistema de gestión de mantenimiento (GMAO) donde se registra, muestra y consulta la alerta. Es un sistema que gestiona información del negocio.
     - El **paso de la alerta** desde el sensor de planta hasta el sistema de gestión es justamente un ejemplo de **convergencia IT-OT**: un dato originado en OT alimenta una decisión que se toma y se gestiona en IT.
+
+### 1.6. Ventajas de digitalizar una empresa de extremo a extremo
+
+Digitalizar **de extremo a extremo** (*end-to-end*) significa que la información fluye sin cortes a lo largo de toda la cadena de valor —desde el pedido del cliente hasta la entrega y el servicio posventa—, atravesando tanto el negocio (IT) como la planta (OT).
+
+Principales ventajas:
+
+- **Visibilidad y trazabilidad completas**: se sigue cada pedido, lote o producto en tiempo real a lo largo de todo el proceso.
+- **Decisiones basadas en datos y en tiempo real**: los datos de planta alimentan la gestión del negocio y las decisiones de negocio se trasladan a la planta, reduciendo la incertidumbre.
+- **Mayor eficiencia y menores costes**: se eliminan tareas manuales, dobles registros y errores de transcripción; se optimizan inventarios, plazos y consumo de energía.
+- **Flexibilidad y personalización**: la producción se adapta con rapidez a los cambios de demanda (personalización en masa).
+- **Calidad y mantenimiento predictivo**: se detectan antes los defectos y las averías, evitando paradas de línea.
+- **Mejor servicio al cliente**: plazos más fiables, información del estado del pedido y posventa proactiva (servitización).
+- **Base para innovar**: los datos integrados hacen posibles nuevos servicios y modelos de negocio (véase apartado 3).
+
+Como contrapartida, una empresa digitalizada de extremo a extremo amplía su **superficie de exposición a ciberataques** y aumenta su **dependencia tecnológica**, riesgos que se abordan en el apartado 7.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una fábrica conecta su tienda online, su ERP y sus máquinas de forma que un pedido llega directamente a la línea de producción y el cliente puede consultar en qué fase está su producto.
+
+    **Indica dos ventajas de esta digitalización de extremo a extremo y un riesgo asociado.**
+
+??? note "Ver respuesta"
+    - **Ventajas** (dos cualesquiera): trazabilidad completa del pedido, decisiones en tiempo real, menos errores y costes por eliminar registros manuales, mejor servicio al cliente.
+    - **Riesgo**: al conectar tienda, gestión y planta se amplía la superficie de ciberataque; además, un fallo de conectividad puede detener toda la cadena (dependencia tecnológica).
 
 ## 2. La digitalización por sectores productivos
 
@@ -186,42 +296,7 @@ La digitalización no solo mejora procesos existentes: también hace posibles mo
 ??? note "Ver respuesta"
     **Servitización**: la empresa industrial añade servicios digitales a su producto físico. Además, encaja con un modelo *as a Service*, porque el cliente paga por el uso (aire comprimido) en lugar de comprar el equipo.
 
-## 4. La competencia digital: el marco DigComp
-
-Para que las personas puedan participar en esta economía digital necesitan desarrollar una **competencia digital** adecuada. La Unión Europea ha definido el **Marco Europeo de Competencia Digital para la Ciudadanía (DigComp)**, que estructura la competencia digital en cinco áreas:
-
-1. **Información y alfabetización informacional**: buscar, evaluar y gestionar información digital.
-2. **Comunicación y colaboración**: interactuar, compartir y colaborar a través de tecnologías digitales; participar en la ciudadanía digital.
-3. **Creación de contenido digital**: desarrollar y editar contenido digital, respetando derechos de autor y licencias.
-4. **Seguridad**: proteger dispositivos, datos personales, salud y medio ambiente en el entorno digital.
-5. **Resolución de problemas**: identificar necesidades tecnológicas y resolver problemas conceptuales mediante medios digitales; identificar carencias en la propia competencia digital.
-
-DigComp establece **ocho niveles de competencia**, desde los niveles básicos hasta los altamente especializados, que permiten describir la progresión en las cinco áreas. Este marco es la base sobre la que se apoyan los planes de digitalización educativa y muchos de los contenidos que se trabajan a lo largo de este módulo.
-
-!!! tip "Autoevaluación DigComp"
-    Existen herramientas gratuitas basadas en DigComp que permiten autoevaluar el propio nivel de competencia digital (por ejemplo, la herramienta *DigCompSat* de la Comisión Europea). En la UD6 retomaremos este marco para elaborar un plan personal de mejora.
-
-## 5. La brecha digital
-
-La **brecha digital** es la desigualdad en el acceso, uso o aprovechamiento de las tecnologías digitales entre distintos grupos de población. Suele distinguirse en tres niveles:
-
-- **Brecha de primer nivel (acceso)**: diferencias en la disponibilidad de dispositivos y conexión a internet (por ejemplo, entre zonas rurales y urbanas, o según el nivel de renta).
-- **Brecha de segundo nivel (uso y competencias)**: diferencias en la capacidad para usar la tecnología de forma efectiva, aunque se tenga acceso a ella.
-- **Brecha de tercer nivel (resultados)**: diferencias en los beneficios reales que las personas obtienen del uso de la tecnología (por ejemplo, en oportunidades laborales o educativas).
-
-Colectivos especialmente afectados: personas mayores, personas con discapacidad, población en zonas rurales o con baja cobertura, personas con bajo nivel de estudios o rentas bajas.
-
-Algunas medidas para reducirla: extensión de la banda ancha y la cobertura móvil a zonas rurales (planes de conectividad), formación digital para colectivos vulnerables, diseño de servicios digitales accesibles (accesibilidad web, diseño universal) y mantenimiento de canales presenciales alternativos para trámites esenciales.
-
-!!! question "💡 Comprueba que lo has entendido"
-    Dos personas tienen móvil y conexión a internet. Una consigue cita médica, hace gestiones bancarias y busca empleo online; la otra solo usa mensajería y vídeos porque no sabe realizar esas gestiones.
-
-    **¿Qué nivel de brecha digital ilustra esta situación?**
-
-??? note "Ver respuesta"
-    La **brecha de segundo nivel (uso y competencias)**: ambas tienen acceso, pero difieren en la capacidad de usar la tecnología de forma efectiva. Si esa diferencia acaba traduciéndose en peores oportunidades laborales o educativas, aparece también la **brecha de tercer nivel (resultados)**.
-
-## 6. Digitalización sostenible (*Green IT*)
+## 4. Digitalización sostenible (*Green IT*)
 
 La digitalización tiene un impacto ambiental que no siempre es visible:
 
@@ -248,7 +323,7 @@ Frente a esto, el concepto de **TIC verdes (*Green IT*)** agrupa las prácticas 
     - Sustituir equipos funcionales cada poco tiempo → **alargar su vida útil** (reparación, ampliación de componentes en lugar de reemplazo completo).
     - Almacenar datos innecesarios de forma indefinida → **borrar lo que no se usa**; el almacenamiento en la nube consume electricidad, refrigeración y agua.
 
-## 7. Retos y riesgos de la digitalización
+## 5. Retos y riesgos de la digitalización
 
 No todo son ventajas. Entre los principales retos y riesgos asociados a la digitalización de los sectores productivos destacan:
 
@@ -282,11 +357,7 @@ Elige un sector productivo (por ejemplo, hostelería, transporte, construcción 
 4. Una empresa real del sector que haya llevado a cabo una transformación digital relevante.
 5. Un riesgo o reto específico asociado a esa digitalización.
 
-<span class="actividad-titulo">**Actividad 1.2 — Autoevaluación DigComp**</span>
-
-Realiza una autoevaluación de tu competencia digital utilizando el marco DigComp (puedes usar una herramienta online basada en este marco). Identifica el área en la que obtienes menor puntuación y propón dos acciones concretas para mejorarla.
-
-<span class="actividad-titulo">**Actividad 1.3 — Debate: ¿digitalización para todos?**</span>
+<span class="actividad-titulo">**Actividad 1.2 — Debate: ¿digitalización para todos?**</span>
 
 En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: *"La digitalización acelerada de los servicios públicos deja atrás a quienes no tienen competencias digitales"*. Debatid en clase citando ejemplos reales.
 
@@ -294,7 +365,7 @@ En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: 
 
 <figure markdown="span">
   ![Mapa conceptual de la Unidad 1: la digitalización y sus tres ramas —concepto y origen, alcance y aplicación, e implicaciones](assets/img/ud1-mapa-conceptual.png){ width="960" }
-  <figcaption>Síntesis de la unidad: la digitalización se aborda desde su <strong>concepto y origen</strong> (grados de intensidad y revoluciones industriales), su <strong>alcance y aplicación</strong> (convergencia IT–OT, sectores productivos y nuevos modelos de negocio) y sus <strong>implicaciones</strong> sociales y ambientales (competencia digital, brecha digital, Green IT y retos y riesgos).</figcaption>
+  <figcaption>Síntesis de la unidad: la digitalización se aborda desde su <strong>concepto y origen</strong> (grados de intensidad, ventajas para la empresa y revoluciones industriales), su efecto sobre <strong>la empresa y los entornos IT/OT</strong> (estructura, diferencias y similitudes IT–OT, tecnologías de planta y negocio y su convergencia) y su <strong>alcance e implicaciones</strong> (sectores productivos, nuevos modelos de negocio, Green IT y retos y riesgos).</figcaption>
 </figure>
 
 ## Autoevaluación
@@ -305,14 +376,17 @@ En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: 
 ??? question "2. ¿Qué diferencia hay entre un entorno IT y un entorno OT en una empresa industrial?"
     El entorno IT (*Information Technology*) gestiona la información del negocio: servidores, bases de datos, ERP, redes corporativas. El entorno OT (*Operational Technology*) controla y supervisa procesos físicos y maquinaria: PLC, sistemas SCADA, sensores y actuadores de planta. La Industria 4.0 se caracteriza por la convergencia de ambos entornos.
 
-??? question "3. Cita las cinco áreas del marco DigComp."
-    Información y alfabetización informacional; comunicación y colaboración; creación de contenido digital; seguridad; resolución de problemas.
-
-??? question "4. ¿Qué es un gemelo digital y para qué se utiliza en la Industria 4.0?"
+??? question "3. ¿Qué es un gemelo digital y para qué se utiliza en la Industria 4.0?"
     Es una réplica virtual de un producto, proceso o sistema físico que permite simular su comportamiento sin necesidad de actuar sobre el elemento real, anticipando problemas y optimizando decisiones antes de aplicarlas en el mundo físico.
 
-??? question "5. Menciona dos medidas para reducir la brecha digital."
-    Por ejemplo: extender la cobertura de banda ancha a zonas rurales y ofrecer formación digital a colectivos vulnerables (también seria válido: mantener canales presenciales alternativos, o diseñar servicios digitales accesibles).
-
-??? question "6. ¿Qué significa el término *Green IT*?"
+??? question "4. ¿Qué significa el término *Green IT*?"
     El conjunto de prácticas orientadas a reducir el impacto ambiental de las tecnologías digitales: eficiencia energética de los centros de datos, alargamiento de la vida útil de los dispositivos, reciclaje de residuos electrónicos y desarrollo de software eficiente.
+
+??? question "5. ¿Cómo se relaciona la implantación de tecnología digital con la organización de la empresa?"
+    Cada área o departamento incorpora herramientas digitales propias (BI en dirección, ERP en administración, CRM en el área comercial, SCADA en producción…). La digitalización real exige que esas herramientas se integren entre sí —que el dato se introduzca una vez y fluya— lo que obliga a revisar procesos y, en ocasiones, el propio organigrama, con perfiles nuevos como el de responsable de transformación digital o analista de datos.
+
+??? question "6. Cita dos similitudes entre los entornos IT y OT."
+    Por ejemplo: ambos son tecnología que procesa datos y automatiza tareas; ambos se apoyan en hardware, software y redes; ambos son críticos para la actividad; ambos necesitan ciberseguridad y personal cualificado; ambos tienden a usar tecnologías comunes (redes IP, servidores, la nube).
+
+??? question "7. Menciona tres ventajas de digitalizar una empresa industrial de extremo a extremo."
+    Por ejemplo: visibilidad y trazabilidad completas del proceso; decisiones basadas en datos en tiempo real; mayor eficiencia y menores costes al eliminar tareas manuales y dobles registros; flexibilidad para personalizar la producción; mantenimiento predictivo; mejor servicio al cliente.
