@@ -26,7 +26,41 @@ El **NIST** (Instituto Nacional de Estándares y Tecnología de EE. UU.) define 
 ??? note "Ver respuesta"
     No. Fallan el **autoservicio bajo demanda** (hay que pedirlo por teléfono y esperar), la **elasticidad rápida** (no escala de forma ágil) y el **servicio medido / pago por uso** (cuota fija). Es alquilar hardware, no computación en la nube.
 
-## 2. Modelos de servicio: IaaS, PaaS y SaaS
+## 2. Funciones y posibilidades de la nube
+
+Más allá de *dónde* están los recursos, conviene saber **para qué** se usa la nube.
+
+### 2.1. Funciones principales
+
+- **Almacenamiento e intercambio de información**: guardar archivos y datos y compartirlos entre personas, sedes o aplicaciones (Drive, OneDrive, repositorios de datos).
+- **Procesamiento de datos**: ejecutar cálculos intensivos bajo demanda —análisis de *big data*, entrenamiento de modelos de IA, procesado de vídeo— sin comprar servidores.
+- **Ejecución de aplicaciones**: alojar y servir aplicaciones web, APIs y servicios a los que se accede desde cualquier dispositivo.
+- **Bases de datos gestionadas**: almacenar y consultar datos estructurados sin administrar el motor de base de datos.
+- **Copia de seguridad y recuperación ante desastres**: mantener copias externas y poder restaurar el servicio si falla la infraestructura local (véase apartado 8).
+- **Plataforma de desarrollo y despliegue**: entornos donde programar, probar y publicar software (integración y entrega continuas).
+- **Servicios avanzados "as a service"**: IA, analítica, IoT o mensajería listos para integrar en las aplicaciones.
+
+En los **sistemas conectados (IoT)**, la nube es habitualmente el lugar donde se reciben, almacenan y analizan los datos de los sensores, y desde donde se envían órdenes a los actuadores (véase UD2).
+
+### 2.2. El trabajo en la nube
+
+La nube ha cambiado la forma de trabajar en las organizaciones:
+
+- **Colaboración en tiempo real**: varias personas editan a la vez un mismo documento, hoja de cálculo o presentación, con historial de versiones.
+- **Acceso multidispositivo y multisede**: se trabaja con la misma información desde el ordenador de la oficina, el portátil de casa o el móvil.
+- **Teletrabajo y equipos distribuidos**: la nube proporciona el escritorio, las aplicaciones y los datos allí donde haya conexión.
+- **Escritorio como servicio (DaaS) y aplicaciones virtualizadas**: el puesto de trabajo se ejecuta en la nube y el dispositivo local actúa solo como terminal.
+- **Entornos de desarrollo y pruebas** que se crean y se destruyen en minutos, sin montar servidores físicos.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una asesoría con tres oficinas quiere que su personal edite los mismos expedientes a la vez, acceda a ellos desde casa y no dependa de un servidor físico en una de las sedes.
+
+    **Cita dos funciones o posibilidades de la nube que respondan a esta necesidad.**
+
+??? note "Ver respuesta"
+    Por ejemplo: **colaboración en tiempo real** sobre los mismos documentos con control de versiones; **acceso multidispositivo y multisede** a la información; **almacenamiento e intercambio de información** centralizado en la nube en lugar de en un servidor local; y, si procede, **escritorio como servicio (DaaS)** para trabajar desde casa.
+
+## 3. Modelos de servicio: IaaS, PaaS y SaaS
 
 Según qué capa de la infraestructura gestiona el proveedor y cuál gestiona el cliente, se distinguen tres modelos principales:
 
@@ -54,7 +88,7 @@ Una forma habitual de visualizar la diferencia es pensar en el nivel de "capas" 
 ??? note "Ver respuesta"
     **PaaS**: el proveedor aporta la infraestructura, el sistema operativo y el entorno de ejecución (bases de datos, lenguajes); el cliente solo gestiona su aplicación y sus datos. Con IaaS tendría que administrar el sistema operativo; con SaaS no podría desplegar código propio.
 
-## 3. Modelos de despliegue
+## 4. Modelos de despliegue
 
 Además del modelo de servicio, hay que distinguir **quién tiene acceso** a la infraestructura en la nube:
 
@@ -71,7 +105,7 @@ Además del modelo de servicio, hay que distinguir **quién tiene acceso** a la 
 ??? note "Ver respuesta"
     **Nube híbrida**: combina una **nube privada** (datos sensibles bajo control exclusivo) con una **nube pública** (picos de demanda de la web), moviendo cargas entre ambas según coste, rendimiento o normativa.
 
-## 4. Principales proveedores y soberanía digital
+## 5. Principales proveedores y soberanía digital
 
 Los tres grandes proveedores globales de nube pública son **Amazon Web Services (AWS)**, **Microsoft Azure** y **Google Cloud Platform (GCP)**, que concentran la mayor parte del mercado mundial. Junto a ellos existen proveedores especializados o regionales, incluidos proveedores europeos (como OVHcloud o Ionos) que se promocionan destacando el cumplimiento estricto de la normativa europea de protección de datos.
 
@@ -85,7 +119,7 @@ Esto conecta con el concepto de **soberanía digital**: la capacidad de un país
 ??? note "Ver respuesta"
     La **soberanía digital**: mantener el control sobre los datos y las infraestructuras propias sin quedar sujeto a legislaciones extranjeras. La **localización de los datos** y el cumplimiento del RGPD son factores relacionados.
 
-## 5. Ventajas e inconvenientes de migrar a la nube
+## 6. Ventajas e inconvenientes de migrar a la nube
 
 **Ventajas:**
 
@@ -99,7 +133,7 @@ Esto conecta con el concepto de **soberanía digital**: la capacidad de un país
 
 - **Dependencia del proveedor (*vendor lock-in*)**: cambiar de proveedor puede resultar técnica y económicamente costoso.
 - Dependencia de la conectividad a internet: sin conexión, el acceso al servicio puede verse comprometido.
-- Preocupaciones de seguridad y privacidad, especialmente con datos sensibles (se desarrolla en el punto siguiente).
+- Preocupaciones de seguridad y privacidad, especialmente con datos sensibles (se desarrolla más adelante).
 - Coste a largo plazo: el pago por uso puede acabar siendo más caro que una infraestructura propia bien dimensionada, si el uso es intensivo y constante en el tiempo.
 - Cuestiones de soberanía digital, ya comentadas.
 
@@ -111,7 +145,56 @@ Esto conecta con el concepto de **soberanía digital**: la capacidad de un país
 ??? note "Ver respuesta"
     No necesariamente: con uso **intensivo y constante**, el pago por uso puede acabar costando más que una infraestructura propia bien dimensionada. Además debería valorar el **vendor lock-in**: cambiar de proveedor más adelante puede ser técnica y económicamente costoso.
 
-## 6. Almacenamiento y copias de seguridad en la nube
+## 7. Del *cloud* al *edge*: edge computing, fog y mist
+
+Enviar **todos** los datos a la nube no siempre es la mejor opción: si hay millones de sensores generando datos cada segundo, o si una máquina necesita reaccionar en milisegundos, esperar la ida y vuelta hasta un centro de datos lejano introduce **latencia**, consume **ancho de banda** y crea **dependencia de la conexión**. La respuesta es **acercar el procesamiento al lugar donde se generan los datos**.
+
+### 7.1. Edge computing (computación en el borde)
+
+El **edge computing** consiste en procesar los datos **en el propio dispositivo o muy cerca de él** (una pasarela, un pequeño servidor local, el propio sensor "inteligente"), en lugar de enviarlos todos a la nube. A la nube solo se envían los **resultados** o los datos que de verdad conviene conservar o analizar de forma global.
+
+No sustituye a la nube, la **complementa**: el *edge* se encarga de la respuesta inmediata y del filtrado local; la nube, del almacenamiento histórico, el análisis a gran escala, el entrenamiento de modelos de IA y la gestión centralizada.
+
+| | **Cloud computing** | **Edge computing** |
+|---|---|---|
+| Dónde se procesa | Centro de datos remoto | En el dispositivo o cerca de él |
+| Latencia | Mayor (ida y vuelta por internet) | Muy baja (local) |
+| Ancho de banda | Alto (se envía todo) | Bajo (se envía lo esencial) |
+| Dependencia de la conexión | Alta | Baja: sigue funcionando sin conexión |
+| Cómputo y almacenamiento | Prácticamente ilimitados | Limitados por el hardware local |
+| Gestión y actualización | Centralizada y sencilla | Más compleja (muchos nodos distribuidos) |
+| Coste | Pago por uso; sube con mucho tráfico | Inversión en hardware local |
+
+**Ventajas del edge**: respuesta en tiempo real, menos tráfico de red, funcionamiento aunque falle la conexión y posibilidad de que los datos sensibles no salgan de las instalaciones (privacidad).
+
+**Desventajas del edge**: menor capacidad de proceso y almacenamiento, mantenimiento y actualización más difíciles (muchos equipos repartidos) y necesidad de proteger físicamente los nodos.
+
+Ejemplos: un vehículo autónomo que decide frenar sin consultar a un servidor; una cámara que reconoce una matrícula en local y solo sube el texto; una línea de producción que ajusta una máquina al instante.
+
+### 7.2. Fog computing y mist computing
+
+Entre el *edge* y la nube pueden existir **capas intermedias** que reparten el procesamiento según su urgencia y su alcance:
+
+- **Fog computing (computación en la niebla)**: capa intermedia formada por nodos con cierta capacidad (pasarelas IoT, routers, pequeños servidores) situados en la **red local o de área**, entre los dispositivos y la nube. Agregan y preprocesan los datos de muchos dispositivos antes de decidir qué se resuelve localmente y qué sube a la nube. Zona de aplicación: una fábrica, un edificio, una subestación eléctrica, una *smart city* por barrios.
+- **Mist computing (computación en la bruma)**: lleva el procesamiento **al extremo mismo de la red**, a los microcontroladores y sensores más simples. Realiza tareas mínimas (filtrar una lectura, disparar una alarma local) con muy poco consumo. Zona de aplicación: el propio nodo sensor, redes de sensores alimentadas por batería.
+
+Visto en conjunto se forma un **continuo**: *mist* (sensor) → *edge* (dispositivo o pasarela) → *fog* (red local) → *cloud* (centro de datos). Cada capa asume la parte del trabajo para la que es más eficiente: cuanto más cerca del dato, menor latencia y menor consumo de red; cuanto más cerca de la nube, más capacidad y más visión global.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Clasifica cada caso como *edge*, *fog*, *mist* o *cloud*:
+
+    1. Un sensor de vibración que, con su microcontrolador, solo envía un aviso si supera un umbral.
+    2. Un servidor en la propia fábrica que reúne los datos de todas las máquinas de una nave y decide qué sube al centro de datos.
+    3. El entrenamiento de un modelo de IA con el histórico de dos años de toda la empresa.
+    4. Un autómata de la línea que corrige la posición de un brazo en milisegundos.
+
+??? note "Ver respuesta"
+    1. **Mist** — procesamiento mínimo en el propio sensor.
+    2. **Fog** — nodo intermedio en la red local que agrega y filtra.
+    3. **Cloud** — gran capacidad de cómputo y visión global, sin urgencia de milisegundos.
+    4. **Edge** — procesamiento junto a la máquina para responder en tiempo real.
+
+## 8. Almacenamiento y copias de seguridad en la nube
 
 El almacenamiento en la nube es uno de los servicios más extendidos, tanto a nivel personal (Google Drive, Dropbox, OneDrive) como profesional. Conviene distinguir:
 
@@ -129,7 +212,7 @@ El almacenamiento en la nube es uno de los servicios más extendidos, tanto a ni
 ??? note "Ver respuesta"
     La sincronización **propaga cualquier cambio**, incluido el cifrado malicioso: la copia de la nube queda igual de inservible. Le habría protegido una **copia de seguridad con versiones históricas** (poder restaurar una versión anterior al ataque) y aplicar la **regla 3-2-1**.
 
-## 7. Seguridad, privacidad y cumplimiento normativo en la nube
+## 9. Seguridad, privacidad y cumplimiento normativo en la nube
 
 Un concepto clave para entender la seguridad en la nube es el **modelo de responsabilidad compartida**: el proveedor de la nube es responsable de la seguridad *de* la nube (la infraestructura física, la red, la virtualización), mientras que el cliente es responsable de la seguridad *en* la nube (la configuración de sus servicios, la gestión de accesos, el cifrado de sus propios datos, las copias de seguridad de su información). Un fallo de seguridad muy habitual no es un fallo del proveedor, sino una mala configuración por parte del cliente (por ejemplo, dejar un almacenamiento en la nube accesible públicamente por error).
 
@@ -147,7 +230,7 @@ Aspectos normativos relevantes en el contexto europeo y español:
 ??? note "Ver respuesta"
     Del **cliente**. El proveedor responde de la seguridad *de* la nube (infraestructura física, red, virtualización); la **configuración de los servicios y la gestión de accesos** son seguridad *en* la nube, responsabilidad del cliente. Una mala configuración es el fallo más habitual.
 
-## 8. Sostenibilidad y eficiencia de los centros de datos
+## 10. Sostenibilidad y eficiencia de los centros de datos
 
 Como se avanzó en la UD1, los centros de datos que sostienen la nube consumen cantidades muy significativas de electricidad y, en muchos casos, de agua para refrigeración. Los grandes proveedores de nube compiten actualmente por mejorar su eficiencia energética, mediante indicadores como el **PUE (*Power Usage Effectiveness*)**, que mide la relación entre la energía total consumida por un centro de datos y la que realmente utilizan sus equipos informáticos (cuanto más próximo a 1, más eficiente es el centro de datos), así como mediante el uso de energías renovables y la ubicación de centros de datos en climas fríos que reducen la necesidad de refrigeración activa.
 
@@ -178,8 +261,8 @@ Busca información sobre un incidente de seguridad real relacionado con almacena
 ## Mapa conceptual
 
 <figure markdown="span">
-  ![Mapa conceptual de la Unidad 3: la computación en la nube y sus tres ramas —concepto y fundamentos, funcionamiento y tecnologías, e implicaciones y retos](assets/img/ud3-mapa-conceptual.png){ width="960" }
-  <figcaption>Síntesis de la unidad: la computación en la nube se aborda desde su <strong>concepto y fundamentos</strong> (definición, características, modelos de servicio y de despliegue), su <strong>funcionamiento y tecnologías</strong> (virtualización, contenedores, servicios habituales y principales proveedores) y sus <strong>implicaciones y retos</strong> (ventajas, aplicaciones empresariales, riesgos y tendencias como el *edge computing* o el *green cloud*).</figcaption>
+  ![Mapa conceptual de la Unidad 3: la computación en la nube y sus tres ramas —concepto y niveles, funciones y uso en la empresa, y arquitecturas y retos](assets/img/ud3-mapa-conceptual.png){ width="960" }
+  <figcaption>Síntesis de la unidad: la computación en la nube se aborda desde su <strong>concepto y niveles</strong> (definición, características del NIST, modelos de servicio IaaS/PaaS/SaaS y modelos de despliegue), sus <strong>funciones y uso en la empresa</strong> (procesar y almacenar datos, ejecutar aplicaciones, trabajo colaborativo, ventajas e inconvenientes y copias de seguridad) y sus <strong>arquitecturas y retos</strong> (del *cloud* al *edge*, *fog* y *mist*; seguridad y responsabilidad compartida; soberanía digital y sostenibilidad).</figcaption>
 </figure>
 
 ## Autoevaluación
@@ -210,3 +293,15 @@ Busca información sobre un incidente de seguridad real relacionado con almacena
 
 ??? question "9. ¿Qué es la soberanía digital?"
     La capacidad de un país, una administración o una empresa de mantener el control sobre sus datos e infraestructuras digitales, sin depender en exceso de proveedores extranjeros sujetos a legislaciones distintas.
+
+??? question "10. Cita tres funciones principales de la nube."
+    Por ejemplo: almacenamiento e intercambio de información, procesamiento de datos bajo demanda, ejecución de aplicaciones y APIs, bases de datos gestionadas, copia de seguridad y recuperación ante desastres, y plataforma de desarrollo y despliegue.
+
+??? question "11. Indica dos posibilidades que ofrece la nube para el trabajo en la empresa."
+    Por ejemplo: colaboración en tiempo real sobre los mismos documentos con historial de versiones, acceso multidispositivo y multisede a la información, teletrabajo y equipos distribuidos, o escritorio como servicio (DaaS).
+
+??? question "12. ¿Qué es el *edge computing* y qué ventaja principal aporta frente al *cloud computing*?"
+    Consiste en procesar los datos en el propio dispositivo o muy cerca de él, en lugar de enviarlos todos a la nube. Su ventaja principal es la **baja latencia** (respuesta en tiempo real), además de reducir el tráfico de red y poder seguir funcionando sin conexión. A cambio, tiene menos capacidad de cómputo y almacenamiento y es más difícil de mantener.
+
+??? question "13. ¿Qué diferencia hay entre *fog* y *mist computing*?"
+    El *fog computing* es una capa intermedia en la red local o de área (pasarelas, routers, pequeños servidores) que agrega y preprocesa los datos de muchos dispositivos antes de decidir qué sube a la nube. El *mist computing* lleva el procesamiento al extremo mismo de la red, a los microcontroladores y sensores más simples, para tareas mínimas y de muy bajo consumo.
