@@ -326,6 +326,14 @@ Pide a un asistente de IA generativa información muy específica sobre un tema 
 
 Clasifica cada uno de estos sistemas de IA según los niveles de riesgo del Reglamento europeo de IA (inaceptable, alto, limitado o mínimo): un filtro de spam en el correo; un sistema que evalúa currículums para preseleccionar candidatos a un puesto de trabajo; un chatbot de atención al cliente de una tienda online; un sistema de puntuación social obligatorio implantado por un gobierno.
 
+<span class="actividad-titulo">**Actividad 4.4 — La IA en tu ciclo**</span>
+
+Identifica tres tareas propias del perfil de tu ciclo formativo (administración de sistemas y redes, o desarrollo de aplicaciones) en las que la IA ya se utiliza hoy. Para cada una indica: qué herramienta o tipo de IA es, qué aporta (tiempo, calidad, detección temprana…) y qué hay que revisar antes de dar por bueno su resultado.
+
+<span class="actividad-titulo">**Actividad 4.5 — De los datos a la rentabilidad**</span>
+
+Elige una empresa (real o inventada) y describe un caso concreto en el que combine minería de datos e inteligencia artificial: qué datos utiliza, qué modelo construye y qué decisión toma con él. Indica por qué vía mejora la rentabilidad (más ingresos, menos costes o menos pérdidas).
+
 ## Mapa conceptual
 
 <figure markdown="span">

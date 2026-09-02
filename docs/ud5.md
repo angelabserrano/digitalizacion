@@ -347,6 +347,10 @@ Una empresa envía publicidad por correo electrónico a antiguos clientes que nu
 
 Para una pyme ficticia (por ejemplo, una clínica dental con 8 personas), enumera sus principales activos de información, dos o tres amenazas que le afectarían y cinco medidas básicas de ciberseguridad priorizadas. Añade dos normas de teletrabajo seguro para su personal administrativo.
 
+<span class="actividad-titulo">**Actividad 5.5 — Almacenamiento y protección de datos**</span>
+
+Una empresa maneja tres conjuntos de datos: (1) el histórico de ventas ya depurado para análisis, (2) los datos en bruto de sus sensores y su web y (3) una base de datos de clientes con datos personales. Para cada conjunto, indica dónde lo almacenarías (base de datos relacional, *data warehouse*, *data lake* o almacenamiento en la nube) y tres medidas de protección adecuadas.
+
 ## Mapa conceptual
 
 <figure markdown="span">

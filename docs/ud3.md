@@ -258,6 +258,16 @@ Aplicando la regla 3-2-1, diseña una estrategia de copias de seguridad para los
 
 Busca información sobre un incidente de seguridad real relacionado con almacenamiento en la nube mal configurado (por ejemplo, un bucket de almacenamiento accesible públicamente por error). Explica si la responsabilidad fue del proveedor o del cliente, según el modelo de responsabilidad compartida.
 
+<span class="actividad-titulo">**Actividad 3.4 — ¿Mist, edge, fog o cloud?**</span>
+
+Para cada escenario, decide en qué capa se procesarían los datos y justifícalo en una línea:
+
+1. Un coche autónomo que decide frenar ante un obstáculo.
+2. El análisis del histórico de ventas de dos años de toda la empresa.
+3. Un sensor de temperatura con batería que solo envía un aviso si supera un umbral.
+4. Un servidor en una nave industrial que reúne los datos de todas sus máquinas y decide qué sube al centro de datos.
+5. La copia de seguridad diaria de los archivos de la oficina.
+
 ## Mapa conceptual
 
 <figure markdown="span">

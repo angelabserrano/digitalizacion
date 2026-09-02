@@ -360,9 +360,17 @@ Elige un sector productivo (por ejemplo, hostelería, transporte, construcción 
 4. Una empresa real del sector que haya llevado a cabo una transformación digital relevante.
 5. Un riesgo o reto específico asociado a esa digitalización.
 
-<span class="actividad-titulo">**Actividad 1.2 — Debate: ¿digitalización para todos?**</span>
+<span class="actividad-titulo">**Actividad 1.2 — Debate: digitalización y empleo**</span>
 
-En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: *"La digitalización acelerada de los servicios públicos deja atrás a quienes no tienen competencias digitales"*. Debatid en clase citando ejemplos reales.
+En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: *"La automatización que acompaña a la digitalización destruye más empleo del que crea"*. Debatid en clase citando ejemplos y datos reales, y relacionad las conclusiones con los retos y riesgos del apartado 5 (impacto en el empleo, recualificación, dependencia tecnológica).
+
+<span class="actividad-titulo">**Actividad 1.3 — Mapa IT/OT de una empresa**</span>
+
+Elige una empresa industrial (real o inventada) y elabora un pequeño esquema:
+
+1. Enumera sus departamentos y clasifícalos en **entorno IT** o **entorno OT**.
+2. Identifica un **punto de convergencia**: un dato que hoy debería fluir de la planta (OT) a la gestión (IT) o al revés, indicando qué herramienta interviene en cada lado.
+3. Explica **una ventaja** concreta de digitalizar esa empresa de extremo a extremo y **un riesgo** que habría que vigilar.
 
 ## Mapa conceptual
 
