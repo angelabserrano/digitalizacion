@@ -1,4 +1,4 @@
-# UD5. Evaluación de datos
+# UD5. Análisis de datos y ciberseguridad
 
 !!! abstract "Resultado de aprendizaje"
     **RA5.** Evalúa la importancia de los datos, así como su protección en una economía digital globalizada, definiendo sistemas de seguridad y ciberseguridad tanto a nivel de equipo/sistema, como globales.
@@ -7,9 +7,31 @@
 
 En una organización digitalizada, el **dato** se ha convertido en un activo con valor propio, comparable al de otros recursos económicos: se genera, se almacena, se procesa, se protege y, sobre todo, se utiliza para tomar decisiones. Pero un dato solo tiene valor real si se puede confiar en él: un dato incorrecto puede llevar a una decisión equivocada con más facilidad que la ausencia total de datos, precisamente porque transmite una falsa sensación de certeza.
 
-Esta unidad se centra en cómo **evaluar** los datos: su calidad, cómo se analizan y visualizan para apoyar decisiones, y las obligaciones legales y éticas que implica su tratamiento, en particular cuando se trata de datos personales.
+Esta unidad se centra en cómo **analizar y proteger** los datos: su calidad, cómo se analizan y visualizan para apoyar decisiones, las obligaciones legales y éticas que implica su tratamiento —en particular cuando se trata de datos personales— y las medidas de ciberseguridad que los mantienen a salvo.
 
-### 1.1. Ciclo de vida del dato
+### 1.1. Dato, información y conocimiento
+
+Conviene distinguir tres niveles:
+
+- **Dato**: un hecho aislado, sin contexto ni interpretación ("18", "Madrid", "02/09/2026").
+- **Información**: datos organizados y puestos en contexto, de modo que responden a una pregunta ("ayer la temperatura media en Madrid fue de 18 °C").
+- **Conocimiento**: información interpretada y combinada con la experiencia, que permite actuar ("en septiembre baja la demanda de aire acondicionado en Madrid; conviene reducir el stock").
+
+Analizar datos consiste precisamente en **recorrer esa escalera**: convertir datos en información y la información en conocimiento útil para decidir. Un dato aislado no vale casi nada; su valor aparece al relacionarlo con otros datos y con un objetivo.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Clasifica cada elemento como dato, información o conocimiento:
+
+    1. "1.240".
+    2. "En marzo se registraron 1.240 incidencias, un 30 % más que en febrero".
+    3. "Las incidencias suben cada vez que hay un despliegue en viernes, así que conviene evitarlos".
+
+??? note "Ver respuesta"
+    1. **Dato** — un número sin contexto.
+    2. **Información** — el dato en contexto, comparado y con significado.
+    3. **Conocimiento** — un patrón interpretado que permite decidir cómo actuar.
+
+### 1.2. Ciclo de vida del dato
 
 1. **Recogida**: captación del dato en origen (formularios, sensores IoT, transacciones, interacciones web).
 2. **Almacenamiento**: en bases de datos, hojas de cálculo, *data lakes* o *data warehouses* (véase UD2).
@@ -66,13 +88,17 @@ Una mala calidad del dato no es solo un problema técnico: tiene consecuencias o
 
 Como se introdujo en la UD2, el **Big Data** agrupa las técnicas y la infraestructura necesarias para manejar conjuntos de datos que, por su volumen, velocidad o variedad, superan la capacidad de las herramientas tradicionales. La **ciencia de datos (*data science*)** es la disciplina que se apoya en esa infraestructura para extraer conocimiento útil de los datos, combinando estadística, programación y conocimiento del negocio.
 
+El Big Data se caracteriza por las **"V"**: **volumen** (gran cantidad de datos), **velocidad** (se generan y deben procesarse muy rápido, a veces en tiempo real), **variedad** (formatos estructurados y no estructurados), **veracidad** (fiabilidad) y **valor** (utilidad que se extrae). Cuando un conjunto de datos reúne varias de estas características, las herramientas tradicionales se quedan cortas.
+
+Los **objetivos de la ciencia de datos** en una empresa suelen ser: entender qué ha pasado y por qué, **predecir** lo que va a pasar, **personalizar** productos y servicios, **optimizar** procesos y recursos, **detectar** fraude o anomalías y, en definitiva, **apoyar la toma de decisiones** con evidencia en lugar de con intuición.
+
 ### 3.1. Etapas típicas de la ciencia de datos
 
 1. **Definición del problema**: qué pregunta de negocio se quiere responder.
 2. **Recogida y preparación de los datos**: captación, limpieza y transformación (conecta directamente con la calidad del dato vista en el punto 2).
 3. **Exploración y análisis**: aplicación de técnicas estadísticas para detectar patrones.
 4. **Modelado**: cuando el volumen y la complejidad de los datos lo justifican, se recurre a técnicas de **aprendizaje automático (*machine learning*)** y **aprendizaje profundo (*deep learning*)** — vistas en detalle en la UD4 — para construir modelos capaces de clasificar, predecir o agrupar datos de forma automática.
-5. **Comunicación de resultados**: presentación de conclusiones mediante visualización (punto 4) o paneles de control.
+5. **Comunicación de resultados**: presentación de conclusiones mediante visualización (véase el apartado 6) o paneles de control.
 
 !!! tip "Big Data, machine learning y deep learning: cómo encajan"
     El Big Data aporta el volumen y la infraestructura de datos; el machine learning y el deep learning (UD4) son las técnicas que permiten extraer patrones de ese volumen de datos cuando la relación entre variables es demasiado compleja para un análisis estadístico tradicional. Cuantos más datos de calidad estén disponibles, mejor suele funcionar un modelo de aprendizaje automático: por eso ambas tecnologías están tan estrechamente ligadas en la práctica.
@@ -93,11 +119,41 @@ El procesamiento y almacenamiento de grandes volúmenes de datos rara vez se rea
     4. **Modelar** con aprendizaje automático.
     5. **Comunicar los resultados** (visualización, paneles).
 
-## 4. Análisis de datos y Business Intelligence
+## 4. Almacenamiento y protección de datos
+
+Los datos que una organización acumula hay que **guardarlos** de forma adecuada y **protegerlos** a lo largo de todo su ciclo de vida.
+
+**Dónde se almacenan (aspectos básicos):**
+
+- **Bases de datos relacionales**: datos estructurados en tablas, con relaciones e integridad; es la base de la mayoría de sistemas de gestión.
+- **Bases de datos NoSQL**: para datos semiestructurados o no estructurados y grandes volúmenes.
+- **Data warehouse**: almacén de datos ya depurados y organizados para el análisis.
+- **Data lake**: repositorio de datos en bruto, de cualquier formato, para explotarlos más adelante.
+- **Almacenamiento de objetos y de archivos en la nube** (UD3): elástico y con pago por uso; habitual para copias de seguridad, *data lakes* y contenidos.
+
+**Cómo se protegen (aspectos básicos):**
+
+- **Control de acceso**: identificación, autenticación (incluida la de doble factor, MFA) y principio de **mínimo privilegio** (cada persona accede solo a lo que necesita).
+- **Cifrado** de los datos **en tránsito** (comunicaciones) y **en reposo** (discos y copias).
+- **Copias de seguridad** con versiones y regla **3-2-1** (UD3), con pruebas periódicas de restauración.
+- **Seudonimización y anonimización**: sustituir o eliminar los identificadores directos para reducir el daño si los datos se filtran.
+- **Registro de actividad (*logs*)** para detectar accesos indebidos y poder investigar incidentes.
+- **Borrado seguro** cuando el dato deja de ser necesario, cerrando el ciclo de vida.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una empresa guarda su histórico de ventas para análisis en un almacén de datos depurado, y vuelca los datos en bruto de sus sensores y su web en un repositorio sin estructurar "para lo que haga falta más adelante".
+
+    **¿Cómo se llama cada uno de esos dos almacenes y qué medida mínima de protección debería aplicarse a ambos?**
+
+??? note "Ver respuesta"
+    - El almacén depurado para análisis es un **data warehouse**; el repositorio de datos en bruto es un **data lake**.
+    - En ambos: **control de acceso con mínimo privilegio** y **cifrado en reposo**, además de **copias de seguridad** probadas.
+
+## 5. Análisis de datos y Business Intelligence
 
 El **Business Intelligence (BI)** o inteligencia de negocio es el conjunto de estrategias, procesos y herramientas orientadas a transformar datos en información útil para la toma de decisiones.
 
-### 4.1. Niveles de análisis de datos
+### 5.1. Niveles de análisis de datos
 
 1. **Análisis descriptivo**: ¿qué ha pasado? Resume datos históricos (por ejemplo, ventas del último trimestre por región).
 2. **Análisis diagnóstico**: ¿por qué ha pasado? Busca las causas de un fenómeno observado (por ejemplo, por qué han caído las ventas en una región concreta).
@@ -118,7 +174,7 @@ El **Business Intelligence (BI)** o inteligencia de negocio es el conjunto de es
     3. **Predictivo** — qué es probable que pase.
     4. **Prescriptivo** — qué se debería hacer.
 
-## 5. Visualización de datos
+## 6. Visualización de datos
 
 Presentar los datos de forma visual facilita su interpretación y la detección de patrones que resultan difíciles de ver en una tabla de cifras. Algunos principios básicos:
 
@@ -140,16 +196,16 @@ Los **paneles de control (*dashboards*)** son la forma más habitual de poner es
 ??? note "Ver respuesta"
     **No distorsionar la percepción**: truncar el eje vertical hace que una diferencia real del 4% parezca enorme. El eje de un gráfico de barras debería empezar en cero.
 
-## 6. Protección de datos personales
+## 7. Protección de datos personales
 
 Cuando los datos que se tratan son **datos personales** (información que identifica o permite identificar a una persona física), su tratamiento está sujeto a una normativa específica y estricta.
 
-### 6.1. Marco normativo
+### 7.1. Marco normativo
 
 - **RGPD** (Reglamento General de Protección de Datos, de aplicación en toda la Unión Europea).
 - **LOPDGDD** (Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales), que desarrolla el RGPD en España.
 
-### 6.2. Principios básicos del tratamiento de datos personales
+### 7.2. Principios básicos del tratamiento de datos personales
 
 - **Licitud, lealtad y transparencia**: solo se pueden tratar datos con una base legal (consentimiento, contrato, obligación legal, entre otras) y de forma comprensible para la persona afectada.
 - **Limitación de la finalidad**: los datos se recogen para un fin determinado y explícito, y no deben usarse posteriormente para fines incompatibles con ese fin original.
@@ -159,7 +215,7 @@ Cuando los datos que se tratan son **datos personales** (información que identi
 - **Integridad y confidencialidad**: deben protegerse mediante medidas técnicas y organizativas adecuadas (cifrado, control de accesos...).
 - **Responsabilidad proactiva (*accountability*)**: quien trata los datos debe poder demostrar en todo momento que cumple estos principios.
 
-### 6.3. Derechos de las personas (derechos ARSULI)
+### 7.3. Derechos de las personas (derechos ARSULI)
 
 | Derecho | En qué consiste |
 |---|---|
@@ -170,7 +226,7 @@ Cuando los datos que se tratan son **datos personales** (información que identi
 | **Portabilidad** | Recibir los datos propios en un formato estructurado para poder trasladarlos a otro proveedor |
 | **Oposición** | Oponerse a un tratamiento concreto de los datos propios (por ejemplo, con fines de marketing) |
 
-### 6.4. Datos especialmente protegidos
+### 7.4. Datos especialmente protegidos
 
 El RGPD establece una categoría de **datos especialmente sensibles** que requieren garantías reforzadas: origen étnico o racial, opiniones políticas, convicciones religiosas o filosóficas, afiliación sindical, datos genéticos y biométricos, datos relativos a la salud, y datos sobre la vida u orientación sexual.
 
@@ -184,7 +240,7 @@ El RGPD establece una categoría de **datos especialmente sensibles** que requie
     - **Limitación de la finalidad**: "mejorar el servicio" no es un fin determinado y explícito.
     - La **afiliación sindical** es un **dato especialmente protegido**: exige garantías reforzadas y no debería recogerse en este contexto.
 
-## 7. Ética del dato
+## 8. Ética del dato
 
 Cumplir la normativa es el mínimo exigible, pero no siempre es suficiente para un tratamiento verdaderamente responsable de los datos. La **ética del dato** plantea preguntas adicionales:
 
@@ -201,7 +257,62 @@ Cumplir la normativa es el mínimo exigible, pero no siempre es suficiente para 
 ??? note "Ver respuesta"
     El riesgo de **reidentificación**: datos que por separado parecen inocuos permiten, combinados, identificar a una persona concreta. Aunque la publicación pretendiera ser anónima, no lo es de forma efectiva.
 
-## 8. Herramientas de tratamiento y evaluación de datos
+## 9. Ciberseguridad en la empresa
+
+Proteger los datos no es solo una cuestión legal: exige **medidas de seguridad** técnicas y organizativas. La ciberseguridad se ocupa de preservar tres propiedades de la información: **confidencialidad** (solo accede quien debe), **integridad** (los datos no se alteran indebidamente) y **disponibilidad** (están accesibles cuando se necesitan).
+
+### 9.1. Amenazas más habituales
+
+- **Malware y ransomware**: software malicioso que roba, borra o **cifra** los datos y pide un rescate.
+- **Phishing e ingeniería social**: engañar a una persona para que revele credenciales o abra un enlace o adjunto malicioso. Es la vía de entrada más frecuente.
+- **Robo o fuga de datos**: por ataque externo o por error o mala intención interna.
+- **Contraseñas débiles o reutilizadas** y accesos mal configurados.
+- **Ataques a la cadena de suministro**: comprometer a un proveedor de software o servicios para llegar a sus clientes.
+- **Denegación de servicio (DDoS)**: saturar un sistema para dejarlo fuera de servicio.
+
+### 9.2. Estrategias de ciberseguridad para pymes: el plan director de seguridad
+
+Una pyme no necesita —ni puede— hacerlo todo a la vez. El **plan director de seguridad** es el documento que ordena y prioriza las acciones de ciberseguridad de la organización, alineándolas con sus objetivos y su presupuesto. Fases típicas:
+
+1. **Análisis de la situación actual**: qué activos de información existen, qué medidas hay ya y qué obligaciones legales aplican (RGPD; ENS si se trabaja con la Administración).
+2. **Análisis de riesgos**: qué amenazas afectan a cada activo, con qué probabilidad e impacto.
+3. **Definición de objetivos y proyectos**: qué se quiere conseguir y con qué iniciativas.
+4. **Priorización**: ordenar los proyectos por el riesgo que reducen y por su coste y esfuerzo.
+5. **Implantación y seguimiento**: ejecutar, medir con indicadores y revisar de forma periódica (mejora continua).
+
+**Medidas básicas** que casi cualquier pyme debería tener: actualizaciones al día, copias de seguridad probadas, antivirus/EDR, doble factor de autenticación (MFA), gestión de accesos con mínimo privilegio, segmentación de la red, formación del personal y un **plan de respuesta a incidentes** (a quién avisar, cómo contener el incidente y cómo recuperarse). Como referencia existen el **ENS**, la norma **ISO/IEC 27001** y las guías gratuitas de **INCIBE** para pymes.
+
+### 9.3. Teletrabajo seguro
+
+Trabajar fuera de la oficina amplía la superficie de exposición. Medidas recomendables:
+
+- **Conexión mediante VPN** a los recursos de la empresa y **doble factor** en todos los accesos.
+- **Dispositivos gestionados** por la empresa, con **cifrado de disco**, antivirus y actualizaciones automáticas; evitar equipos personales sin control.
+- **Redes wifi seguras**: no usar redes públicas abiertas sin VPN y proteger la wifi doméstica con una contraseña robusta.
+- **Bloqueo automático de sesión** y no dejar el equipo desatendido.
+- **Separar el uso profesional del personal** (cuentas, navegador, almacenamiento) y no mover datos de la empresa a servicios personales.
+- **Política de teletrabajo por escrito**: qué se puede hacer, con qué medios y cómo notificar un incidente.
+
+### 9.4. Cultura de ciberseguridad en la empresa
+
+La tecnología no basta: la mayoría de los incidentes empiezan por un **error humano**. Crear cultura de ciberseguridad implica:
+
+- **Formación y concienciación continuas**, no un curso puntual: contraseñas, phishing, uso de dispositivos y tratamiento de datos.
+- **Simulacros de phishing** y ejercicios prácticos.
+- **Políticas claras y realistas**, conocidas por toda la plantilla.
+- **Comunicar los incidentes sin culpabilizar**: quien detecta o comete un error debe poder avisar cuanto antes.
+- **Implicación de la dirección**: la seguridad se lidera desde arriba y se dota de recursos.
+- **Seguridad desde el diseño** (UD2) en cualquier nuevo proyecto o herramienta.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una pyme de 15 personas quiere "ponerse las pilas" con la ciberseguridad, pero tiene poco presupuesto y no sabe por dónde empezar. Alguien propone comprar directamente el cortafuegos más caro del mercado.
+
+    **¿Qué enfoque sería más adecuado y por qué?**
+
+??? note "Ver respuesta"
+    Elaborar un **plan director de seguridad**: primero analizar qué activos y riesgos tiene la empresa, y después **priorizar** las medidas por el riesgo que reducen y su coste. Con poco presupuesto, medidas como copias de seguridad probadas, MFA, actualizaciones, gestión de accesos y **formación del personal** suelen reducir más riesgo que un único equipo caro.
+
+## 10. Herramientas de tratamiento y evaluación de datos
 
 - **Hojas de cálculo**: siguen siendo la herramienta más extendida para tratar y analizar datos de volumen moderado (filtros, tablas dinámicas, funciones de búsqueda y validación de datos).
 - **Herramientas de BI y visualización**: Power BI, Tableau, Google Looker Studio, para construir paneles interactivos.
@@ -231,6 +342,17 @@ A partir de una tabla de ventas mensuales de una pequeña tienda (real o inventa
 <span class="actividad-titulo">**Actividad 5.3 — Caso RGPD**</span>
 
 Una empresa envía publicidad por correo electrónico a antiguos clientes que nunca dieron su consentimiento expreso para recibir comunicaciones comerciales. Identifica qué principio(s) del RGPD se estarían incumpliendo y qué derecho podrían ejercer esos clientes para dejar de recibir esas comunicaciones.
+
+<span class="actividad-titulo">**Actividad 5.4 — Esboza un plan director de seguridad**</span>
+
+Para una pyme ficticia (por ejemplo, una clínica dental con 8 personas), enumera sus principales activos de información, dos o tres amenazas que le afectarían y cinco medidas básicas de ciberseguridad priorizadas. Añade dos normas de teletrabajo seguro para su personal administrativo.
+
+## Mapa conceptual
+
+<figure markdown="span">
+  ![Mapa conceptual de la Unidad 5: el análisis de datos y la ciberseguridad y sus tres ramas —el dato y su calidad, el análisis y su valor, y la protección y la seguridad](assets/img/ud5-mapa-conceptual.png){ width="960" }
+  <figcaption>Síntesis de la unidad: el análisis de datos y la ciberseguridad se abordan desde <strong>el dato y su calidad</strong> (dato, información y conocimiento; ciclo de vida; dimensiones de calidad), <strong>el análisis y su valor</strong> (Big Data y ciencia de datos, niveles de análisis y <em>Business Intelligence</em>, visualización) y <strong>la protección y la seguridad</strong> (almacenamiento y protección de datos, RGPD y derechos, ética del dato y ciberseguridad en la empresa: plan director, teletrabajo seguro y cultura).</figcaption>
+</figure>
 
 ## Autoevaluación
 
@@ -263,3 +385,18 @@ Una empresa envía publicidad por correo electrónico a antiguos clientes que nu
 
 ??? question "10. ¿Por qué truncar el eje vertical de un gráfico de barras puede resultar engañoso?"
     Porque exagera visualmente las diferencias entre valores: una variación pequeña en términos relativos parece enorme. El eje de un gráfico de barras debería empezar en cero.
+
+??? question "11. ¿Qué diferencia hay entre dato, información y conocimiento?"
+    El dato es un hecho aislado sin contexto; la información es el dato organizado y puesto en contexto, de modo que responde a una pregunta; el conocimiento es la información interpretada y combinada con la experiencia, que permite decidir cómo actuar.
+
+??? question "12. Cita las tres propiedades de la información que protege la ciberseguridad y dos amenazas habituales."
+    Propiedades: **confidencialidad**, **integridad** y **disponibilidad**. Amenazas (dos cualesquiera): malware y ransomware, phishing e ingeniería social, fuga de datos, contraseñas débiles, ataques a la cadena de suministro, denegación de servicio (DDoS).
+
+??? question "13. ¿Qué es un plan director de seguridad y qué fases tiene?"
+    Es el documento que ordena y prioriza las acciones de ciberseguridad de una organización según sus objetivos y presupuesto. Fases: análisis de la situación actual, análisis de riesgos, definición de objetivos y proyectos, priorización, e implantación y seguimiento.
+
+??? question "14. Cita tres medidas de teletrabajo seguro."
+    Por ejemplo: conexión mediante VPN, doble factor de autenticación (MFA), dispositivos gestionados por la empresa con cifrado de disco, no usar redes wifi públicas abiertas sin VPN, bloqueo automático de sesión, y separar el uso profesional del personal.
+
+??? question "15. ¿Por qué es importante la cultura de ciberseguridad y no solo las medidas técnicas?"
+    Porque la mayoría de los incidentes empiezan por un error humano (un clic en un phishing, una contraseña reutilizada). La formación y concienciación continuas, unas políticas claras y poder comunicar los incidentes sin culpabilizar reducen ese riesgo que la tecnología por sí sola no cubre.

@@ -13,7 +13,7 @@ Este módulo aborda la transformación digital desde una perspectiva transversal
 - [UD2. Tecnologías digitales habilitadoras](ud2.md)
 - [UD3. La nube](ud3.md)
 - [UD4. Aplicación de la inteligencia artificial](ud4.md)
-- [UD5. Evaluación de datos](ud5.md)
+- [UD5. Análisis de datos y ciberseguridad](ud5.md)
 - [UD6. Proyecto de transformación digital](ud6.md)
 
 ## Resultados de aprendizaje
