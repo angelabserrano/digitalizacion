@@ -1,5 +1,7 @@
 # UD1. Digitalización de los sectores productivos
 
+[:material-arrow-left: Volver al índice de todas las unidades](index.md)
+
 !!! abstract "Resultado de aprendizaje"
     **RA1.** Analiza el concepto de digitalización y su repercusión en los sectores productivos teniendo en cuenta la actividad de la empresa e identificando entornos IT (*Information Technology*, tecnología de la información) y OT (*Operational Technology*, tecnología de operación) característicos.
 
