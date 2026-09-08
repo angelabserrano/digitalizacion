@@ -5,11 +5,39 @@
 !!! abstract "Resultado de aprendizaje"
     **RA1.** Analiza el concepto de digitalización y su repercusión en los sectores productivos teniendo en cuenta la actividad de la empresa e identificando entornos IT (*Information Technology*, tecnología de la información) y OT (*Operational Technology*, tecnología de operación) característicos.
 
-## 1. De la sociedad industrial a la sociedad digital
+La **digitalización** es el proceso de incorporar tecnologías digitales a las actividades de una organización, un sector o una sociedad, cambiando no solo las herramientas que se usan, sino también los procesos, los modelos de negocio y la forma de relacionarse con clientes, proveedores y trabajadores. Esta unidad parte de su origen histórico —las revoluciones industriales— para llegar al concepto de Industria 4.0, a los sistemas ciberfísicos y a la convergencia entre los entornos de negocio (IT) y de planta (OT); termina revisando cómo la digitalización se aplica en los distintos sectores productivos y qué retos plantea.
 
-La **digitalización** es el proceso de incorporar tecnologías digitales a las actividades de una organización, un sector o una sociedad, cambiando no solo las herramientas que se usan, sino también los procesos, los modelos de negocio y la forma de relacionarse con clientes, proveedores y trabajadores.
+## 1.1. Cronología de las revoluciones industriales
 
-Conviene distinguir tres conceptos que a menudo se confunden:
+La digitalización actual se entiende como la culminación de un proceso histórico de sucesivas **revoluciones industriales**:
+
+<figure markdown="span">
+  ![Línea temporal de las cuatro revoluciones industriales, de la máquina de vapor a la Industria 4.0](assets/img/ud1-revoluciones-industriales.png){ width="900" }
+  <figcaption>Cada revolución industrial añade una capa nueva sobre la anterior: de la fuerza mecánica a la electricidad, de la electrónica a la conexión de todos los procesos entre sí y con el mundo físico.</figcaption>
+</figure>
+
+- **Primera revolución industrial** (finales del siglo XVIII): la máquina de vapor mecaniza la producción y nace la fábrica.
+- **Segunda revolución industrial** (finales del siglo XIX): la electricidad, la cadena de montaje y la producción en masa.
+- **Tercera revolución industrial** (década de 1970): la electrónica, la informática y la automatización programable (PLC) informatizan los procesos que ya existían.
+- **Cuarta revolución industrial** (desde ~2010): la interconexión de los procesos digitales entre sí y con el mundo físico. Se estudia en el apartado 1.2.
+
+!!! tip "Para situarlo en el tiempo"
+    Si la tercera revolución "informatizó" procesos ya existentes (por ejemplo, sustituir un libro de contabilidad en papel por una hoja de cálculo), la cuarta revolución **conecta** esos procesos entre sí y con el mundo físico, generando datos en tiempo real que alimentan decisiones automatizadas.
+
+!!! question "💡 Comprueba que lo has entendido"
+    Una fábrica sustituye sus libros de registro en papel por un sistema informático, pero cada máquina sigue funcionando de forma aislada. Más adelante conecta todas las máquinas y sus sensores para que compartan datos en tiempo real.
+
+    **¿Con qué revolución industrial se corresponde cada paso?**
+
+??? note "Ver respuesta"
+    - Informatizar el registro sin conectar los procesos entre sí → **tercera revolución industrial**.
+    - Conectar máquinas y sensores para intercambiar datos en tiempo real → **cuarta revolución industrial (Industria 4.0)**.
+
+## 1.2. La cuarta revolución industrial: digitalización y elementos que la definen
+
+La **cuarta revolución industrial o Industria 4.0** (desde ~2010) no se limita a automatizar: fusiona tecnologías digitales, físicas y biológicas —IoT, *big data*, inteligencia artificial, robótica avanzada, computación en la nube— para lograr sistemas de producción interconectados y capaces de tomar decisiones de forma autónoma o semiautónoma.
+
+En este contexto conviene distinguir tres conceptos que a menudo se confunden:
 
 | Concepto | Qué implica | Ejemplo |
 |---|---|---|
@@ -17,7 +45,18 @@ Conviene distinguir tres conceptos que a menudo se confunden:
 | **Digitalización** | Usar tecnologías digitales para mejorar procesos existentes | Sustituir el registro en papel por un ERP |
 | **Transformación digital** | Rediseñar el modelo de negocio y la cultura organizativa en torno a lo digital | Una tienda física que pasa a vender también por *marketplace*, con logística automatizada y atención por chatbot |
 
-La transformación digital no es, por tanto, "comprar ordenadores": es un cambio estructural que afecta a procesos productivos, a la organización del trabajo, a la relación con el cliente y a la propia cultura de la empresa.
+La transformación digital no es, por tanto, "comprar ordenadores": es un cambio estructural que afecta a los procesos productivos, a la organización del trabajo, a la relación con el cliente y a la propia cultura de la empresa.
+
+**Elementos que definen la Industria 4.0:**
+
+- **Interconexión**: máquinas, sensores, sistemas y personas conectados a través de internet (IoT / IIoT).
+- **Información en tiempo real**: los datos de todo el proceso se capturan y se comparten al instante (*big data*).
+- **Sistemas ciberfísicos**: los procesos físicos se gobiernan mediante software y red (véase 1.3).
+- **Descentralización de las decisiones**: los sistemas deciden de forma autónoma dentro de los límites fijados, apoyándose en la inteligencia artificial.
+- **Asistencia a las personas**: los sistemas agregan información y asumen tareas peligrosas o repetitivas (robótica colaborativa, realidad aumentada).
+- **Virtualización**: réplicas virtuales de la planta que permiten simular antes de actuar (gemelos digitales).
+
+Estas tecnologías —las **tecnologías habilitadoras digitales**— se estudian en detalle en la UD2.
 
 Bien planteada, la digitalización aporta a la empresa **ventajas** claras:
 
@@ -26,7 +65,7 @@ Bien planteada, la digitalización aporta a la empresa **ventajas** claras:
 - **Más productividad y calidad**: procesos más ágiles y con menos fallos.
 - **Cercanía al cliente**: nuevos canales de venta y atención, y productos o servicios personalizados.
 - **Flexibilidad** para adaptarse a los cambios del mercado.
-- **Nuevas oportunidades de negocio**: modelos digitales que antes no eran posibles (véase apartado 3).
+- **Nuevas oportunidades de negocio**: modelos digitales que antes no eran posibles (véase 1.8).
 
 Estas ventajas se materializan plenamente cuando la digitalización abarca toda la empresa, de la gestión a la planta (véase 1.6).
 
@@ -42,30 +81,40 @@ Estas ventajas se materializan plenamente cuando la digitalización abarca toda 
     2. **Digitalización** — se mejora con tecnología un proceso que ya existía.
     3. **Transformación digital** — se rediseña el modelo de negocio en torno a lo digital.
 
-### 1.1. Las revoluciones industriales
+## 1.3. Sistemas ciberfísicos
 
-La digitalización actual se entiende como la culminación de un proceso histórico de sucesivas revoluciones industriales:
+Un **sistema ciberfísico** (*cyber-physical system*, CPS) es un sistema en el que un componente físico —una máquina, un vehículo, una instalación— está gobernado por software y conectado a una red, de modo que el mundo físico y el mundo digital funcionan como una sola cosa. Es el ladrillo básico sobre el que se construye la Industria 4.0.
 
-<figure markdown="span">
-  ![Línea temporal de las cuatro revoluciones industriales, de la máquina de vapor a la Industria 4.0](assets/img/ud1-revoluciones-industriales.png){ width="900" }
-  <figcaption>Cada revolución industrial añade una capa nueva sobre la anterior: de la fuerza mecánica a la electricidad, de la electrónica a la conexión de todos los procesos entre sí y con el mundo físico.</figcaption>
-</figure>
+Todo sistema ciberfísico combina tres elementos:
 
-La **cuarta revolución industrial o Industria 4.0** (desde ~2010) no se limita a automatizar: fusiona tecnologías digitales, físicas y biológicas — IoT, big data, inteligencia artificial, robótica avanzada, computación en la nube — para lograr sistemas de producción interconectados y capaces de tomar decisiones de forma autónoma o semiautónoma.
+- **Sensores**, que capturan datos del proceso físico (temperatura, posición, vibración, consumo…).
+- **Cómputo y comunicación**, que procesan esos datos, los envían por la red y ejecutan la lógica de control (a menudo apoyándose en la nube y en algoritmos de inteligencia artificial).
+- **Actuadores**, que devuelven una acción al mundo físico (parar un motor, ajustar una válvula, cambiar la velocidad de una cinta).
 
-!!! tip "Para situarlo en el tiempo"
-    Si la tercera revolución "informatizó" procesos ya existentes (por ejemplo, sustituir un libro de contabilidad en papel por una hoja de cálculo), la cuarta revolución **conecta** esos procesos entre sí y con el mundo físico, generando datos en tiempo real que alimentan decisiones automatizadas.
+Este ciclo *medir → decidir → actuar* se repite de forma continua. Cuando muchos sistemas ciberfísicos se conectan entre sí, dan lugar a una **planta inteligente** capaz de supervisarse y reconfigurarse con poca intervención humana.
+
+Ejemplos habituales:
+
+- Una **máquina herramienta** que mide el desgaste de sus útiles y ajusta sola los parámetros de corte.
+- Un **vehículo autónomo**, que percibe el entorno y decide la trayectoria.
+- Un **gemelo digital** (véase 1.7): la réplica virtual de un equipo que recibe en tiempo real los datos de su equivalente físico.
+- Una **red eléctrica inteligente** (*smart grid*), que equilibra generación y consumo en tiempo real.
+
+!!! tip "Sistema ciberfísico e IoT"
+    El **IoT** (internet de las cosas) aporta la conectividad: objetos con sensores que envían datos por internet. Un **sistema ciberfísico** va un paso más allá: además de medir y comunicar, **decide y actúa** sobre el proceso físico mediante actuadores y lógica de control. Todo sistema ciberfísico industrial usa IoT, pero no todo dispositivo IoT es un sistema ciberfísico.
 
 !!! question "💡 Comprueba que lo has entendido"
-    Una fábrica sustituye sus libros de registro en papel por un sistema informático, pero cada máquina sigue funcionando de forma aislada. Más adelante conecta todas las máquinas y sus sensores para que compartan datos en tiempo real.
+    Un depósito de agua incorpora una sonda de nivel que envía la medición a un controlador; cuando el nivel baja de un umbral, el controlador abre automáticamente una electroválvula que rellena el depósito.
 
-    **¿Con qué revolución industrial se corresponde cada paso?**
+    **Identifica el sensor, la parte de cómputo y el actuador. ¿Por qué es un sistema ciberfísico y no solo un dispositivo conectado?**
 
 ??? note "Ver respuesta"
-    - Informatizar el registro sin conectar los procesos entre sí → **tercera revolución industrial**.
-    - Conectar máquinas y sensores para intercambiar datos en tiempo real → **cuarta revolución industrial (Industria 4.0)**.
+    - **Sensor**: la sonda de nivel del depósito.
+    - **Cómputo y comunicación**: el controlador que recibe la medición y la compara con el umbral.
+    - **Actuador**: la electroválvula que rellena el depósito.
+    - Es un **sistema ciberfísico** porque cierra el ciclo *medir → decidir → actuar*: no se limita a enviar el dato, sino que ejecuta una acción física de forma automática.
 
-### 1.2. La estructura de la empresa y la digitalización
+## 1.4. La estructura de la empresa
 
 Toda empresa se organiza en **áreas o departamentos** con funciones distintas y en **niveles de decisión**:
 
@@ -103,7 +152,11 @@ Dentro de esa estructura, unos departamentos trabajan sobre todo con **informaci
     - **Producción** (SCADA): supervisa y controla el proceso físico → entorno **OT**.
     - La tecnología digital llega a cada área con herramientas distintas; el reto es que el CRM, el ERP y el SCADA compartan datos en lugar de funcionar aislados.
 
-### 1.3. Entornos IT y OT
+## 1.5. Convergencia entre los entornos OT e IT
+
+IT y OT nacieron como mundos separados, pero la Industria 4.0 los obliga a entenderse. Este apartado define cada entorno, repasa las tecnologías propias de cada uno y explica en qué consiste su convergencia.
+
+### Dos entornos tecnológicos: IT y OT
 
 En cualquier organización industrial conviene distinguir dos entornos tecnológicos que tradicionalmente han evolucionado por separado:
 
@@ -119,7 +172,7 @@ En cualquier organización industrial conviene distinguir dos entornos tecnológ
 | **Prioridad** | Confidencialidad e integridad | Disponibilidad y estabilidad |
 | **Ejemplo** | ERP registra un pedido | PLC controla una máquina |
 
-Los **departamentos que suelen constituir el entorno IT** son administración y contabilidad, finanzas, recursos humanos, comercial y marketing, compras y sistemas/informática; el **entorno OT** se concentra en producción, mantenimiento, control de calidad en planta y logística interna (véase 1.2).
+Los **departamentos que suelen constituir el entorno IT** son administración y contabilidad, finanzas, recursos humanos, comercial y marketing, compras y sistemas/informática; el **entorno OT** se concentra en producción, mantenimiento, control de calidad en planta y logística interna (véase 1.4).
 
 Pese a sus diferencias, IT y OT también presentan **similitudes** que explican por qué acaban integrándose:
 
@@ -129,7 +182,7 @@ Pese a sus diferencias, IT y OT también presentan **similitudes** que explican 
 - Ambos necesitan **ciberseguridad, mantenimiento, actualización y personal cualificado**.
 - Ambos tienden a usar **tecnologías comunes** (redes IP, servidores, virtualización, la nube), lo que facilita —y hace casi inevitable— su convergencia.
 
-### 1.4. Tecnologías de digitalización en planta y en negocio
+### Tecnologías de digitalización en el negocio y en la planta
 
 Al digitalizar una empresa se seleccionan tecnologías distintas según se actúe sobre el **negocio** (entorno IT) o sobre la **planta** (entorno OT):
 
@@ -155,9 +208,9 @@ Todas ellas se estudian en detalle en la UD2.
     - **En planta**: el ERP envía la orden de fabricación al MES, que ajusta los parámetros del PLC de la línea.
     - **Resultado**: un mismo pedido recorre negocio y planta sin que nadie lo reescriba.
 
-### 1.5. La convergencia entre IT y OT
+### La convergencia IT-OT en la Industria 4.0
 
-Tradicionalmente IT y OT han funcionado como mundos separados, con redes, protocolos y culturas de trabajo distintas: IT prioriza la confidencialidad y la actualización frecuente; OT prioriza la disponibilidad continua y la estabilidad, evitando cambios que puedan detener una línea de producción. La Industria 4.0 (véase 2.1) se caracteriza precisamente por la **convergencia IT-OT**: sensores de planta (OT) que envían datos a sistemas de análisis y toma de decisiones de negocio (IT), y decisiones de negocio que repercuten directamente en la configuración de la planta.
+Tradicionalmente IT y OT han funcionado como mundos separados, con redes, protocolos y culturas de trabajo distintas: IT prioriza la confidencialidad y la actualización frecuente; OT prioriza la disponibilidad continua y la estabilidad, evitando cambios que puedan detener una línea de producción. La Industria 4.0 (véase 1.2) se caracteriza precisamente por la **convergencia IT-OT**: sensores de planta (OT) que envían datos a sistemas de análisis y toma de decisiones de negocio (IT), y decisiones de negocio que repercuten directamente en la configuración de la planta.
 
 <figure markdown="span">
   ![Infografía de la convergencia entre los entornos IT y OT: componentes de cada entorno, zona de convergencia, beneficios y riesgos](assets/img/ud1-convergencia-it-ot.png){ width="820" }
@@ -177,7 +230,7 @@ Tradicionalmente IT y OT han funcionado como mundos separados, con redes, protoc
     - **IT**: el sistema de gestión de mantenimiento (GMAO) donde se registra, muestra y consulta la alerta. Es un sistema que gestiona información del negocio.
     - El **paso de la alerta** desde el sensor de planta hasta el sistema de gestión es justamente un ejemplo de **convergencia IT-OT**: un dato originado en OT alimenta una decisión que se toma y se gestiona en IT.
 
-### 1.6. Ventajas de digitalizar una empresa de extremo a extremo
+## 1.6. Ventajas de digitalizar una empresa industrial de extremo a extremo
 
 Digitalizar **de extremo a extremo** (*end-to-end*) significa que la información fluye sin cortes a lo largo de toda la cadena de valor —desde el pedido del cliente hasta la entrega y el servicio posventa—, atravesando tanto el negocio (IT) como la planta (OT).
 
@@ -192,9 +245,9 @@ Principales ventajas:
 - **Mejor calidad y mantenimiento predictivo**: se anticipan los defectos y las averías, evitando paradas de línea.
 - **Flexibilidad y mejor servicio al cliente**: la producción se adapta con rapidez a la demanda (personalización en masa) y el cliente recibe plazos más fiables e información del estado de su pedido.
 
-Todo ello se traduce en una **mejora de la competitividad** de la empresa y en una base para **innovar** con nuevos servicios y modelos de negocio (véase apartado 3).
+Todo ello se traduce en una **mejora de la competitividad** de la empresa y en una base para **innovar** con nuevos servicios y modelos de negocio (véase 1.8).
 
-Como contrapartida, una empresa digitalizada de extremo a extremo amplía su **superficie de exposición a ciberataques** y aumenta su **dependencia tecnológica**, riesgos que se abordan en el apartado 5.
+Como contrapartida, una empresa digitalizada de extremo a extremo amplía su **superficie de exposición a ciberataques** y aumenta su **dependencia tecnológica**, riesgos que se abordan en el apartado 1.9.
 
 !!! question "💡 Comprueba que lo has entendido"
     Una fábrica conecta su tienda online, su ERP y sus máquinas de forma que un pedido llega directamente a la línea de producción y el cliente puede consultar en qué fase está su producto.
@@ -205,11 +258,11 @@ Como contrapartida, una empresa digitalizada de extremo a extremo amplía su **s
     - **Ventajas** (dos cualesquiera): trazabilidad completa del pedido, decisiones en tiempo real, menos errores y costes por eliminar registros manuales, mejor servicio al cliente.
     - **Riesgo**: al conectar tienda, gestión y planta se amplía la superficie de ciberataque; además, un fallo de conectividad puede detener toda la cadena (dependencia tecnológica).
 
-## 2. La digitalización por sectores productivos
+## 1.7. La digitalización por sectores productivos
 
 Aunque el fenómeno es transversal, cada sector productivo lo incorpora de forma distinta según sus necesidades y su grado de madurez tecnológica.
 
-### 2.1. Sector industrial: Industria 4.0
+### Sector industrial: Industria 4.0
 
 La industria fue pionera en la digitalización gracias a conceptos como:
 
@@ -223,7 +276,7 @@ La industria fue pionera en la digitalización gracias a conceptos como:
     - **Digitalización**: sensores + análisis de datos.
     - **Resultado**: mantenimiento predictivo.
 
-### 2.2. Sector primario: agricultura y ganadería de precisión
+### Sector primario: agricultura y ganadería de precisión
 
 - Sensores de humedad, temperatura y nutrientes del suelo.
 - Drones para monitorización de cultivos y fumigación selectiva.
@@ -235,7 +288,7 @@ La industria fue pionera en la digitalización gracias a conceptos como:
     - **Digitalización**: sensores de suelo + datos meteorológicos + riego automático.
     - **Resultado**: agricultura de precisión.
 
-### 2.3. Comercio y logística
+### Comercio y logística
 
 - **Comercio electrónico** y *marketplaces*.
 - **Omnicanalidad**: integración de canales físicos y digitales de venta (comprar online y recoger en tienda, por ejemplo).
@@ -247,7 +300,7 @@ La industria fue pionera en la digitalización gracias a conceptos como:
     - **Digitalización**: tienda física + web + app + logística integrada.
     - **Resultado**: omnicanalidad.
 
-### 2.4. Sanidad
+### Sanidad
 
 - Historia clínica electrónica y telemedicina.
 - Dispositivos *wearables* de monitorización de constantes vitales.
@@ -258,7 +311,7 @@ La industria fue pionera en la digitalización gracias a conceptos como:
     - **Digitalización**: *wearables* + telemedicina + historia clínica electrónica.
     - **Resultado**: monitorización remota del paciente.
 
-### 2.5. Educación
+### Educación
 
 - Entornos virtuales de aprendizaje (Moodle, Google Classroom).
 - Contenidos digitales interactivos y gamificación.
@@ -269,7 +322,7 @@ La industria fue pionera en la digitalización gracias a conceptos como:
     - **Digitalización**: entorno virtual + contenidos interactivos + analítica del aprendizaje.
     - **Resultado**: aprendizaje personalizado.
 
-### 2.6. Administración pública
+### Administración pública
 
 - **Administración electrónica**: sede electrónica, registro electrónico, notificaciones telemáticas, cita previa online.
 - Interoperabilidad entre administraciones (no pedir al ciudadano documentos que ya obran en poder de otra administración).
@@ -283,7 +336,7 @@ La industria fue pionera en la digitalización gracias a conceptos como:
 !!! reto "Reto: identifica la digitalización a tu alrededor"
     Piensa en tres organismos o negocios que utilices habitualmente (tu ayuntamiento, tu centro de salud, una tienda). Para cada uno, identifica un proceso que antes se hacía de forma presencial/en papel y que ahora se realiza total o parcialmente de forma digital. ¿Qué ha ganado el usuario? ¿Qué ha perdido?
 
-## 3. Nuevos modelos de negocio digitales
+## 1.8. Nuevos modelos de negocio digitales
 
 La digitalización no solo mejora procesos existentes: también hace posibles modelos de negocio que antes no existían.
 
@@ -301,40 +354,13 @@ La digitalización no solo mejora procesos existentes: también hace posibles mo
 ??? note "Ver respuesta"
     **Servitización**: la empresa industrial añade servicios digitales a su producto físico. Además, encaja con un modelo *as a Service*, porque el cliente paga por el uso (aire comprimido) en lugar de comprar el equipo.
 
-## 4. Digitalización sostenible (*Green IT*)
-
-La digitalización tiene un impacto ambiental que no siempre es visible:
-
-- **Consumo energético de los centros de datos**: almacenar y procesar datos en la nube requiere electricidad, refrigeración y, en muchos casos, agua.
-- **Huella de carbono de los dispositivos**: fabricación (extracción de materias primas, minerales críticos), transporte, uso y fin de vida (residuos electrónicos o *e-waste*).
-- **Obsolescencia programada y percibida**: dispositivos diseñados para durar poco o percibidos como obsoletos aunque sigan siendo funcionales, lo que acelera el reemplazo y el volumen de residuos.
-
-Frente a esto, el concepto de **TIC verdes (*Green IT*)** agrupa las prácticas orientadas a reducir este impacto:
-
-- Eficiencia energética en centros de datos (refrigeración eficiente, ubicación en climas fríos, energías renovables).
-- Alargar la vida útil de los equipos (reparabilidad, actualización de componentes en lugar de sustitución completa).
-- Reciclaje y economía circular de dispositivos electrónicos (recogida selectiva de RAEE — Residuos de Aparatos Eléctricos y Electrónicos).
-- Software eficiente: aplicaciones que consumen menos recursos y, por tanto, menos energía.
-
-!!! reto "Reto: calcula tu huella digital"
-    Existen calculadoras online de huella de carbono digital que estiman el impacto de tus dispositivos y de tu consumo de datos (vídeo en streaming, redes sociales, correo electrónico). Usa una de ellas y anota tres hábitos digitales concretos que podrías cambiar para reducir tu impacto.
-
-!!! question "💡 Comprueba que lo has entendido"
-    Una empresa renueva todos los portátiles cada dos años aunque funcionen bien y conserva de forma indefinida copias de vídeos que nadie consulta en un centro de datos.
-
-    **Indica dos malas prácticas desde el punto de vista del *Green IT* y una alternativa para cada una.**
-
-??? note "Ver respuesta"
-    - Sustituir equipos funcionales cada poco tiempo → **alargar su vida útil** (reparación, ampliación de componentes en lugar de reemplazo completo).
-    - Almacenar datos innecesarios de forma indefinida → **borrar lo que no se usa**; el almacenamiento en la nube consume electricidad, refrigeración y agua.
-
-## 5. Retos y riesgos de la digitalización
+## 1.9. Retos y riesgos de la digitalización
 
 No todo son ventajas. Entre los principales retos y riesgos asociados a la digitalización de los sectores productivos destacan:
 
 - **Impacto en el empleo**: automatización de tareas rutinarias, necesidad de recualificación profesional (*reskilling*) y actualización continua de competencias (*upskilling*).
 - **Dependencia tecnológica**: vulnerabilidad ante fallos técnicos, ciberataques o interrupciones del suministro eléctrico o de conectividad.
-- **Ciberseguridad**: la digitalización multiplica la superficie de exposición a amenazas (se estudia en profundidad en la UD3, al hablar de la nube, y de forma transversal en todo el módulo).
+- **Ciberseguridad**: la digitalización multiplica la superficie de exposición a amenazas (se estudia en profundidad en la UD5, *Análisis de datos y ciberseguridad*, y de forma transversal en todo el módulo).
 - **Desinformación**: la facilidad para generar y difundir contenido digital (incluido contenido generado por IA) facilita también la propagación de información falsa o manipulada.
 - **Concentración de poder digital**: dependencia de un número reducido de grandes proveedores tecnológicos, lo que plantea cuestiones de soberanía digital (se retoma en la UD3).
 - **Marco regulatorio**: necesidad de adaptar leyes y normas (protección de datos, propiedad intelectual, regulación de la inteligencia artificial) al ritmo del cambio tecnológico.
@@ -350,7 +376,14 @@ No todo son ventajas. Entre los principales retos y riesgos asociados a la digit
 
 ---
 
-## Actividades
+## Mapa conceptual
+
+<figure markdown="span">
+  ![Mapa conceptual de la Unidad 1: la digitalización y sus tres ramas —concepto y origen, empresa y entornos IT/OT, y alcance e implicaciones](assets/img/ud1-mapa-conceptual.svg){ width="960" }
+  <figcaption>Síntesis de la unidad: la digitalización se aborda desde su <strong>concepto y origen</strong> (grados de intensidad, revoluciones industriales, elementos de la Industria 4.0 y sistemas ciberfísicos), su efecto sobre <strong>la empresa y los entornos IT/OT</strong> (estructura, diferencias y similitudes IT–OT, tecnologías de planta y negocio y su convergencia) y su <strong>alcance e implicaciones</strong> (sectores productivos, nuevos modelos de negocio, y retos y riesgos).</figcaption>
+</figure>
+
+## Actividades finales
 
 <span class="actividad-titulo">**Actividad 1.1 — Mapa de digitalización de un sector**</span>
 
@@ -364,7 +397,7 @@ Elige un sector productivo (por ejemplo, hostelería, transporte, construcción 
 
 <span class="actividad-titulo">**Actividad 1.2 — Debate: digitalización y empleo**</span>
 
-En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: *"La automatización que acompaña a la digitalización destruye más empleo del que crea"*. Debatid en clase citando ejemplos y datos reales, y relacionad las conclusiones con los retos y riesgos del apartado 5 (impacto en el empleo, recualificación, dependencia tecnológica).
+En grupos, preparad argumentos a favor y en contra de la siguiente afirmación: *"La automatización que acompaña a la digitalización destruye más empleo del que crea"*. Debatid en clase citando ejemplos y datos reales, y relacionad las conclusiones con los retos y riesgos del apartado 1.9 (impacto en el empleo, recualificación, dependencia tecnológica).
 
 <span class="actividad-titulo">**Actividad 1.3 — Mapa IT/OT de una empresa**</span>
 
@@ -374,13 +407,6 @@ Elige una empresa industrial (real o inventada) y elabora un pequeño esquema:
 2. Identifica un **punto de convergencia**: un dato que hoy debería fluir de la planta (OT) a la gestión (IT) o al revés, indicando qué herramienta interviene en cada lado.
 3. Explica **una ventaja** concreta de digitalizar esa empresa de extremo a extremo y **un riesgo** que habría que vigilar.
 
-## Mapa conceptual
-
-<figure markdown="span">
-  ![Mapa conceptual de la Unidad 1: la digitalización y sus tres ramas —concepto y origen, alcance y aplicación, e implicaciones](assets/img/ud1-mapa-conceptual.png){ width="960" }
-  <figcaption>Síntesis de la unidad: la digitalización se aborda desde su <strong>concepto y origen</strong> (grados de intensidad, ventajas para la empresa y revoluciones industriales), su efecto sobre <strong>la empresa y los entornos IT/OT</strong> (estructura, diferencias y similitudes IT–OT, tecnologías de planta y negocio y su convergencia) y su <strong>alcance e implicaciones</strong> (sectores productivos, nuevos modelos de negocio, Green IT y retos y riesgos).</figcaption>
-</figure>
-
 ## Autoevaluación
 
 ??? question "1. ¿Qué diferencia hay entre digitalización y transformación digital?"
@@ -389,20 +415,20 @@ Elige una empresa industrial (real o inventada) y elabora un pequeño esquema:
 ??? question "2. ¿Cómo se relaciona la implantación de tecnología digital con la organización de la empresa?"
     Cada área o departamento incorpora herramientas digitales propias (BI en dirección, ERP en administración, CRM en el área comercial, SCADA en producción…). La digitalización real exige que esas herramientas se integren entre sí —que el dato se introduzca una vez y fluya— lo que obliga a revisar procesos y, en ocasiones, el propio organigrama, con perfiles nuevos como el de responsable de transformación digital o analista de datos.
 
-??? question "3. ¿Qué diferencia hay entre un entorno IT y un entorno OT en una empresa industrial?"
+??? question "3. ¿Qué es un sistema ciberfísico y por qué es la base de la Industria 4.0?"
+    Es un sistema en el que un componente físico está gobernado por software y conectado a una red, combinando sensores, capacidad de cómputo y comunicación, y actuadores. Cierra el ciclo *medir → decidir → actuar* sobre el proceso físico. Es la base de la Industria 4.0 porque, al conectar muchos sistemas ciberfísicos entre sí, la planta se vuelve capaz de supervisarse y reconfigurarse con poca intervención humana.
+
+??? question "4. ¿Qué diferencia hay entre un entorno IT y un entorno OT en una empresa industrial?"
     El entorno IT (*Information Technology*) gestiona la información del negocio: servidores, bases de datos, ERP, redes corporativas. El entorno OT (*Operational Technology*) controla y supervisa procesos físicos y maquinaria: PLC, sistemas SCADA, sensores y actuadores de planta. La Industria 4.0 se caracteriza por la convergencia de ambos entornos.
 
-??? question "4. Cita dos similitudes entre los entornos IT y OT."
+??? question "5. Cita dos similitudes entre los entornos IT y OT."
     Por ejemplo: ambos son tecnología que procesa datos y automatiza tareas; ambos se apoyan en hardware, software y redes; ambos son críticos para la actividad; ambos necesitan ciberseguridad y personal cualificado; ambos tienden a usar tecnologías comunes (redes IP, servidores, la nube).
 
-??? question "5. Menciona tres ventajas de digitalizar una empresa industrial de extremo a extremo."
+??? question "6. Menciona tres ventajas de digitalizar una empresa industrial de extremo a extremo."
     Por ejemplo: acceso y almacenamiento de la información más rápidos; disponibilidad 24/7; reducción de costes al eliminar tareas manuales y errores; aumento de la productividad; trazabilidad completa del proceso; decisiones en tiempo real; mantenimiento predictivo; y, como resultado, mejora de la competitividad.
 
-??? question "6. ¿Qué es un gemelo digital y para qué se utiliza en la Industria 4.0?"
+??? question "7. ¿Qué es un gemelo digital y para qué se utiliza en la Industria 4.0?"
     Es una réplica virtual de un producto, proceso o sistema físico que permite simular su comportamiento sin necesidad de actuar sobre el elemento real, anticipando problemas y optimizando decisiones antes de aplicarlas en el mundo físico.
-
-??? question "7. ¿Qué significa el término *Green IT*?"
-    El conjunto de prácticas orientadas a reducir el impacto ambiental de las tecnologías digitales: eficiencia energética de los centros de datos, alargamiento de la vida útil de los dispositivos, reciclaje de residuos electrónicos y desarrollo de software eficiente.
 
 ??? question "8. Cita dos retos o riesgos asociados a la digitalización de los sectores productivos."
     Por ejemplo: el impacto en el empleo y la necesidad de recualificación (*reskilling* y *upskilling*); la dependencia tecnológica ante fallos, ciberataques o cortes de suministro; el aumento de la superficie de exposición a amenazas de ciberseguridad; la desinformación; la concentración de poder en unos pocos grandes proveedores; o la necesidad de adaptar el marco regulatorio.
