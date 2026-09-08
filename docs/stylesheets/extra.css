@@ -80,6 +80,12 @@
     margin-left: 0.4em;
 }
 
+/* Menú izquierdo: mostrar solo la unidad actual y sus apartados, no la lista
+   de todas las unidades (para eso está el enlace "Volver al índice"). */
+.md-nav--primary > .md-nav__list > .md-nav__item:not(.md-nav__item--active) {
+    display: none;
+}
+
 /* Título de cada actividad: barra de color a todo el ancho */
 .md-typeset .actividad-titulo {
     display: block;
