@@ -10,7 +10,7 @@ Apuntes del módulo transversal **Digitalización aplicada a los sectores produc
 Este módulo aborda la transformación digital desde una perspectiva transversal a todos los sectores productivos: qué es y cómo afecta a las empresas, qué tecnologías habilitadoras la hacen posible, el papel de la nube y de la inteligencia artificial, cómo se analizan y protegen los datos que todo ello genera, y cómo se diseña y ejecuta un proyecto real de digitalización en una organización.
 
 - [UD1. Digitalización de los sectores productivos](ud1.md)
-- [UD2. Tecnologías digitales habilitadoras](ud2.md) <span class="badge-proximamente">Próximamente</span>
+- [UD2. Tecnologías digitales habilitadoras](ud2.md)
 - [UD3. La nube](ud3.md) <span class="badge-proximamente">Próximamente</span>
 - [UD4. Aplicación de la inteligencia artificial](ud4.md) <span class="badge-proximamente">Próximamente</span>
 - [UD5. Análisis de datos y ciberseguridad](ud5.md) <span class="badge-proximamente">Próximamente</span>
