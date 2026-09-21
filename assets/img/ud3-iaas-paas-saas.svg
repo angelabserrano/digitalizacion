@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" role="img" aria-labelledby="t d">
+  <title id="t">Reparto de responsabilidades: on-premise, IaaS, PaaS y SaaS</title>
+  <desc id="d">Matriz de capas tecnológicas. A medida que se avanza de on-premise a IaaS, PaaS y SaaS, el proveedor gestiona más capas y el cliente menos.</desc>
+  <style>
+    .bg{fill:#fbf7f2;}
+    text{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;fill:#26221e;}
+    .h{font-weight:700;font-size:16px;}
+    .col{font-weight:700;font-size:14px;fill:#26221e;}
+    .row{font-size:12.5px;fill:#4a443d;}
+    .cli{fill:#ffe3c2;stroke:#e8710a;stroke-width:1;}
+    .prov{fill:#e8710a;stroke:#e8710a;stroke-width:1;}
+    .cell{font-size:11px;}
+    .cliT{fill:#7a3e00;}
+    .provT{fill:#ffffff;}
+  </style>
+  <rect class="bg" x="0" y="0" width="820" height="470" rx="14"/>
+  <text class="h" x="410" y="32" text-anchor="middle">&#191;Qui&#233;n gestiona cada capa?</text>
+
+  <text class="row" x="150" y="60" text-anchor="end" style="font-weight:700;">Capa</text>
+  <text class="col" x="248" y="60" text-anchor="middle">On-premise</text>
+  <text class="col" x="388" y="60" text-anchor="middle">IaaS</text>
+  <text class="col" x="528" y="60" text-anchor="middle">PaaS</text>
+  <text class="col" x="668" y="60" text-anchor="middle">SaaS</text>
+
+  <!-- rows: y from 74, height 40; 8 layers -->
+  <!-- layer labels -->
+  <g>
+    <text class="row" x="150" y="99"  text-anchor="end">Aplicaci&#243;n</text>
+    <text class="row" x="150" y="139" text-anchor="end">Datos</text>
+    <text class="row" x="150" y="179" text-anchor="end">Entorno de ejecuci&#243;n</text>
+    <text class="row" x="150" y="219" text-anchor="end">Sistema operativo</text>
+    <text class="row" x="150" y="259" text-anchor="end">Virtualizaci&#243;n</text>
+    <text class="row" x="150" y="299" text-anchor="end">Servidores</text>
+    <text class="row" x="150" y="339" text-anchor="end">Almacenamiento</text>
+    <text class="row" x="150" y="379" text-anchor="end">Red</text>
+  </g>
+
+  <!-- Column On-premise: all client -->
+  <g>
+    <rect class="cli" x="170" y="80"  width="156" height="36"/>
+    <rect class="cli" x="170" y="120" width="156" height="36"/>
+    <rect class="cli" x="170" y="160" width="156" height="36"/>
+    <rect class="cli" x="170" y="200" width="156" height="36"/>
+    <rect class="cli" x="170" y="240" width="156" height="36"/>
+    <rect class="cli" x="170" y="280" width="156" height="36"/>
+    <rect class="cli" x="170" y="320" width="156" height="36"/>
+    <rect class="cli" x="170" y="360" width="156" height="36"/>
+  </g>
+  <!-- IaaS: client top 4, provider bottom 4 -->
+  <g>
+    <rect class="cli"  x="310" y="80"  width="156" height="36"/>
+    <rect class="cli"  x="310" y="120" width="156" height="36"/>
+    <rect class="cli"  x="310" y="160" width="156" height="36"/>
+    <rect class="cli"  x="310" y="200" width="156" height="36"/>
+    <rect class="prov" x="310" y="240" width="156" height="36"/>
+    <rect class="prov" x="310" y="280" width="156" height="36"/>
+    <rect class="prov" x="310" y="320" width="156" height="36"/>
+    <rect class="prov" x="310" y="360" width="156" height="36"/>
+  </g>
+  <!-- PaaS: client top 2, provider bottom 6 -->
+  <g>
+    <rect class="cli"  x="450" y="80"  width="156" height="36"/>
+    <rect class="cli"  x="450" y="120" width="156" height="36"/>
+    <rect class="prov" x="450" y="160" width="156" height="36"/>
+    <rect class="prov" x="450" y="200" width="156" height="36"/>
+    <rect class="prov" x="450" y="240" width="156" height="36"/>
+    <rect class="prov" x="450" y="280" width="156" height="36"/>
+    <rect class="prov" x="450" y="320" width="156" height="36"/>
+    <rect class="prov" x="450" y="360" width="156" height="36"/>
+  </g>
+  <!-- SaaS: client only Datos, provider rest -->
+  <g>
+    <rect class="prov" x="590" y="80"  width="156" height="36"/>
+    <rect class="cli"  x="590" y="120" width="156" height="36"/>
+    <rect class="prov" x="590" y="160" width="156" height="36"/>
+    <rect class="prov" x="590" y="200" width="156" height="36"/>
+    <rect class="prov" x="590" y="240" width="156" height="36"/>
+    <rect class="prov" x="590" y="280" width="156" height="36"/>
+    <rect class="prov" x="590" y="320" width="156" height="36"/>
+    <rect class="prov" x="590" y="360" width="156" height="36"/>
+  </g>
+
+  <!-- legend -->
+  <rect class="cli"  x="200" y="418" width="22" height="16"/>
+  <text class="row" x="230" y="431">Lo gestiona el cliente</text>
+  <rect class="prov" x="430" y="418" width="22" height="16"/>
+  <text class="row" x="460" y="431">Lo gestiona el proveedor</text>
+</svg>
