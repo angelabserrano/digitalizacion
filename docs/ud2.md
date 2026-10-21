@@ -54,74 +54,27 @@ Por su peso específico, la IA se estudia en profundidad en la **UD4** (aplicaci
 
 El **Internet de las Cosas (*Internet of Things*, IoT)** es la red de objetos físicos (sensores, electrodomésticos, vehículos, maquinaria industrial) equipados con capacidad de conexión que les permite recopilar y transmitir datos, y en muchos casos recibir órdenes, a través de internet.
 
-**Arquitectura básica de un sistema IoT.** Un sistema IoT se organiza en cuatro capas:
+Características más relevantes:
 
-1. **Dispositivos y sensores**: capturan datos del entorno (temperatura, humedad, movimiento, localización, consumo eléctrico...).
-2. **Conectividad**: los datos se transmiten mediante distintas tecnologías según el caso de uso — Wi-Fi, Bluetooth, redes móviles (4G/5G), o protocolos de bajo consumo como LoRaWAN, Zigbee o NB-IoT (pensados para dispositivos que envían pocos datos y deben durar años con batería). En instalaciones con muchos dispositivos es habitual que no se conecten uno a uno a internet, sino a una **pasarela IoT (*gateway*)** local, que agrupa sus datos, los preprocesa y los envía a la plataforma.
-3. **Plataforma / nube**: recibe, almacena y procesa los datos, a menudo en la nube (véase el apartado 2.4).
-4. **Aplicación**: capa que presenta la información al usuario o dispara acciones automáticas (una alarma, el encendido de un actuador, una notificación). Puede ejecutarse en **remoto**, desde la nube, o en **local**, junto a la propia pasarela, para poder seguir funcionando aunque falle la conexión a internet.
+- **Conectividad**: los objetos se conectan a una red —Wi-Fi, redes móviles o protocolos de bajo consumo como LoRaWAN o NB-IoT— para enviar y recibir datos.
+- **Sensorización y actuación**: incorporan sensores que miden su entorno (temperatura, humedad, movimiento, localización...) y, a menudo, actuadores capaces de intervenir sobre él (abrir una válvula, encender una alarma).
+- **Datos en la nube**: la información viaja hasta una plataforma —a menudo en la nube (véase el apartado 2.4)— que la almacena, la procesa y puede disparar una acción automática.
+- **Presencia en todos los sectores**: hogar, ciudad, industria, agricultura, salud y logística, entre otros.
 
 <figure markdown="span">
-  ![Las cuatro capas de un sistema IoT: dispositivos y sensores, conectividad a través de una pasarela IoT (gateway), plataforma o nube, y aplicación local o remota](assets/img/ud2-arquitectura-iot.svg){ width="800" }
-  <figcaption>Los dispositivos y sensores envían sus datos a una pasarela IoT (gateway), que los sube a la plataforma o nube; la aplicación puede mostrarse en local, junto a la pasarela, o en remoto, desde la nube.</figcaption>
+  ![El Internet de las Cosas en distintos ámbitos: hogar, ciudad, industria, agricultura, salud y logística](assets/img/ud2-iot-ambitos.svg){ width="800" }
+  <figcaption>El IoT conecta objetos de todo tipo de ámbitos para captar datos de su entorno y, a menudo, actuar sobre él.</figcaption>
 </figure>
 
-**Aplicaciones del IoT.**
-
-| Ámbito | Ejemplos |
-|---|---|
-| Hogar (*smart home*) | Termostatos inteligentes, cerraduras conectadas, asistentes de voz |
-| Ciudad (*smart city*) | Sensores de tráfico, contenedores de basura que avisan cuando están llenos, farolas que regulan su intensidad |
-| Industria (IIoT) | Sensores de vibración y temperatura en maquinaria para mantenimiento predictivo |
-| Agricultura de precisión | Sensores de humedad del suelo, estaciones meteorológicas (véase UD1) |
-| Salud (*wearables*) | Pulseras y relojes que monitorizan constantes vitales |
-| Logística | Trazabilidad de mercancías, sensores de temperatura en transporte de productos refrigerados |
-
-!!! reto "Reto: identifica un sistema IoT"
-    Piensa en un dispositivo IoT que uses o conozcas (una pulsera de actividad, un termostato inteligente, un contador de electricidad "inteligente"). Describe qué dato capta, cómo lo transmite y qué decisión o acción se toma con ese dato.
-
 !!! question "💡 Comprueba que lo has entendido"
-    Un invernadero coloca sondas de humedad en el suelo; cuando la humedad baja de un umbral, se abre automáticamente una electroválvula de riego y el agricultor recibe un aviso en el móvil.
+    Una pulsera de actividad mide tus pulsaciones y tus pasos, envía esos datos por Bluetooth al móvil, y el móvil los sube a una aplicación en la nube que te avisa si llevas mucho tiempo sin moverte.
 
-    **Asocia cada elemento con su capa de la arquitectura IoT: dispositivos/sensores, conectividad, plataforma/nube y aplicación.**
+    **Identifica en este ejemplo la conectividad, la sensorización y el papel de la nube.**
 
 ??? note "Ver respuesta"
-    - **Dispositivos/sensores**: las sondas de humedad del suelo (y la electroválvula, como actuador).
-    - **Conectividad**: la red que transmite las lecturas (por ejemplo, LoRaWAN o Wi-Fi).
-    - **Plataforma/nube**: el servicio que recibe los datos, guarda el histórico y los compara con el umbral.
-    - **Aplicación**: la lógica que ordena abrir la válvula y envía el aviso al móvil del agricultor.
-
-**Objetos inteligentes, ciudades inteligentes y oportunidades de negocio.** Cuando un objeto cotidiano incorpora sensores, conectividad y algo de capacidad de proceso, se convierte en un **objeto inteligente (*smart object*)**: sabe medir su entorno, comunicarse y, a veces, decidir por sí mismo (un termostato que aprende horarios, una máquina que pide su propio repuesto).
-
-La suma de muchos objetos inteligentes en un entorno urbano da lugar a la **ciudad inteligente (*smart city*)**: tráfico, alumbrado, aparcamiento, riego de parques, recogida de residuos o calidad del aire gestionados con datos en tiempo real. Para el sector informático, la *smart city* es un **mercado en sí mismo**: despliegue de sensores, plataformas de datos, aplicaciones ciudadanas, integración de sistemas y analítica.
-
-**Ventajas y riesgos del IoT para las empresas.**
-
-Ventajas:
-
-- **Visibilidad en tiempo real** de procesos, activos y productos (dónde están y en qué estado).
-- **Mantenimiento predictivo**: menos paradas no planificadas y menos averías graves.
-- **Eficiencia**: se ajusta el consumo de energía, agua y materias primas al necesario; menos desplazamientos.
-- **Calidad**: detección temprana de desviaciones en el proceso.
-- **Nuevos servicios**: pago por uso, monitorización remota, servitización (véase el apartado 5).
-- **Decisiones basadas en datos** a lo largo de toda la cadena (convergencia IT-OT).
-
-Riesgos:
-
-- **Seguridad**: cada dispositivo conectado amplía la superficie de ataque; muchos equipos IoT mantienen contraseñas por defecto y se actualizan poco, y pueden acabar integrados en redes de bots (*botnets*).
-- **Privacidad**: los sensores captan datos personales o de comportamiento que hay que proteger (véase el apartado 4).
-- **Dependencia y disponibilidad**: si falla la conectividad o la plataforma, el proceso se resiente.
-- **Interoperabilidad**: fabricantes y protocolos distintos dificultan integrarlo todo en un único sistema.
-- **Coste y obsolescencia**: desplegar, mantener y sustituir miles de dispositivos, y gestionar sus residuos electrónicos.
-
-!!! question "💡 Comprueba que lo has entendido"
-    Una empresa de transporte instala sensores de temperatura y localización en todos sus camiones frigoríficos y los conecta a una plataforma en la nube.
-
-    **Indica dos ventajas para la empresa y dos riesgos que debe vigilar.**
-
-??? note "Ver respuesta"
-    - **Ventajas** (dos cualesquiera): visibilidad en tiempo real de la flota y de la cadena de frío, alertas tempranas si la temperatura se desvía, mantenimiento predictivo de los equipos, posibilidad de ofrecer al cliente un servicio de trazabilidad.
-    - **Riesgos** (dos cualesquiera): seguridad de los dispositivos (acceso no autorizado a la plataforma o a los camiones), privacidad de los datos de localización del personal, dependencia de la conectividad móvil, coste de mantener y renovar los sensores.
+    - **Sensorización**: la pulsera mide pulsaciones y pasos.
+    - **Conectividad**: el Bluetooth hacia el móvil y, después, la conexión a internet.
+    - **Nube**: la aplicación que almacena los datos, los analiza y genera el aviso automático.
 
 ### 2.3. Redes 5G
 
@@ -500,8 +453,8 @@ Busca tu propio nombre (o un alias que uses habitualmente) en un buscador. Anota
 ??? question "2. ¿Qué aporta la inteligencia artificial como tecnología habilitadora?"
     Permite la **automatización** de tareas que no son puramente mecánicas (clasificar documentos, atender consultas, inspeccionar piezas por visión artificial), la **predicción** (mantenimiento predictivo, previsión de demanda, detección de fraude) y la **optimización** (rutas, precios, consumo energético, planificación). Aprende a partir de grandes volúmenes de datos, por lo que va unida al procesamiento masivo de datos. Se estudia en detalle en la UD4.
 
-??? question "3. Cita las cuatro capas de un sistema IoT."
-    Dispositivos y sensores; conectividad; plataforma o nube; y aplicación. El dato viaja desde los sensores hasta la aplicación, que puede devolver una orden a un actuador.
+??? question "3. Cita al menos tres características del Internet de las Cosas (IoT)."
+    Por ejemplo: la conectividad de los objetos a una red, la sensorización (y a menudo la actuación sobre el entorno), el envío de los datos a una plataforma o nube para su almacenamiento y procesamiento, y su presencia en todo tipo de sectores (hogar, ciudad, industria, agricultura, salud, logística...). (Se consideran correctas cualesquiera tres.)
 
 ??? question "4. ¿Por qué el 5G es especialmente relevante para el Internet de las Cosas?"
     Porque ofrece mayor velocidad, menor latencia y capacidad para soportar un número muy elevado de dispositivos conectados simultáneamente, condiciones necesarias para escenarios de IoT masivo o aplicaciones que exigen respuesta casi instantánea.
