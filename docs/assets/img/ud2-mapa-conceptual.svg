@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="t d">
+  <title id="t">Mapa conceptual de la Unidad 2: las tecnolog&#237;as digitales habilitadoras</title>
+  <desc id="d">Las tecnolog&#237;as digitales habilitadoras se organizan en tres ramas: qu&#233; son las THD (caracter&#237;sticas comunes, cat&#225;logo de las diez THD y un ejemplo de combinaci&#243;n); seguridad y marco legal (ciberseguridad en IT y OT, huella digital, y derechos y deberes); y aplicaci&#243;n en la empresa (influencia en productos y servicios, uso t&#237;pico en planta y negocio, mejoras conseguidas, y sistemas digitalizados y datos).</desc>
+  <style>
+    .bg{fill:#fbf7f2;}
+    text{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;fill:#26221e;}
+    .root{fill:#e8710a;}
+    .roott{font-weight:700;font-size:17px;fill:#ffffff;}
+    .lbl{font-weight:700;font-size:12px;fill:#5f574d;}
+    .hd{font-weight:700;font-size:13.5px;}
+    .bt{font-weight:700;font-size:12.5px;}
+    .p{font-size:10px;fill:#4a443d;}
+    .ln1{stroke:#e8710a;stroke-width:2.5;fill:none;marker-end:url(#a1);}
+    .ln2{stroke:#1a73e8;stroke-width:2.5;fill:none;marker-end:url(#a2);}
+    .ln3{stroke:#1e8e3e;stroke-width:2.5;fill:none;marker-end:url(#a3);}
+    .v1{stroke:#e8710a;stroke-width:2.5;}
+    .v2{stroke:#1a73e8;stroke-width:2.5;}
+    .v3{stroke:#1e8e3e;stroke-width:2.5;}
+    .card1{fill:#ffffff;stroke:#e8710a;stroke-width:2;}
+    .card2{fill:#ffffff;stroke:#1a73e8;stroke-width:2;}
+    .card3{fill:#ffffff;stroke:#1e8e3e;stroke-width:2;}
+    .head1{fill:#fbe4d3;stroke:#e8710a;stroke-width:2;}
+    .head2{fill:#e1effd;stroke:#1a73e8;stroke-width:2;}
+    .head3{fill:#e4f3e8;stroke:#1e8e3e;stroke-width:2;}
+    .t1{fill:#c15600;}
+    .t2{fill:#1257b0;}
+    .t3{fill:#14682e;}
+    .ik{fill:#efe7fb;stroke:#673ab7;stroke-width:2;}
+    .ikt{font-weight:700;fill:#4a2f8f;}
+    .ikp{font-size:11px;fill:#3d3550;}
+  </style>
+  <defs>
+    <marker id="a1" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#e8710a"/>
+    </marker>
+    <marker id="a2" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#1a73e8"/>
+    </marker>
+    <marker id="a3" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#1e8e3e"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1000" height="700" rx="14"/>
+
+  <!-- Nodo ra&#237;z -->
+  <rect class="root" x="350" y="20" width="300" height="46" rx="10"/>
+  <text class="roott" x="500" y="49" text-anchor="middle">TECNOLOG&#205;AS DIGITALES HABILITADORAS</text>
+
+  <!-- Conectores ra&#237;z -> cabecera -->
+  <path class="ln1" d="M500 66 L175 107"/>
+  <path class="ln2" d="M500 66 L500 107"/>
+  <path class="ln3" d="M500 66 L825 107"/>
+
+  <!-- Etiquetas de las ramas -->
+  <rect x="140" y="80" width="70" height="17" fill="#fbf7f2"/>
+  <rect x="455" y="80" width="90" height="17" fill="#fbf7f2"/>
+  <rect x="770" y="80" width="110" height="17" fill="#fbf7f2"/>
+  <text class="lbl" x="175" y="92" text-anchor="middle">&#191;Qu&#233; son?</text>
+  <text class="lbl" x="500" y="92" text-anchor="middle">&#191;Qu&#233; riesgos?</text>
+  <text class="lbl" x="825" y="92" text-anchor="middle">&#191;C&#243;mo se aplican?</text>
+
+  <!-- ================= RAMA 1: QU&#201; SON LAS THD ================= -->
+  <rect class="head1" x="35" y="108" width="280" height="40" rx="10"/>
+  <text class="hd t1" x="175" y="133" text-anchor="middle">1. QU&#201; SON LAS THD</text>
+
+  <line class="v1" x1="175" y1="148" x2="175" y2="170"/>
+  <line class="v1" x1="175" y1="264" x2="175" y2="282"/>
+  <line class="v1" x1="175" y1="376" x2="175" y2="394"/>
+
+  <rect class="card1" x="35" y="170" width="280" height="94" rx="12"/>
+  <text class="bt t1" x="175" y="198" text-anchor="middle">Caracter&#237;sticas comunes</text>
+  <text class="p" x="175" y="219" text-anchor="middle">transversales, se combinan entre s&#237;,</text>
+  <text class="p" x="175" y="236" text-anchor="middle">dependen de datos y conectividad</text>
+  <text class="p" x="175" y="253" text-anchor="middle">y evolucionan con rapidez</text>
+
+  <rect class="card1" x="35" y="282" width="280" height="94" rx="12"/>
+  <text class="bt t1" x="175" y="306" text-anchor="middle">Cat&#225;logo de las diez THD</text>
+  <text class="p" x="175" y="327" text-anchor="middle">IA, IoT, 5G, nube, datos masivos,</text>
+  <text class="p" x="175" y="344" text-anchor="middle">blockchain/DLT, realidades inmersivas,</text>
+  <text class="p" x="175" y="361" text-anchor="middle">rob&#243;tica, gemelos digitales y otras</text>
+
+  <rect class="card1" x="35" y="394" width="280" height="94" rx="12"/>
+  <text class="bt t1" x="175" y="422" text-anchor="middle">Ejemplo de combinaci&#243;n</text>
+  <text class="p" x="175" y="443" text-anchor="middle">mantenimiento predictivo:</text>
+  <text class="p" x="175" y="460" text-anchor="middle">IoT + datos masivos + IA + nube</text>
+
+  <!-- ================= RAMA 2: SEGURIDAD Y MARCO LEGAL ================= -->
+  <rect class="head2" x="360" y="108" width="280" height="40" rx="10"/>
+  <text class="hd t2" x="500" y="133" text-anchor="middle">2. SEGURIDAD Y MARCO LEGAL</text>
+
+  <line class="v2" x1="500" y1="148" x2="500" y2="170"/>
+  <line class="v2" x1="500" y1="264" x2="500" y2="282"/>
+  <line class="v2" x1="500" y1="376" x2="500" y2="394"/>
+
+  <rect class="card2" x="360" y="170" width="280" height="94" rx="12"/>
+  <text class="bt t2" x="500" y="198" text-anchor="middle">Ciberseguridad en IT y OT</text>
+  <text class="p" x="500" y="219" text-anchor="middle">mayor superficie de ataque;</text>
+  <text class="p" x="500" y="236" text-anchor="middle">seguridad desde el dise&#241;o</text>
+  <text class="p" x="500" y="253" text-anchor="middle">(<tspan font-style="italic">security by design</tspan>)</text>
+
+  <rect class="card2" x="360" y="282" width="280" height="94" rx="12"/>
+  <text class="bt t2" x="500" y="310" text-anchor="middle">Huella digital</text>
+  <text class="p" x="500" y="331" text-anchor="middle">rastro activo y pasivo;</text>
+  <text class="p" x="500" y="348" text-anchor="middle">reputaci&#243;n y privacidad</text>
+
+  <rect class="card2" x="360" y="394" width="280" height="94" rx="12"/>
+  <text class="bt t2" x="500" y="416" text-anchor="middle">Derechos y deberes</text>
+  <text class="p" x="500" y="437" text-anchor="middle">RGPD, transparencia algor&#237;tmica,</text>
+  <text class="p" x="500" y="454" text-anchor="middle">cumplimiento normativo,</text>
+  <text class="p" x="500" y="471" text-anchor="middle">uso responsable</text>
+
+  <!-- ================= RAMA 3: APLICACI&#211;N EN LA EMPRESA ================= -->
+  <rect class="head3" x="685" y="108" width="280" height="40" rx="10"/>
+  <text class="hd t3" x="825" y="133" text-anchor="middle">3. APLICACI&#211;N EN LA EMPRESA</text>
+
+  <line class="v3" x1="825" y1="148" x2="825" y2="170"/>
+  <line class="v3" x1="825" y1="264" x2="825" y2="282"/>
+  <line class="v3" x1="825" y1="376" x2="825" y2="394"/>
+  <line class="v3" x1="825" y1="488" x2="825" y2="506"/>
+
+  <rect class="card3" x="685" y="170" width="280" height="94" rx="12"/>
+  <text class="bt t3" x="825" y="198" text-anchor="middle">Influencia en productos y servicios</text>
+  <text class="p" x="825" y="219" text-anchor="middle">servitizaci&#243;n, productos conectados,</text>
+  <text class="p" x="825" y="236" text-anchor="middle">plataformas, fabricaci&#243;n personalizada</text>
+
+  <rect class="card3" x="685" y="282" width="280" height="94" rx="12"/>
+  <text class="bt t3" x="825" y="310" text-anchor="middle">THD t&#237;picas en planta y negocio</text>
+  <text class="p" x="825" y="331" text-anchor="middle">uso en IT (gesti&#243;n) y en OT</text>
+  <text class="p" x="825" y="348" text-anchor="middle">(producci&#243;n) seg&#250;n cada THD</text>
+
+  <rect class="card3" x="685" y="394" width="280" height="94" rx="12"/>
+  <text class="bt t3" x="825" y="416" text-anchor="middle">Mejoras con la implantaci&#243;n</text>
+  <text class="p" x="825" y="437" text-anchor="middle">productividad, calidad,</text>
+  <text class="p" x="825" y="454" text-anchor="middle">sostenibilidad y eficiencia</text>
+  <text class="p" x="825" y="471" text-anchor="middle">(con su contrapartida ambiental)</text>
+
+  <rect class="card3" x="685" y="506" width="280" height="94" rx="12"/>
+  <text class="bt t3" x="825" y="534" text-anchor="middle">Sistemas digitalizados y datos</text>
+  <text class="p" x="825" y="555" text-anchor="middle">generaci&#243;n &#8594; transmisi&#243;n &#8594;</text>
+  <text class="p" x="825" y="572" text-anchor="middle">almacenamiento &#8594; explotaci&#243;n</text>
+
+  <!-- ================= IDEA CLAVE ================= -->
+  <rect class="ik" x="35" y="624" width="930" height="54" rx="10"/>
+  <circle cx="66" cy="651" r="12" fill="#673ab7"/>
+  <circle cx="66" cy="651" r="4.5" fill="#efe7fb"/>
+  <text class="ikt" x="90" y="647" font-size="11.5px">IDEA CLAVE:</text>
+  <text class="ikp" x="166" y="647">las THD comparten unas caracter&#237;sticas comunes, generan riesgos que exigen</text>
+  <text class="ikp" x="90" y="665">ciberseguridad y un marco de derechos y deberes, y transforman los productos, la planta y los datos de la empresa.</text>
+</svg>
