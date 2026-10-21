@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" role="img" aria-labelledby="t d">
+  <title id="t">C&#243;mo funciona la inteligencia artificial</title>
+  <desc id="d">La inteligencia artificial parte de grandes vol&#250;menes de datos, aprende patrones mediante aprendizaje autom&#225;tico y, con ello, automatiza tareas, predice valores u optimiza procesos.</desc>
+  <style>
+    .bg{fill:#fbf7f2;}
+    .card{fill:#ffffff;stroke:#e8710a;stroke-width:2;}
+    text{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;fill:#26221e;}
+    .h{font-weight:700;font-size:17px;}
+    .bt{font-weight:700;font-size:14px;}
+    .p{font-size:11px;fill:#4a443d;}
+    .arrow{stroke:#e8710a;stroke-width:2.5;fill:none;marker-end:url(#a);}
+    .icon{stroke:#e8710a;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+    .iconFill{fill:#e8710a;stroke:none;}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#e8710a"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="880" height="240" rx="14"/>
+  <text class="h" x="440" y="30" text-anchor="middle">C&#243;mo funciona la inteligencia artificial</text>
+
+  <g>
+    <rect class="card" x="24" y="56" width="250" height="124" rx="12"/>
+    <g transform="translate(44,74)">
+      <ellipse class="icon" cx="14" cy="6" rx="10" ry="3.5"/>
+      <line class="icon" x1="4" y1="6" x2="4" y2="20"/><line class="icon" x1="24" y1="6" x2="24" y2="20"/>
+      <ellipse class="icon" cx="14" cy="13" rx="10" ry="3.5"/>
+      <ellipse class="icon" cx="14" cy="20" rx="10" ry="3.5"/>
+    </g>
+    <text class="bt" x="80" y="100">Datos</text>
+    <text class="p" x="44" y="146">Grandes vol&#250;menes de</text>
+    <text class="p" x="44" y="162">ejemplos reales</text>
+  </g>
+
+  <g>
+    <rect class="card" x="315" y="56" width="250" height="124" rx="12"/>
+    <g transform="translate(335,74)">
+      <circle class="iconFill" cx="14" cy="14" r="3"/>
+      <circle class="iconFill" cx="14" cy="3" r="2.2"/><circle class="iconFill" cx="25" cy="20" r="2.2"/><circle class="iconFill" cx="3" cy="20" r="2.2"/>
+      <line class="icon" x1="14" y1="14" x2="14" y2="3"/><line class="icon" x1="14" y1="14" x2="25" y2="20"/><line class="icon" x1="14" y1="14" x2="3" y2="20"/>
+    </g>
+    <text class="bt" x="371" y="100">Aprendizaje autom&#225;tico</text>
+    <text class="p" x="335" y="146">El sistema aprende</text>
+    <text class="p" x="335" y="162">patrones de los datos</text>
+  </g>
+
+  <g>
+    <rect class="card" x="606" y="56" width="250" height="124" rx="12"/>
+    <g transform="translate(626,74)">
+      <circle class="icon" cx="14" cy="14" r="11"/>
+      <circle class="icon" cx="14" cy="14" r="6"/>
+      <circle class="iconFill" cx="14" cy="14" r="2"/>
+    </g>
+    <text class="bt" x="662" y="94">Automatiza, predice</text>
+    <text class="bt" x="662" y="112">y optimiza</text>
+    <text class="p" x="626" y="146">Clasifica, detecta</text>
+    <text class="p" x="626" y="162">fallos, decide</text>
+  </g>
+
+  <line class="arrow" x1="278" y1="118" x2="311" y2="118"/>
+  <line class="arrow" x1="569" y1="118" x2="602" y2="118"/>
+
+  <text class="p" x="440" y="220" text-anchor="middle" style="font-style:italic;">Cuantos más datos y de mejor calidad, mejor aprende el sistema</text>
+</svg>

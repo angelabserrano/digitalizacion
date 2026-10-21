@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" role="img" aria-labelledby="t d">
+  <title id="t">Rob&#243;tica industrial cl&#225;sica frente a rob&#243;tica colaborativa</title>
+  <desc id="d">El robot industrial cl&#225;sico trabaja aislado en una zona vallada realizando tareas repetitivas. El cobot trabaja junto a las personas, con sensores de seguridad que lo detienen ante un contacto imprevisto.</desc>
+  <style>
+    .bg{fill:#fbf7f2;}
+    .card{fill:#ffffff;stroke:#e8710a;stroke-width:2;}
+    text{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;fill:#26221e;}
+    .h{font-weight:700;font-size:17px;}
+    .bt{font-weight:700;font-size:14.5px;}
+    .p{font-size:11px;fill:#4a443d;}
+    .icon{stroke:#e8710a;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+    .iconFill{fill:#e8710a;stroke:none;}
+    .fence{stroke:#9a9488;stroke-width:2;stroke-dasharray:4 4;fill:none;}
+  </style>
+  <rect class="bg" x="0" y="0" width="880" height="260" rx="14"/>
+  <text class="h" x="440" y="30" text-anchor="middle">Rob&#243;tica industrial cl&#225;sica frente a rob&#243;tica colaborativa</text>
+
+  <g>
+    <rect class="card" x="24" y="54" width="400" height="186" rx="12"/>
+    <rect class="fence" x="48" y="76" width="352" height="112" rx="8"/>
+    <g transform="translate(200,100)">
+      <rect class="icon" x="8" y="2" width="8" height="8" rx="2"/>
+      <line class="icon" x1="12" y1="10" x2="12" y2="24"/>
+      <line class="icon" x1="12" y1="24" x2="24" y2="30"/>
+      <circle class="iconFill" cx="24" cy="30" r="3"/>
+    </g>
+    <text class="bt" x="224" y="210" text-anchor="middle">Robot industrial cl&#225;sico</text>
+    <text class="p" x="224" y="228" text-anchor="middle">Aislado en una zona vallada, tareas repetitivas programadas</text>
+  </g>
+
+  <g>
+    <rect class="card" x="456" y="54" width="400" height="186" rx="12"/>
+    <g transform="translate(560,100)">
+      <rect class="icon" x="8" y="2" width="8" height="8" rx="2"/>
+      <line class="icon" x1="12" y1="10" x2="12" y2="24"/>
+      <line class="icon" x1="12" y1="24" x2="4" y2="30"/>
+      <circle class="iconFill" cx="4" cy="30" r="3"/>
+    </g>
+    <g transform="translate(610,98)">
+      <circle class="icon" cx="12" cy="6" r="6"/>
+      <path class="icon" d="M2 32 C2 20 6 16 12 16 C18 16 22 20 22 32"/>
+    </g>
+    <text class="bt" x="656" y="210" text-anchor="middle">Robot colaborativo (cobot)</text>
+    <text class="p" x="656" y="228" text-anchor="middle">Trabaja junto a personas; se detiene ante un contacto imprevisto</text>
+  </g>
+</svg>

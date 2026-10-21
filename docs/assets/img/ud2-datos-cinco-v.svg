@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" role="img" aria-labelledby="t d">
+  <title id="t">Las cinco V del procesamiento masivo de datos</title>
+  <desc id="d">El procesamiento masivo de datos se caracteriza por cinco rasgos: volumen, velocidad, variedad, veracidad y valor.</desc>
+  <style>
+    .bg{fill:#fbf7f2;}
+    .card{fill:#ffffff;stroke:#e8710a;stroke-width:2;}
+    text{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;fill:#26221e;}
+    .h{font-weight:700;font-size:17px;}
+    .vbig{font-weight:700;font-size:26px;fill:#e8710a;}
+    .bt{font-weight:700;font-size:13px;}
+    .p{font-size:10px;fill:#4a443d;}
+  </style>
+  <rect class="bg" x="0" y="0" width="900" height="230" rx="14"/>
+  <text class="h" x="450" y="30" text-anchor="middle">Las cinco V del procesamiento masivo de datos</text>
+
+  <g>
+    <rect class="card" x="20" y="54" width="164" height="150" rx="12"/>
+    <text class="vbig" x="102" y="100" text-anchor="middle">V</text>
+    <text class="bt" x="102" y="128" text-anchor="middle">Volumen</text>
+    <text class="p" x="102" y="150" text-anchor="middle">Cantidad de</text>
+    <text class="p" x="102" y="164" text-anchor="middle">datos generados</text>
+  </g>
+  <g>
+    <rect class="card" x="196" y="54" width="164" height="150" rx="12"/>
+    <text class="vbig" x="278" y="100" text-anchor="middle">V</text>
+    <text class="bt" x="278" y="128" text-anchor="middle">Velocidad</text>
+    <text class="p" x="278" y="150" text-anchor="middle">Rapidez al generarse</text>
+    <text class="p" x="278" y="164" text-anchor="middle">y procesarse</text>
+  </g>
+  <g>
+    <rect class="card" x="372" y="54" width="164" height="150" rx="12"/>
+    <text class="vbig" x="454" y="100" text-anchor="middle">V</text>
+    <text class="bt" x="454" y="128" text-anchor="middle">Variedad</text>
+    <text class="p" x="454" y="150" text-anchor="middle">Formatos distintos</text>
+    <text class="p" x="454" y="164" text-anchor="middle">de datos</text>
+  </g>
+  <g>
+    <rect class="card" x="548" y="54" width="164" height="150" rx="12"/>
+    <text class="vbig" x="630" y="100" text-anchor="middle">V</text>
+    <text class="bt" x="630" y="128" text-anchor="middle">Veracidad</text>
+    <text class="p" x="630" y="150" text-anchor="middle">Fiabilidad y calidad</text>
+    <text class="p" x="630" y="164" text-anchor="middle">de los datos</text>
+  </g>
+  <g>
+    <rect class="card" x="724" y="54" width="156" height="150" rx="12"/>
+    <text class="vbig" x="802" y="100" text-anchor="middle">V</text>
+    <text class="bt" x="802" y="128" text-anchor="middle">Valor</text>
+    <text class="p" x="802" y="150" text-anchor="middle">Utilidad real que</text>
+    <text class="p" x="802" y="164" text-anchor="middle">se extrae de ellos</text>
+  </g>
+</svg>

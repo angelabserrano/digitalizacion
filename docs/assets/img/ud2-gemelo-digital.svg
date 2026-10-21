@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" role="img" aria-labelledby="t d">
+  <title id="t">Objeto f&#237;sico y gemelo digital sincronizados</title>
+  <desc id="d">El objeto o proceso físico envía datos en tiempo real a su gemelo digital, una réplica virtual; el gemelo permite simular escenarios y devolver decisiones u optimizaciones al elemento real.</desc>
+  <style>
+    .bg{fill:#fbf7f2;}
+    .card{fill:#ffffff;stroke:#e8710a;stroke-width:2;}
+    .cardAlt{fill:#ffffff;stroke:#1a73e8;stroke-width:2;stroke-dasharray:5 4;}
+    text{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;fill:#26221e;}
+    .h{font-weight:700;font-size:17px;}
+    .bt{font-weight:700;font-size:14.5px;}
+    .bt2{font-weight:700;font-size:14.5px;fill:#1257b0;}
+    .p{font-size:11px;fill:#4a443d;}
+    .icon{stroke:#e8710a;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+    .iconAlt{stroke:#1a73e8;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+    .arrow{stroke:#e8710a;stroke-width:2.5;fill:none;marker-end:url(#a);}
+    .arrowAlt{stroke:#1a73e8;stroke-width:2.5;fill:none;marker-end:url(#b);}
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#e8710a"/>
+    </marker>
+    <marker id="b" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#1a73e8"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="880" height="260" rx="14"/>
+  <text class="h" x="440" y="30" text-anchor="middle">Objeto f&#237;sico y gemelo digital sincronizados</text>
+
+  <g>
+    <rect class="card" x="24" y="68" width="340" height="150" rx="12"/>
+    <g transform="translate(50,86)">
+      <rect class="icon" x="2" y="12" width="24" height="14"/>
+      <path class="icon" d="M2 12 L14 3 L26 12"/>
+      <rect class="icon" x="18" y="2" width="4" height="8"/>
+    </g>
+    <text class="bt" x="90" y="106">Objeto o proceso f&#237;sico</text>
+    <text class="p" x="50" y="150">Una m&#225;quina, una l&#237;nea</text>
+    <text class="p" x="50" y="166">o una planta real, con sus</text>
+    <text class="p" x="50" y="182">sensores instalados</text>
+  </g>
+
+  <g>
+    <rect class="cardAlt" x="516" y="68" width="340" height="150" rx="12"/>
+    <g transform="translate(542,86)">
+      <rect class="iconAlt" x="2" y="6" width="16" height="16" rx="3"/>
+      <rect class="iconAlt" x="12" y="12" width="16" height="16" rx="3"/>
+    </g>
+    <text class="bt2" x="582" y="106">Gemelo digital</text>
+    <text class="p" x="542" y="150">R&#233;plica virtual que recibe</text>
+    <text class="p" x="542" y="166">los datos en tiempo real</text>
+    <text class="p" x="542" y="182">y permite simular</text>
+  </g>
+
+  <path class="arrow" d="M364 110 C 400 100, 480 100, 512 108"/>
+  <text class="p" x="440" y="92" text-anchor="middle">datos en tiempo real</text>
+
+  <path class="arrowAlt" d="M512 178 C 480 188, 400 188, 364 180"/>
+  <text class="p" x="440" y="206" text-anchor="middle">simulaci&#243;n y decisiones</text>
+</svg>

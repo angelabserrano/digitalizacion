@@ -42,6 +42,11 @@ Como tecnología habilitadora, la IA aporta:
 
 Por su peso específico, la IA se estudia en profundidad en la **UD4** (aplicaciones en el sector, relación con los datos, lenguajes de programación y retos).
 
+<figure markdown="span">
+  ![Cómo funciona la inteligencia artificial: de los datos al aprendizaje automático y de ahí a la automatización, la predicción y la optimización](assets/img/ud2-ia-flujo.svg){ width="760" }
+  <figcaption>La IA aprende patrones a partir de los datos para automatizar tareas, predecir valores y optimizar procesos.</figcaption>
+</figure>
+
 !!! question "💡 Comprueba que lo has entendido"
     Un taller quiere que un sistema revise automáticamente las fotos de cada pieza fabricada y avise cuando detecte un defecto, aprendiendo a partir de miles de imágenes de piezas correctas y defectuosas.
 
@@ -84,6 +89,11 @@ Las tecnologías anteriores (IoT masivo, realidad aumentada, vehículos autónom
 - **Menor latencia** (tiempo de respuesta), crítica en aplicaciones que requieren reacción casi instantánea, como el control remoto de maquinaria o vehículos.
 - **Mayor densidad de conexiones simultáneas**, necesaria para escenarios con miles de sensores IoT en un espacio reducido (una fábrica, un puerto).
 
+<figure markdown="span">
+  ![Qué aporta el 5G: mayor velocidad, menor latencia y mayor densidad de conexiones](assets/img/ud2-5g-mejoras.svg){ width="760" }
+  <figcaption>Tres mejoras del 5G que hacen posible el IoT masivo, la realidad aumentada y el control remoto en tiempo real.</figcaption>
+</figure>
+
 !!! question "💡 Comprueba que lo has entendido"
     Relaciona cada necesidad con la mejora del 5G que la hace posible:
 
@@ -108,6 +118,11 @@ Como tecnología habilitadora, la nube aporta:
 
 Por su peso específico, la computación en la nube se estudia en profundidad en la **UD3** (modelos de servicio, tipos de nube y seguridad en la nube).
 
+<figure markdown="span">
+  ![Infraestructura propia frente a la computación en la nube](assets/img/ud2-nube-comparativa.svg){ width="760" }
+  <figcaption>Con infraestructura propia la empresa compra y mantiene sus servidores; con la nube, el proveedor la mantiene y la empresa paga según el uso.</figcaption>
+</figure>
+
 !!! question "💡 Comprueba que lo has entendido"
     Una pequeña empresa que fabrica muebles a medida quiere ofrecer a sus clientes un configurador 3D en su web, pero no quiere comprar ni mantener servidores propios porque no sabe cuántas visitas tendrá.
 
@@ -125,6 +140,11 @@ Las tecnologías de **procesamiento masivo de datos e información**, popularmen
 - **Variedad**: diversidad de formatos — datos estructurados (tablas), semiestructurados (JSON, XML) y no estructurados (texto libre, imágenes, vídeo, audio).
 - **Veracidad**: fiabilidad y calidad de los datos (datos incompletos, duplicados o erróneos afectan a las conclusiones).
 - **Valor**: la utilidad real que se extrae de los datos; el objetivo final de todo el proceso.
+
+<figure markdown="span">
+  ![Las cinco V del procesamiento masivo de datos: volumen, velocidad, variedad, veracidad y valor](assets/img/ud2-datos-cinco-v.svg){ width="800" }
+  <figcaption>Los cinco rasgos que suelen usarse para caracterizar el procesamiento masivo de datos.</figcaption>
+</figure>
 
 **Ciclo de vida del dato.**
 
@@ -159,6 +179,11 @@ Características principales (comunes a blockchain y, en general, al resto de DL
 
 Aplicaciones más allá de las criptomonedas: trazabilidad de la cadena de suministro (por ejemplo, seguir el origen de un alimento desde el productor hasta el punto de venta), contratos inteligentes (*smart contracts*, programas que ejecutan automáticamente cláusulas contractuales cuando se cumplen ciertas condiciones), certificación de documentos y títulos académicos.
 
+<figure markdown="span">
+  ![Blockchain: una cadena de bloques enlazados criptográficamente y distribuidos entre varios nodos](assets/img/ud2-blockchain-cadena.svg){ width="800" }
+  <figcaption>Cada bloque se enlaza con el anterior; el registro se copia entre varios nodos, lo que dificulta alterarlo sin que se detecte.</figcaption>
+</figure>
+
 !!! question "💡 Comprueba que lo has entendido"
     Una cooperativa quiere que cualquier consumidor pueda comprobar el recorrido de una botella de aceite desde el olivar hasta la tienda, sin depender de que la propia cooperativa "dé fe" de esos datos.
 
@@ -183,6 +208,11 @@ Bajo el término **realidades inmersivas** (también llamadas *extended reality*
 
 Aplicaciones profesionales destacadas: formación de personal en entornos de riesgo sin peligro real, mantenimiento asistido (un técnico ve superpuestas las instrucciones sobre la propia máquina), diseño y prototipado virtual, y visitas o *showrooms* virtuales en comercio y turismo.
 
+<figure markdown="span">
+  ![El continuo realidad-virtualidad: del entorno real a la realidad aumentada, la realidad mixta y el entorno virtual](assets/img/ud2-realidades-continuo.svg){ width="760" }
+  <figcaption>Cuanto más a la derecha en el continuo, más sustituye la tecnología al entorno real.</figcaption>
+</figure>
+
 !!! question "💡 Comprueba que lo has entendido"
     Clasifica cada situación como RV, RA o realidad mixta:
 
@@ -199,6 +229,11 @@ Aplicaciones profesionales destacadas: formación de personal en entornos de rie
 
 - **Robótica industrial clásica**: robots programados para tareas repetitivas en entornos controlados (brazos robóticos en cadenas de montaje).
 - **Robótica colaborativa (*cobots*)**: robots diseñados para trabajar codo con codo con personas, con sensores de seguridad que detienen su movimiento ante un contacto imprevisto.
+
+<figure markdown="span">
+  ![Robótica industrial clásica, aislada en una zona vallada, frente a robótica colaborativa, que trabaja junto a personas](assets/img/ud2-robotica-comparativa.svg){ width="760" }
+  <figcaption>El robot industrial clásico trabaja aislado; el cobot comparte espacio con las personas y se detiene ante un contacto imprevisto.</figcaption>
+</figure>
 
 !!! question "💡 Comprueba que lo has entendido"
     Una fábrica de automóviles instala un brazo robótico en una zona vallada para soldar carrocerías, y en otra línea coloca un robot ligero junto a los operarios para ayudarles a colocar piezas pesadas, deteniéndose si detecta contacto humano.
@@ -223,6 +258,11 @@ Aplicaciones:
 
 El gemelo digital es un buen ejemplo de **convergencia de varias THD**: IoT (datos en tiempo real), procesamiento masivo de datos (histórico), IA (predicción) y, a menudo, realidades inmersivas (visualización).
 
+<figure markdown="span">
+  ![Objeto o proceso físico y gemelo digital sincronizados: datos en tiempo real hacia el gemelo y simulación y decisiones de vuelta al objeto físico](assets/img/ud2-gemelo-digital.svg){ width="760" }
+  <figcaption>El objeto físico envía sus datos en tiempo real al gemelo digital, que simula escenarios y devuelve decisiones u optimizaciones.</figcaption>
+</figure>
+
 !!! question "💡 Comprueba que lo has entendido"
     Una fábrica crea una réplica virtual de su línea de envasado que recibe los datos de los sensores en directo. Antes de cambiar la velocidad de la cinta, prueba el cambio en la réplica y comprueba el efecto sobre la producción y el consumo.
 
@@ -234,6 +274,11 @@ El gemelo digital es un buen ejemplo de **convergencia de varias THD**: IoT (dat
 ### 2.10. Otras tecnologías habilitadoras
 
 Además de las anteriores, otras tecnologías completan el catálogo de THD:
+
+<figure markdown="span">
+  ![Otras tecnologías habilitadoras: la automatización robótica de procesos (RPA) y la impresión 3D](assets/img/ud2-otras-thd.svg){ width="760" }
+  <figcaption>La RPA automatiza tareas sobre aplicaciones informáticas sin robots físicos; la impresión 3D fabrica objetos añadiendo material capa a capa.</figcaption>
+</figure>
 
 **Automatización robótica de procesos (RPA — *Robotic Process Automation*).** Software que imita las acciones de una persona sobre aplicaciones informáticas (rellenar formularios, copiar datos entre sistemas, generar informes) para automatizar tareas administrativas repetitivas, sin necesidad de robots físicos.
 
