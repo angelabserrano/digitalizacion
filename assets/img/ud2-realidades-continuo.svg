@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" role="img" aria-labelledby="t d">
+  <title id="t">El continuo realidad-virtualidad</title>
+  <desc id="d">Entre el entorno totalmente real y el entorno totalmente virtual se sitúan la realidad aumentada, más cercana a lo real, y la realidad mixta, a medio camino; la realidad virtual sustituye por completo el entorno real.</desc>
+  <style>
+    .bg{fill:#fbf7f2;}
+    text{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;fill:#26221e;}
+    .h{font-weight:700;font-size:17px;}
+    .bt{font-weight:700;font-size:13px;}
+    .p{font-size:10.5px;fill:#4a443d;}
+    .end{font-size:11px;fill:#5f574d;}
+    .dot{stroke:#ffffff;stroke-width:2.5;}
+  </style>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9a9488"/>
+      <stop offset="100%" stop-color="#e8710a"/>
+    </linearGradient>
+  </defs>
+  <rect class="bg" x="0" y="0" width="880" height="220" rx="14"/>
+  <text class="h" x="440" y="30" text-anchor="middle">El continuo realidad-virtualidad</text>
+
+  <rect x="60" y="100" width="760" height="14" rx="7" fill="url(#grad)"/>
+
+  <circle class="dot" cx="60" cy="107" r="8" fill="#9a9488"/>
+  <circle class="dot" cx="330" cy="107" r="8" fill="#c97a3a"/>
+  <circle class="dot" cx="550" cy="107" r="8" fill="#e07a1f"/>
+  <circle class="dot" cx="820" cy="107" r="8" fill="#e8710a"/>
+
+  <text class="end" x="60" y="80" text-anchor="middle">Entorno real</text>
+  <text class="bt" x="330" y="80" text-anchor="middle">Realidad aumentada</text>
+  <text class="bt" x="550" y="80" text-anchor="middle">Realidad mixta</text>
+  <text class="end" x="820" y="80" text-anchor="middle">Entorno virtual</text>
+
+  <text class="p" x="60" y="140" text-anchor="middle">Sin elementos</text>
+  <text class="p" x="60" y="154" text-anchor="middle">digitales</text>
+
+  <text class="p" x="330" y="140" text-anchor="middle">Información digital</text>
+  <text class="p" x="330" y="154" text-anchor="middle">sobre lo real</text>
+
+  <text class="p" x="550" y="140" text-anchor="middle">Lo real y lo virtual</text>
+  <text class="p" x="550" y="154" text-anchor="middle">interactúan entre sí</text>
+
+  <text class="p" x="820" y="140" text-anchor="middle">Entorno totalmente</text>
+  <text class="p" x="820" y="154" text-anchor="middle">digital (realidad virtual)</text>
+
+  <text class="p" x="440" y="196" text-anchor="middle" style="font-style:italic;">Cuanto más a la derecha, más sustituye la tecnología al entorno real</text>
+</svg>

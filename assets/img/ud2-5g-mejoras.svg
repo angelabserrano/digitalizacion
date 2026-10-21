@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" role="img" aria-labelledby="t d">
+  <title id="t">Qu&#233; aporta el 5G</title>
+  <desc id="d">El 5G aporta tres mejoras clave: mayor velocidad de transmisi&#243;n, menor latencia y mayor densidad de conexiones simult&#225;neas.</desc>
+  <style>
+    .bg{fill:#fbf7f2;}
+    .card{fill:#ffffff;stroke:#e8710a;stroke-width:2;}
+    text{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;fill:#26221e;}
+    .h{font-weight:700;font-size:17px;}
+    .bt{font-weight:700;font-size:14px;}
+    .p{font-size:11px;fill:#4a443d;}
+    .icon{stroke:#e8710a;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+    .iconFill{fill:#e8710a;stroke:none;}
+  </style>
+  <rect class="bg" x="0" y="0" width="880" height="240" rx="14"/>
+  <text class="h" x="440" y="30" text-anchor="middle">Qu&#233; aporta el 5G</text>
+
+  <g>
+    <rect class="card" x="24" y="56" width="250" height="124" rx="12"/>
+    <g transform="translate(44,76)">
+      <rect class="iconFill" x="1" y="18" width="4" height="8"/>
+      <rect class="iconFill" x="8" y="13" width="4" height="13"/>
+      <rect class="iconFill" x="15" y="8" width="4" height="18"/>
+      <rect class="iconFill" x="22" y="3" width="4" height="23"/>
+    </g>
+    <text class="bt" x="80" y="100">Mayor velocidad</text>
+    <text class="p" x="44" y="146">Banda ancha m&#243;vil</text>
+    <text class="p" x="44" y="162">mejorada</text>
+  </g>
+
+  <g>
+    <rect class="card" x="315" y="56" width="250" height="124" rx="12"/>
+    <g transform="translate(335,76)">
+      <circle class="icon" cx="14" cy="14" r="11"/>
+      <line class="icon" x1="14" y1="14" x2="14" y2="6"/>
+      <line class="icon" x1="14" y1="14" x2="19" y2="17"/>
+    </g>
+    <text class="bt" x="371" y="100">Menor latencia</text>
+    <text class="p" x="335" y="146">Respuesta casi</text>
+    <text class="p" x="335" y="162">instant&#225;nea</text>
+  </g>
+
+  <g>
+    <rect class="card" x="606" y="56" width="250" height="124" rx="12"/>
+    <g transform="translate(626,76)">
+      <circle class="icon" cx="6" cy="6" r="3"/><circle class="icon" cx="22" cy="6" r="3"/><circle class="icon" cx="14" cy="22" r="3"/><circle class="icon" cx="22" cy="22" r="3"/><circle class="icon" cx="6" cy="22" r="3"/>
+      <line class="icon" x1="6" y1="6" x2="14" y2="22"/><line class="icon" x1="22" y1="6" x2="14" y2="22"/><line class="icon" x1="6" y1="22" x2="22" y2="22"/>
+    </g>
+    <text class="bt" x="662" y="94">Mayor densidad de</text>
+    <text class="bt" x="662" y="112">conexiones</text>
+    <text class="p" x="626" y="146">Miles de sensores</text>
+    <text class="p" x="626" y="162">en poco espacio</text>
+  </g>
+
+  <text class="p" x="440" y="220" text-anchor="middle" style="font-style:italic;">Tres mejoras que hacen posible el IoT masivo, la realidad aumentada y el control remoto en tiempo real</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" role="img" aria-labelledby="t d">
+  <title id="t">Blockchain: una cadena de bloques enlazados</title>
+  <desc id="d">En una blockchain cada bloque se enlaza criptográficamente con el anterior y el registro se distribuye entre varios nodos, de forma que modificar un bloque ya registrado resulta extremadamente difícil.</desc>
+  <style>
+    .bg{fill:#fbf7f2;}
+    .block{fill:#ffffff;stroke:#e8710a;stroke-width:2;}
+    .node{fill:#f1efe9;stroke:#9a9488;stroke-width:1.5;stroke-dasharray:3 3;}
+    text{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;fill:#26221e;}
+    .h{font-weight:700;font-size:17px;}
+    .p{font-size:11px;fill:#4a443d;}
+    .link{stroke:#e8710a;stroke-width:3;fill:none;}
+    .icon{stroke:#e8710a;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+    .ndot{fill:#c9c2b6;}
+  </style>
+  <rect class="bg" x="0" y="0" width="900" height="230" rx="14"/>
+  <text class="h" x="450" y="30" text-anchor="middle">Blockchain: una cadena de bloques enlazados</text>
+
+  <!-- nodos distribuidos de fondo -->
+  <circle class="node" cx="90" cy="90" r="20"/>
+  <circle class="node" cx="90" cy="170" r="20"/>
+  <circle class="node" cx="810" cy="90" r="20"/>
+  <circle class="node" cx="810" cy="170" r="20"/>
+
+  <!-- cadena de bloques -->
+  <g>
+    <rect class="block" x="180" y="100" width="100" height="70" rx="10"/>
+    <g transform="translate(218,120)"><rect class="icon" x="2" y="10" width="20" height="16" rx="3"/><path class="icon" d="M6 10 V5 a6 6 0 0 1 12 0 v5"/></g>
+    <text class="p" x="230" y="150" text-anchor="middle">Bloque 1</text>
+  </g>
+  <line class="link" x1="280" y1="135" x2="330" y2="135"/>
+
+  <g>
+    <rect class="block" x="330" y="100" width="100" height="70" rx="10"/>
+    <g transform="translate(368,120)"><rect class="icon" x="2" y="10" width="20" height="16" rx="3"/><path class="icon" d="M6 10 V5 a6 6 0 0 1 12 0 v5"/></g>
+    <text class="p" x="380" y="150" text-anchor="middle">Bloque 2</text>
+  </g>
+  <line class="link" x1="430" y1="135" x2="480" y2="135"/>
+
+  <g>
+    <rect class="block" x="480" y="100" width="100" height="70" rx="10"/>
+    <g transform="translate(518,120)"><rect class="icon" x="2" y="10" width="20" height="16" rx="3"/><path class="icon" d="M6 10 V5 a6 6 0 0 1 12 0 v5"/></g>
+    <text class="p" x="530" y="150" text-anchor="middle">Bloque 3</text>
+  </g>
+  <line class="link" x1="580" y1="135" x2="630" y2="135"/>
+
+  <g>
+    <rect class="block" x="630" y="100" width="100" height="70" rx="10"/>
+    <g transform="translate(668,120)"><rect class="icon" x="2" y="10" width="20" height="16" rx="3"/><path class="icon" d="M6 10 V5 a6 6 0 0 1 12 0 v5"/></g>
+    <text class="p" x="680" y="150" text-anchor="middle">Bloque 4</text>
+  </g>
+
+  <text class="p" x="450" y="205" text-anchor="middle" style="font-style:italic;">Cada bloque se enlaza criptográficamente con el anterior; el registro se copia en varios nodos (en gris)</text>
+</svg>
