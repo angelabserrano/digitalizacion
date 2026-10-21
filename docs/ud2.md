@@ -57,13 +57,13 @@ El **Internet de las Cosas (*Internet of Things*, IoT)** es la red de objetos f�
 **Arquitectura básica de un sistema IoT.** Un sistema IoT se organiza en cuatro capas:
 
 1. **Dispositivos y sensores**: capturan datos del entorno (temperatura, humedad, movimiento, localización, consumo eléctrico...).
-2. **Conectividad**: los datos se transmiten mediante distintas tecnologías según el caso de uso — Wi-Fi, Bluetooth, redes móviles (4G/5G), o protocolos de bajo consumo como LoRaWAN, Zigbee o NB-IoT (pensados para dispositivos que envían pocos datos y deben durar años con batería).
+2. **Conectividad**: los datos se transmiten mediante distintas tecnologías según el caso de uso — Wi-Fi, Bluetooth, redes móviles (4G/5G), o protocolos de bajo consumo como LoRaWAN, Zigbee o NB-IoT (pensados para dispositivos que envían pocos datos y deben durar años con batería). En instalaciones con muchos dispositivos es habitual que no se conecten uno a uno a internet, sino a una **pasarela IoT (*gateway*)** local, que agrupa sus datos, los preprocesa y los envía a la plataforma.
 3. **Plataforma / nube**: recibe, almacena y procesa los datos, a menudo en la nube (véase el apartado 2.4).
-4. **Aplicación**: capa que presenta la información al usuario o dispara acciones automáticas (una alarma, el encendido de un actuador, una notificación).
+4. **Aplicación**: capa que presenta la información al usuario o dispara acciones automáticas (una alarma, el encendido de un actuador, una notificación). Puede ejecutarse en **remoto**, desde la nube, o en **local**, junto a la propia pasarela, para poder seguir funcionando aunque falle la conexión a internet.
 
 <figure markdown="span">
-  ![Las cuatro capas de un sistema IoT: dispositivos y sensores, conectividad, plataforma o nube y aplicación](assets/img/ud2-arquitectura-iot.svg){ width="800" }
-  <figcaption>El dato viaja desde los sensores hasta la aplicación, que puede devolver una orden a un actuador del entorno físico.</figcaption>
+  ![Las cuatro capas de un sistema IoT: dispositivos y sensores, conectividad a través de una pasarela IoT (gateway), plataforma o nube, y aplicación local o remota](assets/img/ud2-arquitectura-iot.svg){ width="800" }
+  <figcaption>Los dispositivos y sensores envían sus datos a una pasarela IoT (gateway), que los sube a la plataforma o nube; la aplicación puede mostrarse en local, junto a la pasarela, o en remoto, desde la nube.</figcaption>
 </figure>
 
 **Aplicaciones del IoT.**
